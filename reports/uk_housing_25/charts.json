@@ -1,0 +1,1896 @@
+{
+  "global": [
+    {
+      "var": "UK.Y",
+      "label": "UK GDP",
+      "src": "charts/global_UK_Y.png"
+    },
+    {
+      "var": "NL.Y",
+      "label": "NL GDP",
+      "src": "charts/global_NL_Y.png"
+    },
+    {
+      "var": "CH.Y",
+      "label": "CH GDP",
+      "src": "charts/global_CH_Y.png"
+    },
+    {
+      "var": "DE.Y",
+      "label": "DE GDP",
+      "src": "charts/global_DE_Y.png"
+    },
+    {
+      "var": "US.equity",
+      "label": "US Equity Index",
+      "src": "charts/global_US_equity.png"
+    },
+    {
+      "var": "US.i",
+      "label": "US Policy Rate",
+      "src": "charts/global_US_i.png"
+    }
+  ],
+  "countries": {
+    "UK": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/UK_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/UK_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/UK_equity.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/UK_P_H.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/UK_credit_supply.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/UK_I.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/UK_Q.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/UK_N.png"
+      },
+      {
+        "var": "gdp_services",
+        "label": "Services GDP",
+        "src": "charts/UK_gdp_services.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/UK_Q_B.png"
+      },
+      {
+        "var": "C",
+        "label": "Consumption",
+        "src": "charts/UK_C.png"
+      },
+      {
+        "var": "unemployment",
+        "label": "Unemployment",
+        "src": "charts/UK_unemployment.png"
+      }
+    ],
+    "NL": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/NL_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/NL_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/NL_equity.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/NL_I.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/NL_Q.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/NL_credit_supply.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/NL_P_H.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/NL_N.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/NL_w.png"
+      },
+      {
+        "var": "gdp_services",
+        "label": "Services GDP",
+        "src": "charts/NL_gdp_services.png"
+      },
+      {
+        "var": "unemployment",
+        "label": "Unemployment",
+        "src": "charts/NL_unemployment.png"
+      },
+      {
+        "var": "C",
+        "label": "Consumption",
+        "src": "charts/NL_C.png"
+      }
+    ],
+    "CH": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/CH_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/CH_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/CH_equity.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/CH_credit_supply.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/CH_I.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/CH_Q_B.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/CH_Q.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/CH_P_H.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/CH_N.png"
+      },
+      {
+        "var": "gdp_services",
+        "label": "Services GDP",
+        "src": "charts/CH_gdp_services.png"
+      },
+      {
+        "var": "C",
+        "label": "Consumption",
+        "src": "charts/CH_C.png"
+      },
+      {
+        "var": "unemployment",
+        "label": "Unemployment",
+        "src": "charts/CH_unemployment.png"
+      }
+    ],
+    "DE": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/DE_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/DE_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/DE_equity.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/DE_I.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/DE_credit_supply.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/DE_Q.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/DE_P_H.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/DE_N.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/DE_w.png"
+      },
+      {
+        "var": "unemployment",
+        "label": "Unemployment",
+        "src": "charts/DE_unemployment.png"
+      },
+      {
+        "var": "gdp_services",
+        "label": "Services GDP",
+        "src": "charts/DE_gdp_services.png"
+      },
+      {
+        "var": "mc",
+        "label": "Marginal Cost",
+        "src": "charts/DE_mc.png"
+      }
+    ],
+    "FR": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/FR_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/FR_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/FR_equity.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/FR_I.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/FR_credit_supply.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/FR_Q.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/FR_P_H.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/FR_N.png"
+      },
+      {
+        "var": "B",
+        "label": "Gov Debt",
+        "src": "charts/FR_B.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/FR_w.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/FR_Q_B.png"
+      },
+      {
+        "var": "gdp_services",
+        "label": "Services GDP",
+        "src": "charts/FR_gdp_services.png"
+      }
+    ],
+    "US": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/US_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/US_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/US_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/US_Q_B.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/US_credit_supply.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/US_I.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/US_Q.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/US_w.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/US_N.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/US_RER.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/US_P_H.png"
+      },
+      {
+        "var": "i",
+        "label": "Policy Rate",
+        "src": "charts/US_i.png"
+      }
+    ],
+    "NO": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/NO_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/NO_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/NO_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/NO_Q_B.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/NO_RER.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/NO_I.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/NO_credit_supply.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/NO_Q.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/NO_P_H.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/NO_N.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/NO_w.png"
+      },
+      {
+        "var": "gdp_manufacturing",
+        "label": "Manuf. GDP",
+        "src": "charts/NO_gdp_manufacturing.png"
+      }
+    ],
+    "SE": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/SE_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/SE_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/SE_equity.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/SE_I.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/SE_Q_B.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/SE_credit_supply.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/SE_Q.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/SE_w.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/SE_P_H.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/SE_N.png"
+      },
+      {
+        "var": "unemployment",
+        "label": "Unemployment",
+        "src": "charts/SE_unemployment.png"
+      },
+      {
+        "var": "gdp_services",
+        "label": "Services GDP",
+        "src": "charts/SE_gdp_services.png"
+      }
+    ],
+    "ES": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/ES_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/ES_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/ES_equity.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/ES_I.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/ES_credit_supply.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/ES_Q.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/ES_Q_B.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/ES_P_H.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/ES_N.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/ES_w.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/ES_RER.png"
+      },
+      {
+        "var": "gdp_services",
+        "label": "Services GDP",
+        "src": "charts/ES_gdp_services.png"
+      }
+    ],
+    "AU": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/AU_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/AU_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/AU_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/AU_Q_B.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/AU_credit_supply.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/AU_RER.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/AU_I.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/AU_Q.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/AU_w.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/AU_N.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/AU_P_H.png"
+      },
+      {
+        "var": "gdp_manufacturing",
+        "label": "Manuf. GDP",
+        "src": "charts/AU_gdp_manufacturing.png"
+      }
+    ],
+    "CA": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/CA_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/CA_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/CA_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/CA_Q_B.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/CA_credit_supply.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/CA_I.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/CA_RER.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/CA_Q.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/CA_w.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/CA_N.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/CA_P_H.png"
+      },
+      {
+        "var": "i",
+        "label": "Policy Rate",
+        "src": "charts/CA_i.png"
+      }
+    ],
+    "JP": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/JP_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/JP_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/JP_equity.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/JP_RER.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/JP_credit_supply.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/JP_I.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/JP_Q.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/JP_Q_B.png"
+      },
+      {
+        "var": "gdp_manufacturing",
+        "label": "Manuf. GDP",
+        "src": "charts/JP_gdp_manufacturing.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/JP_N.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/JP_P_H.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/JP_w.png"
+      }
+    ],
+    "SA": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/SA_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/SA_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/SA_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/SA_Q_B.png"
+      },
+      {
+        "var": "B",
+        "label": "Gov Debt",
+        "src": "charts/SA_B.png"
+      },
+      {
+        "var": "NX",
+        "label": "Net Exports",
+        "src": "charts/SA_NX.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/SA_credit_supply.png"
+      },
+      {
+        "var": "i",
+        "label": "Policy Rate",
+        "src": "charts/SA_i.png"
+      },
+      {
+        "var": "y2",
+        "label": "Govt 2Y Yield",
+        "src": "charts/SA_y2.png"
+      },
+      {
+        "var": "y5",
+        "label": "Govt 5Y Yield",
+        "src": "charts/SA_y5.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/SA_RER.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/SA_I.png"
+      }
+    ],
+    "AR": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/AR_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/AR_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/AR_equity.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/AR_I.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/AR_Q.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/AR_Q_B.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/AR_RER.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/AR_credit_supply.png"
+      },
+      {
+        "var": "NX",
+        "label": "Net Exports",
+        "src": "charts/AR_NX.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/AR_P_H.png"
+      },
+      {
+        "var": "gdp_manufacturing",
+        "label": "Manuf. GDP",
+        "src": "charts/AR_gdp_manufacturing.png"
+      },
+      {
+        "var": "mc",
+        "label": "Marginal Cost",
+        "src": "charts/AR_mc.png"
+      }
+    ],
+    "PL": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/PL_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/PL_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/PL_equity.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/PL_I.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/PL_Q_B.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/PL_credit_supply.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/PL_Q.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/PL_w.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/PL_P_H.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/PL_N.png"
+      },
+      {
+        "var": "gdp_services",
+        "label": "Services GDP",
+        "src": "charts/PL_gdp_services.png"
+      },
+      {
+        "var": "mc",
+        "label": "Marginal Cost",
+        "src": "charts/PL_mc.png"
+      }
+    ],
+    "ZA": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/ZA_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/ZA_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/ZA_equity.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/ZA_credit_supply.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/ZA_I.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/ZA_Q_B.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/ZA_w.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/ZA_RER.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/ZA_Q.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/ZA_P_H.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/ZA_N.png"
+      },
+      {
+        "var": "B",
+        "label": "Gov Debt",
+        "src": "charts/ZA_B.png"
+      }
+    ],
+    "CN": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/CN_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/CN_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/CN_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/CN_Q_B.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/CN_I.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/CN_w.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/CN_credit_supply.png"
+      },
+      {
+        "var": "B",
+        "label": "Gov Debt",
+        "src": "charts/CN_B.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/CN_Q.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/CN_P_H.png"
+      },
+      {
+        "var": "i",
+        "label": "Policy Rate",
+        "src": "charts/CN_i.png"
+      },
+      {
+        "var": "y2",
+        "label": "Govt 2Y Yield",
+        "src": "charts/CN_y2.png"
+      }
+    ],
+    "IT": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/IT_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/IT_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/IT_equity.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/IT_RER.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/IT_Q_B.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/IT_I.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/IT_credit_supply.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/IT_Q.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/IT_w.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/IT_P_H.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/IT_N.png"
+      },
+      {
+        "var": "gdp_manufacturing",
+        "label": "Manuf. GDP",
+        "src": "charts/IT_gdp_manufacturing.png"
+      }
+    ],
+    "TR": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/TR_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/TR_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/TR_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/TR_Q_B.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/TR_credit_supply.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/TR_w.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/TR_I.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/TR_Q.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/TR_RER.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/TR_P_H.png"
+      },
+      {
+        "var": "B",
+        "label": "Gov Debt",
+        "src": "charts/TR_B.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/TR_N.png"
+      }
+    ],
+    "MY": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/MY_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/MY_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/MY_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/MY_Q_B.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/MY_w.png"
+      },
+      {
+        "var": "B",
+        "label": "Gov Debt",
+        "src": "charts/MY_B.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/MY_I.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/MY_P_H.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/MY_Q.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/MY_N.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/MY_credit_supply.png"
+      },
+      {
+        "var": "NX",
+        "label": "Net Exports",
+        "src": "charts/MY_NX.png"
+      }
+    ],
+    "IN": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/IN_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/IN_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/IN_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/IN_Q_B.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/IN_credit_supply.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/IN_I.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/IN_w.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/IN_Q.png"
+      },
+      {
+        "var": "i",
+        "label": "Policy Rate",
+        "src": "charts/IN_i.png"
+      },
+      {
+        "var": "y2",
+        "label": "Govt 2Y Yield",
+        "src": "charts/IN_y2.png"
+      },
+      {
+        "var": "B",
+        "label": "Gov Debt",
+        "src": "charts/IN_B.png"
+      },
+      {
+        "var": "y5",
+        "label": "Govt 5Y Yield",
+        "src": "charts/IN_y5.png"
+      }
+    ],
+    "TH": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/TH_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/TH_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/TH_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/TH_Q_B.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/TH_w.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/TH_I.png"
+      },
+      {
+        "var": "B",
+        "label": "Gov Debt",
+        "src": "charts/TH_B.png"
+      },
+      {
+        "var": "P_H",
+        "label": "House Prices",
+        "src": "charts/TH_P_H.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/TH_Q.png"
+      },
+      {
+        "var": "N",
+        "label": "Employment",
+        "src": "charts/TH_N.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/TH_credit_supply.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/TH_RER.png"
+      }
+    ],
+    "BR": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/BR_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/BR_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/BR_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/BR_Q_B.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/BR_RER.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/BR_credit_supply.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/BR_I.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/BR_w.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/BR_Q.png"
+      },
+      {
+        "var": "i",
+        "label": "Policy Rate",
+        "src": "charts/BR_i.png"
+      },
+      {
+        "var": "NX",
+        "label": "Net Exports",
+        "src": "charts/BR_NX.png"
+      },
+      {
+        "var": "y2",
+        "label": "Govt 2Y Yield",
+        "src": "charts/BR_y2.png"
+      }
+    ],
+    "MX": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/MX_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/MX_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/MX_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/MX_Q_B.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/MX_w.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/MX_I.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/MX_RER.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/MX_credit_supply.png"
+      },
+      {
+        "var": "i",
+        "label": "Policy Rate",
+        "src": "charts/MX_i.png"
+      },
+      {
+        "var": "y2",
+        "label": "Govt 2Y Yield",
+        "src": "charts/MX_y2.png"
+      },
+      {
+        "var": "B",
+        "label": "Gov Debt",
+        "src": "charts/MX_B.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/MX_Q.png"
+      }
+    ],
+    "KR": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/KR_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/KR_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/KR_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/KR_Q_B.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/KR_RER.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/KR_w.png"
+      },
+      {
+        "var": "gdp_manufacturing",
+        "label": "Manuf. GDP",
+        "src": "charts/KR_gdp_manufacturing.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/KR_credit_supply.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/KR_I.png"
+      },
+      {
+        "var": "i",
+        "label": "Policy Rate",
+        "src": "charts/KR_i.png"
+      },
+      {
+        "var": "y2",
+        "label": "Govt 2Y Yield",
+        "src": "charts/KR_y2.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/KR_Q.png"
+      }
+    ],
+    "NG": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/NG_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/NG_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/NG_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/NG_Q_B.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/NG_credit_supply.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/NG_I.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/NG_w.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/NG_Q.png"
+      },
+      {
+        "var": "B",
+        "label": "Gov Debt",
+        "src": "charts/NG_B.png"
+      },
+      {
+        "var": "NX",
+        "label": "Net Exports",
+        "src": "charts/NG_NX.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/NG_RER.png"
+      },
+      {
+        "var": "i",
+        "label": "Policy Rate",
+        "src": "charts/NG_i.png"
+      }
+    ],
+    "RU": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/RU_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/RU_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/RU_equity.png"
+      },
+      {
+        "var": "NX",
+        "label": "Net Exports",
+        "src": "charts/RU_NX.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/RU_Q_B.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/RU_w.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/RU_RER.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/RU_I.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/RU_credit_supply.png"
+      },
+      {
+        "var": "G",
+        "label": "Gov Spending",
+        "src": "charts/RU_G.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/RU_Q.png"
+      },
+      {
+        "var": "i",
+        "label": "Policy Rate",
+        "src": "charts/RU_i.png"
+      }
+    ],
+    "CL": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/CL_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/CL_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/CL_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/CL_Q_B.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/CL_w.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/CL_I.png"
+      },
+      {
+        "var": "i",
+        "label": "Policy Rate",
+        "src": "charts/CL_i.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/CL_credit_supply.png"
+      },
+      {
+        "var": "y2",
+        "label": "Govt 2Y Yield",
+        "src": "charts/CL_y2.png"
+      },
+      {
+        "var": "y5",
+        "label": "Govt 5Y Yield",
+        "src": "charts/CL_y5.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/CL_Q.png"
+      },
+      {
+        "var": "NX",
+        "label": "Net Exports",
+        "src": "charts/CL_NX.png"
+      }
+    ],
+    "CO": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/CO_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/CO_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/CO_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/CO_Q_B.png"
+      },
+      {
+        "var": "RER",
+        "label": "Currency Strength",
+        "src": "charts/CO_RER.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/CO_w.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/CO_I.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/CO_Q.png"
+      },
+      {
+        "var": "i",
+        "label": "Policy Rate",
+        "src": "charts/CO_i.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/CO_credit_supply.png"
+      },
+      {
+        "var": "y2",
+        "label": "Govt 2Y Yield",
+        "src": "charts/CO_y2.png"
+      },
+      {
+        "var": "NX",
+        "label": "Net Exports",
+        "src": "charts/CO_NX.png"
+      }
+    ],
+    "ID": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/ID_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/ID_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/ID_equity.png"
+      },
+      {
+        "var": "Q_B",
+        "label": "Bond Price",
+        "src": "charts/ID_Q_B.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/ID_I.png"
+      },
+      {
+        "var": "w",
+        "label": "Real Wages",
+        "src": "charts/ID_w.png"
+      },
+      {
+        "var": "Q",
+        "label": "Tobin's Q",
+        "src": "charts/ID_Q.png"
+      },
+      {
+        "var": "credit_supply",
+        "label": "Bank Credit",
+        "src": "charts/ID_credit_supply.png"
+      },
+      {
+        "var": "i",
+        "label": "Policy Rate",
+        "src": "charts/ID_i.png"
+      },
+      {
+        "var": "y2",
+        "label": "Govt 2Y Yield",
+        "src": "charts/ID_y2.png"
+      },
+      {
+        "var": "y5",
+        "label": "Govt 5Y Yield",
+        "src": "charts/ID_y5.png"
+      },
+      {
+        "var": "gdp_manufacturing",
+        "label": "Manuf. GDP",
+        "src": "charts/ID_gdp_manufacturing.png"
+      }
+    ]
+  }
+}

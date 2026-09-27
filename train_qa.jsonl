@@ -1,0 +1,256 @@
+{"task":"qa","record_id":"qa_largest_gdp_trough","question":"Which economy has the largest GDP trough?","answer":{"iso2":"KR","name":"South Korea","GDP_peak_pct":-0.1789,"GDP_peak_quarter":3}}
+{"task":"qa","record_id":"qa_active_shock","question":"Metals supply -20%","answer":{"shock":{"metals":-0.2},"held_fixed":["oil","risk_premium","vix","housing","fiscal","tfp","bank_equity","sovereign_spread","bilateral_tariffs"]}}
+{"task":"qa","record_id":"qa_gdp_uk","question":"What is the GDP IRF peak for United Kingdom?","answer":{"GDP_peak_pct":-0.0642,"GDP_peak_quarter":4,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_us","question":"What is the GDP IRF peak for United States?","answer":{"GDP_peak_pct":-0.0398,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_de","question":"What is the GDP IRF peak for Germany?","answer":{"GDP_peak_pct":-0.1208,"GDP_peak_quarter":4,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_fr","question":"What is the GDP IRF peak for France?","answer":{"GDP_peak_pct":-0.0706,"GDP_peak_quarter":4,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_it","question":"What is the GDP IRF peak for Italy?","answer":{"GDP_peak_pct":-0.0949,"GDP_peak_quarter":4,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_jp","question":"What is the GDP IRF peak for Japan?","answer":{"GDP_peak_pct":-0.1452,"GDP_peak_quarter":3,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ca","question":"What is the GDP IRF peak for Canada?","answer":{"GDP_peak_pct":0.0581,"GDP_peak_quarter":3,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_cn","question":"What is the GDP IRF peak for China?","answer":{"GDP_peak_pct":-0.0178,"GDP_peak_quarter":14,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_in","question":"What is the GDP IRF peak for India?","answer":{"GDP_peak_pct":-0.0553,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_br","question":"What is the GDP IRF peak for Brazil?","answer":{"GDP_peak_pct":0.1149,"GDP_peak_quarter":3,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ru","question":"What is the GDP IRF peak for Russia?","answer":{"GDP_peak_pct":0.181,"GDP_peak_quarter":3,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_au","question":"What is the GDP IRF peak for Australia?","answer":{"GDP_peak_pct":0.4445,"GDP_peak_quarter":3,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_kr","question":"What is the GDP IRF peak for South Korea?","answer":{"GDP_peak_pct":-0.1789,"GDP_peak_quarter":3,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_mx","question":"What is the GDP IRF peak for Mexico?","answer":{"GDP_peak_pct":0.0538,"GDP_peak_quarter":3,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_id","question":"What is the GDP IRF peak for Indonesia?","answer":{"GDP_peak_pct":0.0436,"GDP_peak_quarter":3,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_tr","question":"What is the GDP IRF peak for Turkey?","answer":{"GDP_peak_pct":-0.1137,"GDP_peak_quarter":9,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_sa","question":"What is the GDP IRF peak for Saudi Arabia?","answer":{"GDP_peak_pct":-0.0402,"GDP_peak_quarter":5,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ar","question":"What is the GDP IRF peak for Argentina?","answer":{"GDP_peak_pct":-0.1469,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_za","question":"What is the GDP IRF peak for South Africa?","answer":{"GDP_peak_pct":0.3131,"GDP_peak_quarter":3,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_nl","question":"What is the GDP IRF peak for Netherlands?","answer":{"GDP_peak_pct":-0.0251,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_es","question":"What is the GDP IRF peak for Spain?","answer":{"GDP_peak_pct":-0.0636,"GDP_peak_quarter":4,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_pl","question":"What is the GDP IRF peak for Poland?","answer":{"GDP_peak_pct":-0.0842,"GDP_peak_quarter":4,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_se","question":"What is the GDP IRF peak for Sweden?","answer":{"GDP_peak_pct":0.1163,"GDP_peak_quarter":3,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_th","question":"What is the GDP IRF peak for Thailand?","answer":{"GDP_peak_pct":-0.062,"GDP_peak_quarter":4,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_my","question":"What is the GDP IRF peak for Malaysia?","answer":{"GDP_peak_pct":-0.023,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_cl","question":"What is the GDP IRF peak for Chile?","answer":{"GDP_peak_pct":0.577,"GDP_peak_quarter":3,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_co","question":"What is the GDP IRF peak for Colombia?","answer":{"GDP_peak_pct":-0.0483,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ng","question":"What is the GDP IRF peak for Nigeria?","answer":{"GDP_peak_pct":-0.0665,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_no","question":"What is the GDP IRF peak for Norway?","answer":{"GDP_peak_pct":-0.0223,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ch","question":"What is the GDP IRF peak for Switzerland?","answer":{"GDP_peak_pct":-0.0233,"GDP_peak_quarter":9,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_largest_gdp_trough","question":"Which economy has the largest GDP trough?","answer":{"iso2":"TR","name":"Turkey","GDP_peak_pct":-5.1449,"GDP_peak_quarter":13}}
+{"task":"qa","record_id":"qa_active_shock","question":"Oil $200/bbl","answer":{"shock":{"oil":200.0},"held_fixed":["metals","risk_premium","vix","housing","fiscal","tfp","bank_equity","sovereign_spread","bilateral_tariffs"]}}
+{"task":"qa","record_id":"qa_gdp_uk","question":"What is the GDP IRF peak for United Kingdom?","answer":{"GDP_peak_pct":-1.9619,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_us","question":"What is the GDP IRF peak for United States?","answer":{"GDP_peak_pct":-1.5338,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_de","question":"What is the GDP IRF peak for Germany?","answer":{"GDP_peak_pct":-3.908,"GDP_peak_quarter":15,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_fr","question":"What is the GDP IRF peak for France?","answer":{"GDP_peak_pct":-3.1892,"GDP_peak_quarter":17,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_it","question":"What is the GDP IRF peak for Italy?","answer":{"GDP_peak_pct":-3.5776,"GDP_peak_quarter":15,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_jp","question":"What is the GDP IRF peak for Japan?","answer":{"GDP_peak_pct":-3.7684,"GDP_peak_quarter":14,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ca","question":"What is the GDP IRF peak for Canada?","answer":{"GDP_peak_pct":-0.6468,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_cn","question":"What is the GDP IRF peak for China?","answer":{"GDP_peak_pct":-2.6179,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_in","question":"What is the GDP IRF peak for India?","answer":{"GDP_peak_pct":-4.7941,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_br","question":"What is the GDP IRF peak for Brazil?","answer":{"GDP_peak_pct":-2.3809,"GDP_peak_quarter":14,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ru","question":"What is the GDP IRF peak for Russia?","answer":{"GDP_peak_pct":1.6609,"GDP_peak_quarter":3,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_au","question":"What is the GDP IRF peak for Australia?","answer":{"GDP_peak_pct":-1.5293,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_kr","question":"What is the GDP IRF peak for South Korea?","answer":{"GDP_peak_pct":-4.3285,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_mx","question":"What is the GDP IRF peak for Mexico?","answer":{"GDP_peak_pct":-1.8807,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_id","question":"What is the GDP IRF peak for Indonesia?","answer":{"GDP_peak_pct":-2.4941,"GDP_peak_quarter":14,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_tr","question":"What is the GDP IRF peak for Turkey?","answer":{"GDP_peak_pct":-5.1449,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_sa","question":"What is the GDP IRF peak for Saudi Arabia?","answer":{"GDP_peak_pct":3.7086,"GDP_peak_quarter":4,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ar","question":"What is the GDP IRF peak for Argentina?","answer":{"GDP_peak_pct":-3.5359,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_za","question":"What is the GDP IRF peak for South Africa?","answer":{"GDP_peak_pct":-3.0643,"GDP_peak_quarter":15,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_nl","question":"What is the GDP IRF peak for Netherlands?","answer":{"GDP_peak_pct":-2.4559,"GDP_peak_quarter":17,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_es","question":"What is the GDP IRF peak for Spain?","answer":{"GDP_peak_pct":-3.3269,"GDP_peak_quarter":17,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_pl","question":"What is the GDP IRF peak for Poland?","answer":{"GDP_peak_pct":-3.6107,"GDP_peak_quarter":16,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_se","question":"What is the GDP IRF peak for Sweden?","answer":{"GDP_peak_pct":-2.3634,"GDP_peak_quarter":16,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_th","question":"What is the GDP IRF peak for Thailand?","answer":{"GDP_peak_pct":-3.1978,"GDP_peak_quarter":16,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_my","question":"What is the GDP IRF peak for Malaysia?","answer":{"GDP_peak_pct":-1.4686,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_cl","question":"What is the GDP IRF peak for Chile?","answer":{"GDP_peak_pct":-2.632,"GDP_peak_quarter":15,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_co","question":"What is the GDP IRF peak for Colombia?","answer":{"GDP_peak_pct":-1.4976,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ng","question":"What is the GDP IRF peak for Nigeria?","answer":{"GDP_peak_pct":-1.4386,"GDP_peak_quarter":15,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_no","question":"What is the GDP IRF peak for Norway?","answer":{"GDP_peak_pct":1.5991,"GDP_peak_quarter":3,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ch","question":"What is the GDP IRF peak for Switzerland?","answer":{"GDP_peak_pct":-2.1175,"GDP_peak_quarter":15,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_largest_gdp_trough","question":"Which economy has the largest GDP trough?","answer":{"iso2":"SA","name":"Saudi Arabia","GDP_peak_pct":-1.0649,"GDP_peak_quarter":4}}
+{"task":"qa","record_id":"qa_active_shock","question":"Oil $50/bbl","answer":{"shock":{"oil":50.0},"held_fixed":["metals","risk_premium","vix","housing","fiscal","tfp","bank_equity","sovereign_spread","bilateral_tariffs"]}}
+{"task":"qa","record_id":"qa_gdp_uk","question":"What is the GDP IRF peak for United Kingdom?","answer":{"GDP_peak_pct":0.1766,"GDP_peak_quarter":5,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_us","question":"What is the GDP IRF peak for United States?","answer":{"GDP_peak_pct":0.2234,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_de","question":"What is the GDP IRF peak for Germany?","answer":{"GDP_peak_pct":0.3454,"GDP_peak_quarter":5,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_fr","question":"What is the GDP IRF peak for France?","answer":{"GDP_peak_pct":0.2712,"GDP_peak_quarter":9,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_it","question":"What is the GDP IRF peak for Italy?","answer":{"GDP_peak_pct":0.3573,"GDP_peak_quarter":5,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_jp","question":"What is the GDP IRF peak for Japan?","answer":{"GDP_peak_pct":0.4065,"GDP_peak_quarter":4,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ca","question":"What is the GDP IRF peak for Canada?","answer":{"GDP_peak_pct":-0.1407,"GDP_peak_quarter":3,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_cn","question":"What is the GDP IRF peak for China?","answer":{"GDP_peak_pct":0.3188,"GDP_peak_quarter":5,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_in","question":"What is the GDP IRF peak for India?","answer":{"GDP_peak_pct":0.699,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_br","question":"What is the GDP IRF peak for Brazil?","answer":{"GDP_peak_pct":0.5047,"GDP_peak_quarter":14,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ru","question":"What is the GDP IRF peak for Russia?","answer":{"GDP_peak_pct":-0.5657,"GDP_peak_quarter":3,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_au","question":"What is the GDP IRF peak for Australia?","answer":{"GDP_peak_pct":0.1958,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_kr","question":"What is the GDP IRF peak for South Korea?","answer":{"GDP_peak_pct":0.4974,"GDP_peak_quarter":9,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_mx","question":"What is the GDP IRF peak for Mexico?","answer":{"GDP_peak_pct":0.2995,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_id","question":"What is the GDP IRF peak for Indonesia?","answer":{"GDP_peak_pct":0.3791,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_tr","question":"What is the GDP IRF peak for Turkey?","answer":{"GDP_peak_pct":0.8184,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_sa","question":"What is the GDP IRF peak for Saudi Arabia?","answer":{"GDP_peak_pct":-1.0649,"GDP_peak_quarter":4,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ar","question":"What is the GDP IRF peak for Argentina?","answer":{"GDP_peak_pct":0.8882,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_za","question":"What is the GDP IRF peak for South Africa?","answer":{"GDP_peak_pct":0.4408,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_nl","question":"What is the GDP IRF peak for Netherlands?","answer":{"GDP_peak_pct":0.173,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_es","question":"What is the GDP IRF peak for Spain?","answer":{"GDP_peak_pct":0.3348,"GDP_peak_quarter":5,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_pl","question":"What is the GDP IRF peak for Poland?","answer":{"GDP_peak_pct":0.389,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_se","question":"What is the GDP IRF peak for Sweden?","answer":{"GDP_peak_pct":0.2531,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_th","question":"What is the GDP IRF peak for Thailand?","answer":{"GDP_peak_pct":0.323,"GDP_peak_quarter":4,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_my","question":"What is the GDP IRF peak for Malaysia?","answer":{"GDP_peak_pct":0.1411,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_cl","question":"What is the GDP IRF peak for Chile?","answer":{"GDP_peak_pct":0.3842,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_co","question":"What is the GDP IRF peak for Colombia?","answer":{"GDP_peak_pct":0.2858,"GDP_peak_quarter":14,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ng","question":"What is the GDP IRF peak for Nigeria?","answer":{"GDP_peak_pct":0.3764,"GDP_peak_quarter":16,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_no","question":"What is the GDP IRF peak for Norway?","answer":{"GDP_peak_pct":-0.5804,"GDP_peak_quarter":4,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ch","question":"What is the GDP IRF peak for Switzerland?","answer":{"GDP_peak_pct":0.1838,"GDP_peak_quarter":5,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_largest_gdp_trough","question":"Which economy has the largest GDP trough?","answer":{"iso2":"AR","name":"Argentina","GDP_peak_pct":-2.3212,"GDP_peak_quarter":7}}
+{"task":"qa","record_id":"qa_active_shock","question":"Risk premium +250bp","answer":{"shock":{"risk_premium":250.0},"held_fixed":["oil","metals","vix","housing","fiscal","tfp","bank_equity","sovereign_spread","bilateral_tariffs"]}}
+{"task":"qa","record_id":"qa_gdp_uk","question":"What is the GDP IRF peak for United Kingdom?","answer":{"GDP_peak_pct":-1.0226,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_us","question":"What is the GDP IRF peak for United States?","answer":{"GDP_peak_pct":-0.9222,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_de","question":"What is the GDP IRF peak for Germany?","answer":{"GDP_peak_pct":-1.1135,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_fr","question":"What is the GDP IRF peak for France?","answer":{"GDP_peak_pct":-1.0593,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_it","question":"What is the GDP IRF peak for Italy?","answer":{"GDP_peak_pct":-0.8881,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_jp","question":"What is the GDP IRF peak for Japan?","answer":{"GDP_peak_pct":-0.9215,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ca","question":"What is the GDP IRF peak for Canada?","answer":{"GDP_peak_pct":-1.0599,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_cn","question":"What is the GDP IRF peak for China?","answer":{"GDP_peak_pct":-1.8223,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_in","question":"What is the GDP IRF peak for India?","answer":{"GDP_peak_pct":-1.5696,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_br","question":"What is the GDP IRF peak for Brazil?","answer":{"GDP_peak_pct":-1.2668,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ru","question":"What is the GDP IRF peak for Russia?","answer":{"GDP_peak_pct":-1.8507,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_au","question":"What is the GDP IRF peak for Australia?","answer":{"GDP_peak_pct":-0.9542,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_kr","question":"What is the GDP IRF peak for South Korea?","answer":{"GDP_peak_pct":-1.2421,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_mx","question":"What is the GDP IRF peak for Mexico?","answer":{"GDP_peak_pct":-1.3327,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_id","question":"What is the GDP IRF peak for Indonesia?","answer":{"GDP_peak_pct":-1.3446,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_tr","question":"What is the GDP IRF peak for Turkey?","answer":{"GDP_peak_pct":-1.6108,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_sa","question":"What is the GDP IRF peak for Saudi Arabia?","answer":{"GDP_peak_pct":-1.4364,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ar","question":"What is the GDP IRF peak for Argentina?","answer":{"GDP_peak_pct":-2.3212,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_za","question":"What is the GDP IRF peak for South Africa?","answer":{"GDP_peak_pct":-1.1411,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_nl","question":"What is the GDP IRF peak for Netherlands?","answer":{"GDP_peak_pct":-1.1696,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_es","question":"What is the GDP IRF peak for Spain?","answer":{"GDP_peak_pct":-0.9421,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_pl","question":"What is the GDP IRF peak for Poland?","answer":{"GDP_peak_pct":-1.1433,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_se","question":"What is the GDP IRF peak for Sweden?","answer":{"GDP_peak_pct":-0.963,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_th","question":"What is the GDP IRF peak for Thailand?","answer":{"GDP_peak_pct":-1.5209,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_my","question":"What is the GDP IRF peak for Malaysia?","answer":{"GDP_peak_pct":-1.5769,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_cl","question":"What is the GDP IRF peak for Chile?","answer":{"GDP_peak_pct":-1.1989,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_co","question":"What is the GDP IRF peak for Colombia?","answer":{"GDP_peak_pct":-1.2514,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ng","question":"What is the GDP IRF peak for Nigeria?","answer":{"GDP_peak_pct":-1.8265,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_no","question":"What is the GDP IRF peak for Norway?","answer":{"GDP_peak_pct":-1.0154,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ch","question":"What is the GDP IRF peak for Switzerland?","answer":{"GDP_peak_pct":-1.1105,"GDP_peak_quarter":7,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_largest_gdp_trough","question":"Which economy has the largest GDP trough?","answer":{"iso2":"UK","name":"United Kingdom","GDP_peak_pct":-3.2693,"GDP_peak_quarter":20}}
+{"task":"qa","record_id":"qa_active_shock","question":"UK housing -25%","answer":{"shock":{"housing":{"UK":-0.25}},"held_fixed":["oil","metals","risk_premium","vix","fiscal","tfp","bank_equity","sovereign_spread","bilateral_tariffs"]}}
+{"task":"qa","record_id":"qa_gdp_uk","question":"What is the GDP IRF peak for United Kingdom?","answer":{"GDP_peak_pct":-3.2693,"GDP_peak_quarter":20,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_us","question":"What is the GDP IRF peak for United States?","answer":{"GDP_peak_pct":-0.0866,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_de","question":"What is the GDP IRF peak for Germany?","answer":{"GDP_peak_pct":-0.1187,"GDP_peak_quarter":14,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_fr","question":"What is the GDP IRF peak for France?","answer":{"GDP_peak_pct":-0.1002,"GDP_peak_quarter":14,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_it","question":"What is the GDP IRF peak for Italy?","answer":{"GDP_peak_pct":-0.0309,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_jp","question":"What is the GDP IRF peak for Japan?","answer":{"GDP_peak_pct":-0.0574,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ca","question":"What is the GDP IRF peak for Canada?","answer":{"GDP_peak_pct":-0.0588,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_cn","question":"What is the GDP IRF peak for China?","answer":{"GDP_peak_pct":-0.0354,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_in","question":"What is the GDP IRF peak for India?","answer":{"GDP_peak_pct":-0.0232,"GDP_peak_quarter":9,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_br","question":"What is the GDP IRF peak for Brazil?","answer":{"GDP_peak_pct":-0.0224,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ru","question":"What is the GDP IRF peak for Russia?","answer":{"GDP_peak_pct":-0.0162,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_au","question":"What is the GDP IRF peak for Australia?","answer":{"GDP_peak_pct":-0.064,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_kr","question":"What is the GDP IRF peak for South Korea?","answer":{"GDP_peak_pct":-0.0185,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_mx","question":"What is the GDP IRF peak for Mexico?","answer":{"GDP_peak_pct":-0.0213,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_id","question":"What is the GDP IRF peak for Indonesia?","answer":{"GDP_peak_pct":-0.0087,"GDP_peak_quarter":9,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_tr","question":"What is the GDP IRF peak for Turkey?","answer":{"GDP_peak_pct":-0.0264,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_sa","question":"What is the GDP IRF peak for Saudi Arabia?","answer":{"GDP_peak_pct":-0.0448,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ar","question":"What is the GDP IRF peak for Argentina?","answer":{"GDP_peak_pct":0.0426,"GDP_peak_quarter":20,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_za","question":"What is the GDP IRF peak for South Africa?","answer":{"GDP_peak_pct":-0.04,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_nl","question":"What is the GDP IRF peak for Netherlands?","answer":{"GDP_peak_pct":-0.1451,"GDP_peak_quarter":20,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_es","question":"What is the GDP IRF peak for Spain?","answer":{"GDP_peak_pct":-0.0665,"GDP_peak_quarter":14,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_pl","question":"What is the GDP IRF peak for Poland?","answer":{"GDP_peak_pct":-0.0411,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_se","question":"What is the GDP IRF peak for Sweden?","answer":{"GDP_peak_pct":-0.0725,"GDP_peak_quarter":20,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_th","question":"What is the GDP IRF peak for Thailand?","answer":{"GDP_peak_pct":-0.0229,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_my","question":"What is the GDP IRF peak for Malaysia?","answer":{"GDP_peak_pct":-0.0249,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_cl","question":"What is the GDP IRF peak for Chile?","answer":{"GDP_peak_pct":-0.0139,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_co","question":"What is the GDP IRF peak for Colombia?","answer":{"GDP_peak_pct":-0.0121,"GDP_peak_quarter":9,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ng","question":"What is the GDP IRF peak for Nigeria?","answer":{"GDP_peak_pct":-0.0175,"GDP_peak_quarter":9,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_no","question":"What is the GDP IRF peak for Norway?","answer":{"GDP_peak_pct":-0.0738,"GDP_peak_quarter":16,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ch","question":"What is the GDP IRF peak for Switzerland?","answer":{"GDP_peak_pct":-0.1374,"GDP_peak_quarter":14,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_largest_gdp_trough","question":"Which economy has the largest GDP trough?","answer":{"iso2":"IT","name":"Italy","GDP_peak_pct":0.0052,"GDP_peak_quarter":9}}
+{"task":"qa","record_id":"qa_active_shock","question":"US policy rate -200bp","answer":{"shock":{"monetary":{"US":-200.0}},"held_fixed":["oil","metals","risk_premium","vix","housing","fiscal","tfp","bank_equity","sovereign_spread","bilateral_tariffs"]}}
+{"task":"qa","record_id":"qa_gdp_uk","question":"What is the GDP IRF peak for United Kingdom?","answer":{"GDP_peak_pct":0.0117,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_us","question":"What is the GDP IRF peak for United States?","answer":{"GDP_peak_pct":0.4717,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_de","question":"What is the GDP IRF peak for Germany?","answer":{"GDP_peak_pct":0.0089,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_fr","question":"What is the GDP IRF peak for France?","answer":{"GDP_peak_pct":0.0084,"GDP_peak_quarter":9,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_it","question":"What is the GDP IRF peak for Italy?","answer":{"GDP_peak_pct":0.0052,"GDP_peak_quarter":9,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_jp","question":"What is the GDP IRF peak for Japan?","answer":{"GDP_peak_pct":0.0072,"GDP_peak_quarter":9,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ca","question":"What is the GDP IRF peak for Canada?","answer":{"GDP_peak_pct":0.0975,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_cn","question":"What is the GDP IRF peak for China?","answer":{"GDP_peak_pct":0.0095,"GDP_peak_quarter":9,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_in","question":"What is the GDP IRF peak for India?","answer":{"GDP_peak_pct":0.0221,"GDP_peak_quarter":9,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_br","question":"What is the GDP IRF peak for Brazil?","answer":{"GDP_peak_pct":0.0452,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ru","question":"What is the GDP IRF peak for Russia?","answer":{"GDP_peak_pct":0.018,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_au","question":"What is the GDP IRF peak for Australia?","answer":{"GDP_peak_pct":0.0166,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_kr","question":"What is the GDP IRF peak for South Korea?","answer":{"GDP_peak_pct":0.0298,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_mx","question":"What is the GDP IRF peak for Mexico?","answer":{"GDP_peak_pct":0.1244,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_id","question":"What is the GDP IRF peak for Indonesia?","answer":{"GDP_peak_pct":0.0215,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_tr","question":"What is the GDP IRF peak for Turkey?","answer":{"GDP_peak_pct":0.0346,"GDP_peak_quarter":9,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_sa","question":"What is the GDP IRF peak for Saudi Arabia?","answer":{"GDP_peak_pct":0.1019,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ar","question":"What is the GDP IRF peak for Argentina?","answer":{"GDP_peak_pct":0.0521,"GDP_peak_quarter":9,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_za","question":"What is the GDP IRF peak for South Africa?","answer":{"GDP_peak_pct":0.0273,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_nl","question":"What is the GDP IRF peak for Netherlands?","answer":{"GDP_peak_pct":0.026,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_es","question":"What is the GDP IRF peak for Spain?","answer":{"GDP_peak_pct":0.0085,"GDP_peak_quarter":9,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_pl","question":"What is the GDP IRF peak for Poland?","answer":{"GDP_peak_pct":0.0148,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_se","question":"What is the GDP IRF peak for Sweden?","answer":{"GDP_peak_pct":0.0102,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_th","question":"What is the GDP IRF peak for Thailand?","answer":{"GDP_peak_pct":0.0252,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_my","question":"What is the GDP IRF peak for Malaysia?","answer":{"GDP_peak_pct":0.0372,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_cl","question":"What is the GDP IRF peak for Chile?","answer":{"GDP_peak_pct":0.0456,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_co","question":"What is the GDP IRF peak for Colombia?","answer":{"GDP_peak_pct":0.0517,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ng","question":"What is the GDP IRF peak for Nigeria?","answer":{"GDP_peak_pct":0.0278,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_no","question":"What is the GDP IRF peak for Norway?","answer":{"GDP_peak_pct":0.0219,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ch","question":"What is the GDP IRF peak for Switzerland?","answer":{"GDP_peak_pct":0.0182,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_largest_gdp_trough","question":"Which economy has the largest GDP trough?","answer":{"iso2":"US","name":"United States","GDP_peak_pct":-0.5161,"GDP_peak_quarter":12}}
+{"task":"qa","record_id":"qa_active_shock","question":"US policy rate +200bp","answer":{"shock":{"monetary":{"US":200.0}},"held_fixed":["oil","metals","risk_premium","vix","housing","fiscal","tfp","bank_equity","sovereign_spread","bilateral_tariffs"]}}
+{"task":"qa","record_id":"qa_gdp_us","question":"What is the GDP IRF peak for United States?","answer":{"GDP_peak_pct":-0.5161,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_mx","question":"What is the GDP IRF peak for Mexico?","answer":{"GDP_peak_pct":-0.1655,"GDP_peak_quarter":13,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ca","question":"What is the GDP IRF peak for Canada?","answer":{"GDP_peak_pct":-0.1436,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_sa","question":"What is the GDP IRF peak for Saudi Arabia?","answer":{"GDP_peak_pct":-0.1372,"GDP_peak_quarter":14,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_co","question":"What is the GDP IRF peak for Colombia?","answer":{"GDP_peak_pct":-0.0716,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ar","question":"What is the GDP IRF peak for Argentina?","answer":{"GDP_peak_pct":-0.0708,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_br","question":"What is the GDP IRF peak for Brazil?","answer":{"GDP_peak_pct":-0.0693,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_uk","question":"What is the GDP IRF peak for United Kingdom?","answer":{"GDP_peak_pct":-0.0671,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_cl","question":"What is the GDP IRF peak for Chile?","answer":{"GDP_peak_pct":-0.0645,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ch","question":"What is the GDP IRF peak for Switzerland?","answer":{"GDP_peak_pct":-0.0562,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_my","question":"What is the GDP IRF peak for Malaysia?","answer":{"GDP_peak_pct":-0.0544,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_kr","question":"What is the GDP IRF peak for South Korea?","answer":{"GDP_peak_pct":-0.0535,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_nl","question":"What is the GDP IRF peak for Netherlands?","answer":{"GDP_peak_pct":-0.0534,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_tr","question":"What is the GDP IRF peak for Turkey?","answer":{"GDP_peak_pct":-0.052,"GDP_peak_quarter":10,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_jp","question":"What is the GDP IRF peak for Japan?","answer":{"GDP_peak_pct":-0.0459,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_za","question":"What is the GDP IRF peak for South Africa?","answer":{"GDP_peak_pct":-0.0437,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_th","question":"What is the GDP IRF peak for Thailand?","answer":{"GDP_peak_pct":-0.0418,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_de","question":"What is the GDP IRF peak for Germany?","answer":{"GDP_peak_pct":-0.0401,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_in","question":"What is the GDP IRF peak for India?","answer":{"GDP_peak_pct":-0.0393,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ng","question":"What is the GDP IRF peak for Nigeria?","answer":{"GDP_peak_pct":-0.039,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_no","question":"What is the GDP IRF peak for Norway?","answer":{"GDP_peak_pct":-0.0388,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_fr","question":"What is the GDP IRF peak for France?","answer":{"GDP_peak_pct":-0.0352,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_id","question":"What is the GDP IRF peak for Indonesia?","answer":{"GDP_peak_pct":-0.0336,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_au","question":"What is the GDP IRF peak for Australia?","answer":{"GDP_peak_pct":-0.0318,"GDP_peak_quarter":12,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_cn","question":"What is the GDP IRF peak for China?","answer":{"GDP_peak_pct":-0.0313,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_pl","question":"What is the GDP IRF peak for Poland?","answer":{"GDP_peak_pct":-0.0285,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ru","question":"What is the GDP IRF peak for Russia?","answer":{"GDP_peak_pct":-0.0278,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_es","question":"What is the GDP IRF peak for Spain?","answer":{"GDP_peak_pct":-0.0277,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_se","question":"What is the GDP IRF peak for Sweden?","answer":{"GDP_peak_pct":-0.0231,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_it","question":"What is the GDP IRF peak for Italy?","answer":{"GDP_peak_pct":-0.019,"GDP_peak_quarter":11,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_largest_gdp_trough","question":"Which economy has the largest GDP trough?","answer":{"iso2":"NL","name":"Netherlands","GDP_peak_pct":-2.252,"GDP_peak_quarter":1}}
+{"task":"qa","record_id":"qa_active_shock","question":"VIX 80","answer":{"shock":{"vix":80.0},"held_fixed":["oil","metals","risk_premium","housing","fiscal","tfp","bank_equity","sovereign_spread","bilateral_tariffs"]}}
+{"task":"qa","record_id":"qa_gdp_uk","question":"What is the GDP IRF peak for United Kingdom?","answer":{"GDP_peak_pct":-1.8756,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_us","question":"What is the GDP IRF peak for United States?","answer":{"GDP_peak_pct":-1.8228,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_de","question":"What is the GDP IRF peak for Germany?","answer":{"GDP_peak_pct":-2.0293,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_fr","question":"What is the GDP IRF peak for France?","answer":{"GDP_peak_pct":-1.9918,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_it","question":"What is the GDP IRF peak for Italy?","answer":{"GDP_peak_pct":-1.8977,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_jp","question":"What is the GDP IRF peak for Japan?","answer":{"GDP_peak_pct":-1.7961,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ca","question":"What is the GDP IRF peak for Canada?","answer":{"GDP_peak_pct":-2.1316,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_cn","question":"What is the GDP IRF peak for China?","answer":{"GDP_peak_pct":-1.8003,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_in","question":"What is the GDP IRF peak for India?","answer":{"GDP_peak_pct":-1.8275,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_br","question":"What is the GDP IRF peak for Brazil?","answer":{"GDP_peak_pct":-1.8581,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ru","question":"What is the GDP IRF peak for Russia?","answer":{"GDP_peak_pct":-1.8873,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_au","question":"What is the GDP IRF peak for Australia?","answer":{"GDP_peak_pct":-1.9444,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_kr","question":"What is the GDP IRF peak for South Korea?","answer":{"GDP_peak_pct":-2.0029,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_mx","question":"What is the GDP IRF peak for Mexico?","answer":{"GDP_peak_pct":-2.1601,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_id","question":"What is the GDP IRF peak for Indonesia?","answer":{"GDP_peak_pct":-1.8763,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_tr","question":"What is the GDP IRF peak for Turkey?","answer":{"GDP_peak_pct":-1.8911,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_sa","question":"What is the GDP IRF peak for Saudi Arabia?","answer":{"GDP_peak_pct":-1.998,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ar","question":"What is the GDP IRF peak for Argentina?","answer":{"GDP_peak_pct":-1.83,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_za","question":"What is the GDP IRF peak for South Africa?","answer":{"GDP_peak_pct":-1.9256,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_nl","question":"What is the GDP IRF peak for Netherlands?","answer":{"GDP_peak_pct":-2.252,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_es","question":"What is the GDP IRF peak for Spain?","answer":{"GDP_peak_pct":-1.9532,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_pl","question":"What is the GDP IRF peak for Poland?","answer":{"GDP_peak_pct":-2.0869,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_se","question":"What is the GDP IRF peak for Sweden?","answer":{"GDP_peak_pct":-2.0191,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_th","question":"What is the GDP IRF peak for Thailand?","answer":{"GDP_peak_pct":-2.1574,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_my","question":"What is the GDP IRF peak for Malaysia?","answer":{"GDP_peak_pct":-2.2327,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_cl","question":"What is the GDP IRF peak for Chile?","answer":{"GDP_peak_pct":-2.0289,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_co","question":"What is the GDP IRF peak for Colombia?","answer":{"GDP_peak_pct":-1.9095,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ng","question":"What is the GDP IRF peak for Nigeria?","answer":{"GDP_peak_pct":-1.8521,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_no","question":"What is the GDP IRF peak for Norway?","answer":{"GDP_peak_pct":-2.0556,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}
+{"task":"qa","record_id":"qa_gdp_ch","question":"What is the GDP IRF peak for Switzerland?","answer":{"GDP_peak_pct":-2.0986,"GDP_peak_quarter":1,"unit":"pct_dev_from_baseline"}}

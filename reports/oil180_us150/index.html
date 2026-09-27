@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="robots" content="noindex,nofollow,noarchive" />
+  <title>Global Macro Economic Simulations and Financial Market Responses</title>
+  <style>
+    @page { size: A4 portrait; margin: 12mm; }
+    :root { --navy: #1e3a8a; --ink: #111827; --muted: #4b5563; --line: #d6d3c4; --page: #faf8f3; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #e5e7eb; color: var(--ink); font-family: Georgia, "Times New Roman", serif; }
+    .a4-page {
+      width: 210mm;
+      min-height: 297mm;
+      margin: 12px auto;
+      padding: 16mm 14mm 18mm;
+      background: #fff;
+      border: 3px solid var(--navy);
+      page-break-after: always;
+    }
+    h1 { font-size: 26px; color: var(--navy); margin: 0 0 8px; }
+    h2 { font-size: 18px; color: var(--navy); margin: 16px 0 8px; }
+    h3 { font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+    p { font-size: 13px; line-height: 1.45; margin: 0 0 10px; }
+    ul { font-size: 13px; line-height: 1.4; }
+    pre { font-size: 11px; background: var(--page); border: 1px solid var(--line); padding: 8px; overflow: auto; }
+    pre.raw-json { font-size: 8px; line-height: 1.25; max-height: 210mm; }
+    .badge { display: inline-block; font-family: Inter, system-ui, sans-serif; font-size: 10px; font-weight: 700; color: #a08928; border: 1px solid #a08928; padding: 2px 6px; }
+    .rank { font-size: 12px; color: var(--muted); margin: 0 0 10px; }
+    ol.toc { font-size: 12px; line-height: 1.35; columns: 2; padding-left: 18px; }
+    .charts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+    figure { margin: 0; width: 48%; }
+    figure img { width: 100%; height: auto; border: 1px solid var(--line); background: #fff; }
+    figcaption { font-size: 10px; color: var(--muted); margin-top: 2px; }
+    .foot { font-size: 10px; color: var(--muted); margin-top: 14px; border-top: 1px solid var(--line); padding-top: 6px; }
+    @media print {
+      body { background: #fff; }
+      .a4-page { margin: 0; border-width: 2px; page-break-after: always; }
+    }
+  </style>
+</head>
+<body>
+<section class="a4-page cover"><h1>Global Macro Economic Simulations and Financial Market Responses</h1><p class="badge">v6 · IRF · evaluation</p><h2>What&#x27;s the impact of Oil $180 and US +150bp</h2><h3>Active treatment</h3><pre>{
+  &quot;monetary&quot;: {
+    &quot;US&quot;: 150.0
+  },
+  &quot;oil&quot;: 180.0
+}</pre><h3>Assumptions</h3><ul><li>Every path is a model impulse response versus baseline, not a forecast.</li><li>The solver and weights are not included.</li><li>English never enters the solver.</li></ul><h3>Summary</h3><p>This report traces the model response to a 150 basis-point (1.50 percentage-point) rise in United States interest rates together with oil at $180 a barrel. Every path is an impulse response versus an unchanged baseline — not a forecast and not market data. The question was: What&#x27;s the impact of Oil $180 and US +150bp</p><p>Turkey sees a -4.20% GDP peak at Q14, with CPI +2.14pp over three years and equities -6.91%. India sees a -3.97% GDP peak at Q15, with CPI +2.29pp over three years and equities -10.34%. South Korea sees a -3.63% GDP peak at Q15, with CPI +2.69pp over three years and equities -8.71%. Germany sees a -3.10% GDP peak at Q17, with CPI +2.42pp over three years and equities -5.91%.</p><p>The remaining countries are smaller spillovers and are covered in the chapters that follow. This material is a model-based summary and is not financial advice.</p><p>Each country is its own page so the file opens in the Hub. Download this folder and open <code>index.html</code> locally to read it as one document.</p><h3>Countries by GDP impact</h3><ol class="toc"><li><a href="countries/TR.html">TR — Turkey</a> · GDP -4.20% Q14 · <a href="numbers/TR.json">JSON</a></li><li><a href="countries/IN.html">IN — India</a> · GDP -3.97% Q15 · <a href="numbers/IN.json">JSON</a></li><li><a href="countries/KR.html">KR — South Korea</a> · GDP -3.63% Q15 · <a href="numbers/KR.json">JSON</a></li><li><a href="countries/DE.html">DE — Germany</a> · GDP -3.10% Q17 · <a href="numbers/DE.json">JSON</a></li><li><a href="countries/SA.html">SA — Saudi Arabia</a> · GDP +3.08% Q4 · <a href="numbers/SA.json">JSON</a></li><li><a href="countries/JP.html">JP — Japan</a> · GDP -3.08% Q17 · <a href="numbers/JP.json">JSON</a></li><li><a href="countries/AR.html">AR — Argentina</a> · GDP -2.90% Q13 · <a href="numbers/AR.json">JSON</a></li><li><a href="countries/PL.html">PL — Poland</a> · GDP -2.83% Q17 · <a href="numbers/PL.json">JSON</a></li><li><a href="countries/IT.html">IT — Italy</a> · GDP -2.82% Q17 · <a href="numbers/IT.json">JSON</a></li><li><a href="countries/ES.html">ES — Spain</a> · GDP -2.57% Q17 · <a href="numbers/ES.json">JSON</a></li><li><a href="countries/TH.html">TH — Thailand</a> · GDP -2.50% Q15 · <a href="numbers/TH.json">JSON</a></li><li><a href="countries/FR.html">FR — France</a> · GDP -2.45% Q17 · <a href="numbers/FR.json">JSON</a></li><li><a href="countries/ZA.html">ZA — South Africa</a> · GDP -2.42% Q14 · <a href="numbers/ZA.json">JSON</a></li><li><a href="countries/CL.html">CL — Chile</a> · GDP -2.09% Q14 · <a href="numbers/CL.json">JSON</a></li><li><a href="countries/CN.html">CN — China</a> · GDP -2.08% Q11 · <a href="numbers/CN.json">JSON</a></li><li><a href="countries/BR.html">BR — Brazil</a> · GDP -1.97% Q14 · <a href="numbers/BR.json">JSON</a></li><li><a href="countries/ID.html">ID — Indonesia</a> · GDP -1.96% Q14 · <a href="numbers/ID.json">JSON</a></li><li><a href="countries/NL.html">NL — Netherlands</a> · GDP -1.87% Q16 · <a href="numbers/NL.json">JSON</a></li><li><a href="countries/SE.html">SE — Sweden</a> · GDP -1.80% Q15 · <a href="numbers/SE.json">JSON</a></li><li><a href="countries/CH.html">CH — Switzerland</a> · GDP -1.62% Q13 · <a href="numbers/CH.json">JSON</a></li><li><a href="countries/MX.html">MX — Mexico</a> · GDP -1.61% Q13 · <a href="numbers/MX.json">JSON</a></li><li><a href="countries/US.html">US — United States</a> · GDP -1.60% Q12 · <a href="numbers/US.json">JSON</a></li><li><a href="countries/UK.html">UK — United Kingdom</a> · GDP -1.56% Q11 · <a href="numbers/UK.json">JSON</a></li><li><a href="countries/RU.html">RU — Russia</a> · GDP +1.38% Q3 · <a href="numbers/RU.json">JSON</a></li><li><a href="countries/NO.html">NO — Norway</a> · GDP +1.33% Q3 · <a href="numbers/NO.json">JSON</a></li><li><a href="countries/CO.html">CO — Colombia</a> · GDP -1.29% Q12 · <a href="numbers/CO.json">JSON</a></li><li><a href="countries/NG.html">NG — Nigeria</a> · GDP -1.23% Q15 · <a href="numbers/NG.json">JSON</a></li><li><a href="countries/AU.html">AU — Australia</a> · GDP -1.20% Q10 · <a href="numbers/AU.json">JSON</a></li><li><a href="countries/MY.html">MY — Malaysia</a> · GDP -1.17% Q11 · <a href="numbers/MY.json">JSON</a></li><li><a href="countries/CA.html">CA — Canada</a> · GDP -0.62% Q13 · <a href="numbers/CA.json">JSON</a></li></ol><div class="charts"><figure><img src="charts/global_TR_Y.png" alt="TR GDP"/><figcaption>TR GDP</figcaption></figure><figure><img src="charts/global_IN_Y.png" alt="IN GDP"/><figcaption>IN GDP</figcaption></figure><figure><img src="charts/global_KR_Y.png" alt="KR GDP"/><figcaption>KR GDP</figcaption></figure><figure><img src="charts/global_DE_Y.png" alt="DE GDP"/><figcaption>DE GDP</figcaption></figure><figure><img src="charts/global_US_equity.png" alt="US Equity Index"/><figcaption>US Equity Index</figcaption></figure><figure><img src="charts/global_US_i.png" alt="US Policy Rate"/><figcaption>US Policy Rate</figcaption></figure></div><p class="foot">source=live · 15600 numbers · irf · not financial advice</p></section>
+</body>
+</html>
