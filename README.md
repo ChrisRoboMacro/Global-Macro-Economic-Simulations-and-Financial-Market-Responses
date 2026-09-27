@@ -4,9 +4,9 @@ This is a sample of our **1,000- and 10,000-scenario** economics dataset.
 
 Ten named global macro simulations. Each one ships the full human-readable report — cover briefing, thirty country chapters with charts, and the unedited Q1–Q20 JSON for all 26 series — plus the same numbers as machine tables. Together that is about 60,000 words per simulation.
 
-**Read the reports here (rendered HTML, not raw source):** [https://robomacro.com/GlobalMacroTrainingDataset/](https://robomacro.com/GlobalMacroTrainingDataset/)
+**Read the reports here (typeset pages, not source code):** [https://robomacro.com/GlobalMacroTrainingDataset/](https://robomacro.com/GlobalMacroTrainingDataset/)
 
-This GitHub listing is the machine tables and a copy of the files. Open the robomacro.com pages to read the documents.
+GitHub cannot render HTML. There are no `.html` files in this repo on purpose — clicking one would show CSS, not the report. Each folder under `reports/` has a `README.md` GitHub will display. The document to send someone is the robomacro.com link.
 
 **The model is not included.** There is no solver, no weights, and no coupler in this repository. Paths are impulse responses versus a model baseline, not forecasts and not market data.
 
