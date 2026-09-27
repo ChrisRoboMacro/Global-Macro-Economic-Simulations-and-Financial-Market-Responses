@@ -4,7 +4,9 @@ This is a sample of our **1,000- and 10,000-scenario** economics dataset.
 
 Ten named global macro simulations. Each one ships the full human-readable report — cover briefing, thirty country chapters with charts, and the unedited Q1–Q20 JSON for all 26 series — plus the same numbers as machine tables. Together that is about 60,000 words per simulation.
 
-Open [`reports/index.html`](reports/index.html) first. Clone the repo and open that file in a browser. Then open any simulation and any country chapter.
+**Read the reports here (rendered HTML, not raw source):** [https://robomacro.com/GlobalMacroTrainingDataset/](https://robomacro.com/GlobalMacroTrainingDataset/)
+
+This GitHub listing is the machine tables and a copy of the files. Open the robomacro.com pages to read the documents.
 
 **The model is not included.** There is no solver, no weights, and no coupler in this repository. Paths are impulse responses versus a model baseline, not forecasts and not market data.
 
@@ -16,16 +18,16 @@ Gated Hub copy (same sample): [CHRISrobomacro/global-macro-economic-simulations]
 
 | Split | Simulation | Report | Largest GDP move |
 |---|---|---|---|
-| train | US policy rate +200bp | [reports/us_hike_200/index.html](reports/us_hike_200/index.html) | US -0.52% |
-| train | US policy rate -200bp | [reports/us_cut_200/index.html](reports/us_cut_200/index.html) | US +0.47% |
-| train | Oil $200/bbl | [reports/oil_200/index.html](reports/oil_200/index.html) | TR -5.14% |
-| train | Oil $50/bbl | [reports/oil_50/index.html](reports/oil_50/index.html) | SA -1.06% |
-| train | Metals supply -20% | [reports/metals_cut_20/index.html](reports/metals_cut_20/index.html) | CL +0.58% |
-| train | UK housing -25% | [reports/uk_housing_25/index.html](reports/uk_housing_25/index.html) | UK -3.27% |
-| train | VIX 80 | [reports/vix_80/index.html](reports/vix_80/index.html) | NL -2.25% |
-| train | Risk premium +250bp | [reports/risk_250/index.html](reports/risk_250/index.html) | AR -2.32% |
-| eval | US–China tariffs 25% each way | [reports/tariff_us_cn_25/index.html](reports/tariff_us_cn_25/index.html) | CN -0.51% |
-| eval | Oil $180 and US +150bp | [reports/oil180_us150/index.html](reports/oil180_us150/index.html) | TR -4.20% |
+| train | US policy rate +200bp | [https://robomacro.com/GlobalMacroTrainingDataset/us_hike_200/](https://robomacro.com/GlobalMacroTrainingDataset/us_hike_200/) | US -0.52% |
+| train | US policy rate −200bp | [https://robomacro.com/GlobalMacroTrainingDataset/us_cut_200/](https://robomacro.com/GlobalMacroTrainingDataset/us_cut_200/) | US +0.47% |
+| train | Oil $200/bbl | [https://robomacro.com/GlobalMacroTrainingDataset/oil_200/](https://robomacro.com/GlobalMacroTrainingDataset/oil_200/) | TR -5.14% |
+| train | Oil $50/bbl | [https://robomacro.com/GlobalMacroTrainingDataset/oil_50/](https://robomacro.com/GlobalMacroTrainingDataset/oil_50/) | SA -1.06% |
+| train | Metals supply −20% | [https://robomacro.com/GlobalMacroTrainingDataset/metals_cut_20/](https://robomacro.com/GlobalMacroTrainingDataset/metals_cut_20/) | CL +0.58% |
+| train | UK housing −25% | [https://robomacro.com/GlobalMacroTrainingDataset/uk_housing_25/](https://robomacro.com/GlobalMacroTrainingDataset/uk_housing_25/) | UK -3.27% |
+| train | VIX 80 | [https://robomacro.com/GlobalMacroTrainingDataset/vix_80/](https://robomacro.com/GlobalMacroTrainingDataset/vix_80/) | NL -2.25% |
+| train | Risk premium +250bp | [https://robomacro.com/GlobalMacroTrainingDataset/risk_250/](https://robomacro.com/GlobalMacroTrainingDataset/risk_250/) | AR -2.32% |
+| eval | US–China tariffs 25% each way | [https://robomacro.com/GlobalMacroTrainingDataset/tariff_us_cn_25/](https://robomacro.com/GlobalMacroTrainingDataset/tariff_us_cn_25/) | CN -0.51% |
+| eval | Oil $180 and US +150bp | [https://robomacro.com/GlobalMacroTrainingDataset/oil180_us150/](https://robomacro.com/GlobalMacroTrainingDataset/oil180_us150/) | TR -4.20% |
 
 Each machine row is one `(shock, country)`: the active treatment, units, Q1–Q20 paths for 26 series (GDP, CPI, policy rates, bonds, equities, housing, FX, labour, credit), locked summary, QA flags.
 
