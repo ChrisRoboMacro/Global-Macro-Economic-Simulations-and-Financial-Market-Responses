@@ -12,7 +12,7 @@ GitHub cannot render HTML. There are no `.html` files in this repo on purpose â€
 
 The point is to improve how an AI reads economics: what happens after an event, and after events in combination. Example: an oil-price spike in Nigeria versus Spain. Or a stronger dollar together with an EM FX collapse, and what that does to Japanese house prices.
 
-**Contact for the full training dataset and pricing:** [licensing@robomacro.com](mailto:licensing@robomacro.com)
+**Contact Chris to discuss the full training set purchase options.** [chris@robomacro.com](mailto:chris@robomacro.com)
 
 Gated Hub copy (same sample): [CHRISrobomacro/global-macro-economic-simulations](https://huggingface.co/datasets/CHRISrobomacro/global-macro-economic-simulations)
 
