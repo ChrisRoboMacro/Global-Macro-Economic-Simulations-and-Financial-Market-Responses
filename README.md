@@ -1,6 +1,8 @@
 # Global Macro Economic Simulations and Financial Market Responses
 
-This is a sample of our **1,000- and 10,000-scenario** economics dataset.
+**This listing is ten sample simulations only.** Two licensed training packs are for sale: **1,000 simulations** and **10,000 simulations**. Same Layer A schema, more shocks. They are not in this sample.
+
+**Contact Chris to discuss the full training set purchase options. [chris@robomacro.com](mailto:chris@robomacro.com)**
 
 Ten named global macro simulations. Each one ships the full human-readable report — cover briefing, thirty country chapters with charts, and the unedited Q1–Q20 JSON for all 45 series — plus the same numbers as machine tables.
 

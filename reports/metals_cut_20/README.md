@@ -8,60 +8,24 @@ GitHub and Hugging Face show `.html` as source code. That is not the report. Rea
 
 ## What's the impact of Metals supply -20%
 
-### Active treatment
-
-```json
-{
-  "metals": -0.2
-}
-```
-
-### Assumptions
-
-- Every path is a model impulse response versus baseline, not a forecast.
-- The solver and weights are not included.
-- English never enters the solver.
+a 20% metals-supply cut. Every path is a model impulse response versus baseline, not a forecast and not financial advice.
 
 ### Summary
 
-This report traces the model response to a 20% metals-supply cut. Every path is an impulse response versus an unchanged baseline — not a forecast and not market data. The question was: What's the impact of Metals supply -20%
+This note traces the model response to a 20% metals-supply cut. Every path is an impulse response versus an unchanged baseline — not a forecast of what will happen in the world and not a reading of market data. The chapters that follow are already sorted by the size of the GDP response.
 
-Chile sees a +0.58% GDP peak at Q3, with CPI +0.18pp over three years and equities +1.29%. Australia sees a +0.44% GDP peak at Q3, with CPI +0.06pp over three years and equities +1.08%. South Africa sees a +0.31% GDP peak at Q3, with CPI +0.15pp over three years and equities +1.22%. Russia sees a +0.18% GDP peak at Q3, with CPI +0.18pp over three years and equities +0.28%.
+Chile takes the largest GDP move on this path. GDP expands by 0.58% versus baseline by Q3 — a first-order GDP response. Equities firm 1.29%, and the three-year CPI impulse is +0.18 percentage points. The move shows up first in the trade balance, then in private investment / the cost of capital, government spending. That is the main adjustment: a change in financial conditions and real income, then the usual lag into activity and prices. It is the conditional elasticity to the shock that was switched on, not a prediction that this path will be realised.
 
-The remaining countries are smaller spillovers and are covered in the chapters that follow. This material is a model-based summary and is not financial advice.
+Spillovers are not a carbon copy of that first path. Australia expands by 0.44% versus baseline by Q3 — a first-order GDP response. Equities firm 1.08%, and the three-year CPI impulse is +0.06 percentage points. The move shows up first in the trade balance, then in private investment / the cost of capital, government spending. South Africa expands by 0.31% versus baseline by Q3 — a first-order GDP response. Equities firm 1.22%, and the three-year CPI impulse is +0.15 percentage points. The move shows up first in the trade balance, then in private investment / the cost of capital, government spending. Russia expands by 0.18% versus baseline by Q3 — a moderate GDP response. Equities firm 0.28%, and the three-year CPI impulse is +0.18 percentage points. The move shows up first in the trade balance, then in private investment / the cost of capital, government spending. The contrast is the point: the largest spillover is not a scaled copy of the first economy.
 
-### Countries by GDP impact
+South Korea contracts by 0.18% versus baseline by Q3 — a moderate GDP response. Equities soften 0.46%, and the three-year CPI impulse is +0.13 percentage points. The move shows up first in the trade balance, then in private investment / the cost of capital, household consumption.
 
-- [CL — Chile](#cl--chile) · GDP +0.58% Q3
-- [AU — Australia](#au--australia) · GDP +0.44% Q3
-- [ZA — South Africa](#za--south-africa) · GDP +0.31% Q3
-- [RU — Russia](#ru--russia) · GDP +0.18% Q3
-- [KR — South Korea](#kr--south-korea) · GDP -0.18% Q3
-- [AR — Argentina](#ar--argentina) · GDP -0.15% Q11
-- [JP — Japan](#jp--japan) · GDP -0.15% Q3
-- [DE — Germany](#de--germany) · GDP -0.12% Q4
-- [SE — Sweden](#se--sweden) · GDP +0.12% Q3
-- [BR — Brazil](#br--brazil) · GDP +0.12% Q3
-- [TR — Turkey](#tr--turkey) · GDP -0.11% Q9
-- [IT — Italy](#it--italy) · GDP -0.10% Q4
-- [PL — Poland](#pl--poland) · GDP -0.08% Q4
-- [FR — France](#fr--france) · GDP -0.07% Q4
-- [NG — Nigeria](#ng--nigeria) · GDP -0.07% Q12
-- [UK — United Kingdom](#uk--united-kingdom) · GDP -0.06% Q4
-- [ES — Spain](#es--spain) · GDP -0.06% Q4
-- [TH — Thailand](#th--thailand) · GDP -0.06% Q4
-- [CA — Canada](#ca--canada) · GDP +0.06% Q3
-- [IN — India](#in--india) · GDP -0.06% Q12
-- [MX — Mexico](#mx--mexico) · GDP +0.05% Q3
-- [CO — Colombia](#co--colombia) · GDP -0.05% Q12
-- [ID — Indonesia](#id--indonesia) · GDP +0.04% Q3
-- [SA — Saudi Arabia](#sa--saudi-arabia) · GDP -0.04% Q10
-- [US — United States](#us--united-states) · GDP -0.04% Q11
-- [NO — Norway](#no--norway) · GDP -0.03% Q12
-- [NL — Netherlands](#nl--netherlands) · GDP -0.03% Q10
-- [MY — Malaysia](#my--malaysia) · GDP -0.02% Q12
-- [CH — Switzerland](#ch--switzerland) · GDP -0.02% Q9
-- [CN — China](#cn--china) · GDP -0.02% Q14
+A few prices are common across the panel. On the government curve, bond prices (higher discount rates) cheapen 0.65% by Q5, and unused tenors stay in the background rather than getting a sentence each; versus the dollar the home currency is stronger versus the dollar (-12.67% in Q3); the metals price index moves to 143.2 in Q3. Treat those as the shared financial backdrop, not as extra shocks, unless they appear in the active treatment.
+
+Read GDP as percent of baseline GDP: −0.52 is minus half a percent, never −52%. A 200 basis-point move is 2.00 percentage points on the policy rate. CPI over three years is the sum of twelve quarterly impulses, not an annualised rate. A rising real exchange rate is a real depreciation — a weaker, more competitive home currency.
+
+The remaining economies are smaller spillovers, written in the same order in the chapters that follow. Each chapter is a desk note, not a catalog of every series. This material is a model-based summary and is not financial advice.
+
 
 ![CL GDP](charts/global_CL_Y.png)
 
@@ -77,27 +41,29 @@ The remaining countries are smaller spillovers and are covered in the chapters t
 
 ## CL — Chile
 
-The main impact of a 20% metals-supply cut on Chile would be a large rise in GDP of 0.58% by Q3. Equities peak at +1.29% in Q3.
+The main impact of a 20% metals-supply cut on Chile is a large rise in GDP of 0.58% by Q3. This is a model impulse response versus baseline, not a forecast. Equities firm 1.29% by Q3. The three-year CPI impulse is +0.18 percentage points.
 
-Demand and trade. Consumption peaks at +0.36 % vs baseline in Q4, from +0.19 in Q1 to +0.05 in Q20. Investment peaks at +1.54 % vs baseline in Q2, from +1.02 in Q1 to +0.15 in Q20. Net Exports peaks at +3.81 % vs baseline in Q3, from +2.53 in Q1 to +0.73 in Q20. Gov Spending peaks at +1.26 % vs baseline in Q3, from +0.83 in Q1 to +0.26 in Q20. Gov Debt peaks at +0.38 % vs baseline in Q11, from +0.05 in Q1 to +0.29 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) improves to +3.81% in Q3; private investment / the cost of capital rises 1.54% by Q2; government spending rises 1.26% by Q3; government debt rises 0.38% by Q11; the same direction shows up in household consumption.
 
-External / FX. The real exchange rate shows real appreciation (a stronger home currency). Real Exchange Rate peaks at -12.25 % vs baseline in Q3, from -8.06 in Q1 to -2.69 in Q20.
+Labour. Real wages rises 0.66% by Q20; employment rises 0.46% by Q7; unemployment eases by -0.18 percentage points in Q7.
 
-Labour. Employment peaks at +0.46 % vs baseline in Q7, from +0.09 in Q1 to +0.17 in Q20. Unemployment peaks at -0.18 pp in Q7, from -0.04 in Q1 to -0.05 in Q20. Real Wages peaks at +0.66 % vs baseline in Q20, from +0.01 in Q1 to +0.66 in Q20.
+Prices. Firms' marginal cost rises 0.35% by Q3; CPI inflation, domestic inflation stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.18 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to +0.00 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.02 in Q1 to +0.00 in Q20. Marginal Cost peaks at +0.35 % vs baseline in Q3, from +0.23 in Q1 to +0.04 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.65% by Q5; 10-year bond prices cheapen 0.42% by Q1; 5-year bond prices cheapen 0.38% by Q1; 30-year bond prices cheapen 0.32% by Q1; the same direction shows up in 2-year bond prices, the local policy rate, 3-month government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.16 pp (annualized) in Q5, from +0.04 in Q1 to +0.03 in Q20. Real Rate peaks at +0.04 pp (annualized) in Q5, from +0.01 in Q1 to +0.01 in Q20. Govt 3M Yield peaks at +0.16 pp (annualized) in Q5, from +0.04 in Q1 to +0.03 in Q20. Govt 2Y Yield peaks at +0.14 pp (annualized) in Q3, from +0.12 in Q1 to +0.02 in Q20. Govt 5Y Yield peaks at +0.09 pp (annualized) in Q1, from +0.09 in Q1 to +0.02 in Q20. Govt 10Y Yield peaks at +0.05 pp (annualized) in Q1, from +0.05 in Q1 to +0.01 in Q20. Govt 30Y Yield peaks at +0.02 pp (annualized) in Q1, from +0.02 in Q1 to +0.00 in Q20. Bond Price (7y) peaks at -0.65 % vs baseline in Q5, from -0.16 in Q1 to -0.11 in Q20. Bond Price 3M peaks at -0.04 % vs baseline in Q5, from -0.01 in Q1 to -0.01 in Q20. Bond Price 2Y peaks at -0.26 % vs baseline in Q3, from -0.23 in Q1 to -0.04 in Q20. Bond Price 5Y peaks at -0.38 % vs baseline in Q1, from -0.38 in Q1 to -0.08 in Q20. Bond Price 10Y peaks at -0.42 % vs baseline in Q1, from -0.42 in Q1 to -0.09 in Q20. Bond Price 30Y peaks at -0.32 % vs baseline in Q1, from -0.32 in Q1 to -0.07 in Q20. Equity Index peaks at +1.29 % vs baseline in Q3, from +0.87 in Q1 to +0.18 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at +1.08 % vs baseline in Q2, from +0.72 in Q1 to +0.10 in Q20. House Prices peaks at +0.50 % vs baseline in Q11, from +0.06 in Q1 to +0.38 in Q20. Bank Equity peaks at +0.04 % vs baseline in Q12, from +0.01 in Q1 to +0.04 in Q20. Bank Credit peaks at +0.01 % vs baseline in Q12, from +0.00 in Q1 to +0.01 in Q20. Credit Spread peaks at +0.00 pp in Q1, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. Versus the dollar the home currency is stronger versus the dollar (-12.67% in Q3); the real exchange rate shows a real appreciation (a stronger home currency), peaking at -12.25% in Q3; the NEER prints a trade-weighted appreciation (+11.80% in Q3).
 
-Nominal FX. NEER peaks at +11.80 % vs baseline in Q3, from +7.77 in Q1 to +2.62 in Q20. vs USD peaks at -12.67 % vs baseline in Q3, from -8.34 in Q1 to -2.86 in Q20.
+Equities and risk. Equity prices / financial conditions rises 1.29% by Q3; Tobin's Q (the value of installed capital) rises 1.08% by Q2; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices rise 0.50% by Q11; house prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at +3.78 % vs baseline in Q3, from +2.49 in Q1 to +0.82 in Q20. Services GDP peaks at +0.35 % vs baseline in Q3, from +0.23 in Q1 to +0.04 in Q20. Capital Stock peaks at +0.07 % vs baseline in Q20, from +0.01 in Q1 to +0.07 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q15 (Q20 is +0.07%).
+Sectors and capital. Manufacturing output rises 3.78% by Q3; services output rises 0.35% by Q3; the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q15 (Q20 is still +0.07%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/CL_Y.png)
 
@@ -127,27 +93,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## AU — Australia
 
-The main impact of a 20% metals-supply cut on Australia would be a large rise in GDP of 0.44% by Q3. Equities peak at +1.08% in Q3.
+The main impact of a 20% metals-supply cut on Australia is a large rise in GDP of 0.44% by Q3. This is a model impulse response versus baseline, not a forecast. Equities firm 1.08% by Q3. The three-year CPI impulse is +0.06 percentage points.
 
-Demand and trade. Consumption peaks at +0.29 % vs baseline in Q4, from +0.15 in Q1 to +0.03 in Q20. Investment peaks at +1.14 % vs baseline in Q2, from +0.77 in Q1 to -0.00 in Q20. Net Exports peaks at +2.96 % vs baseline in Q3, from +1.97 in Q1 to +0.55 in Q20. Gov Spending peaks at +0.52 % vs baseline in Q3, from +0.34 in Q1 to +0.11 in Q20. Gov Debt peaks at +0.16 % vs baseline in Q12, from +0.02 in Q1 to +0.13 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) improves to +2.96% in Q3; private investment / the cost of capital rises 1.14% by Q2; government spending rises 0.52% by Q3; household consumption rises 0.29% by Q4; the same direction shows up in government debt.
 
-External / FX. The real exchange rate shows real appreciation (a stronger home currency). Real Exchange Rate peaks at -28.35 % vs baseline in Q3, from -18.68 in Q1 to -6.08 in Q20.
+Labour. Real wages rises 0.42% by Q20; employment rises 0.39% by Q7; unemployment eases by -0.20 percentage points in Q7.
 
-Labour. Employment peaks at +0.39 % vs baseline in Q7, from +0.09 in Q1 to +0.10 in Q20. Unemployment peaks at -0.20 pp in Q7, from -0.05 in Q1 to -0.05 in Q20. Real Wages peaks at +0.42 % vs baseline in Q20, from +0.00 in Q1 to +0.42 in Q20.
+Prices. Firms' marginal cost rises 0.27% by Q3; CPI inflation, domestic inflation stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.06 percentage points. CPI Inflation peaks at +0.02 pp in Q2, from +0.02 in Q1 to +0.00 in Q20. Domestic Infl. peaks at +0.01 pp in Q2, from +0.01 in Q1 to +0.00 in Q20. Marginal Cost peaks at +0.27 % vs baseline in Q3, from +0.18 in Q1 to +0.02 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 1.26% by Q7; 10-year bond prices cheapen 0.66% by Q1; 5-year bond prices cheapen 0.60% by Q2; 30-year bond prices cheapen 0.49% by Q1; the same direction shows up in 2-year bond prices, the local policy rate, 3-month government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.20 pp (annualized) in Q7, from +0.04 in Q1 to +0.06 in Q20. Real Rate peaks at +0.05 pp (annualized) in Q7, from +0.01 in Q1 to +0.02 in Q20. Govt 3M Yield peaks at +0.20 pp (annualized) in Q7, from +0.04 in Q1 to +0.06 in Q20. Govt 2Y Yield peaks at +0.19 pp (annualized) in Q4, from +0.16 in Q1 to +0.05 in Q20. Govt 5Y Yield peaks at +0.13 pp (annualized) in Q2, from +0.13 in Q1 to +0.03 in Q20. Govt 10Y Yield peaks at +0.08 pp (annualized) in Q1, from +0.08 in Q1 to +0.02 in Q20. Govt 30Y Yield peaks at +0.03 pp (annualized) in Q1, from +0.03 in Q1 to +0.01 in Q20. Bond Price (7y) peaks at -1.26 % vs baseline in Q7, from -0.27 in Q1 to -0.40 in Q20. Bond Price 3M peaks at -0.05 % vs baseline in Q7, from -0.01 in Q1 to -0.02 in Q20. Bond Price 2Y peaks at -0.35 % vs baseline in Q4, from -0.30 in Q1 to -0.09 in Q20. Bond Price 5Y peaks at -0.60 % vs baseline in Q2, from -0.60 in Q1 to -0.14 in Q20. Bond Price 10Y peaks at -0.66 % vs baseline in Q1, from -0.66 in Q1 to -0.14 in Q20. Bond Price 30Y peaks at -0.49 % vs baseline in Q1, from -0.49 in Q1 to -0.09 in Q20. Equity Index peaks at +1.08 % vs baseline in Q3, from +0.73 in Q1 to +0.11 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at +0.80 % vs baseline in Q2, from +0.54 in Q1 to -0.00 in Q20. House Prices peaks at +0.29 % vs baseline in Q12, from +0.03 in Q1 to +0.24 in Q20. Bank Equity peaks at +0.05 % vs baseline in Q12, from +0.01 in Q1 to +0.04 in Q20. Bank Credit peaks at +0.02 % vs baseline in Q12, from +0.00 in Q1 to +0.01 in Q20. Credit Spread peaks at +0.00 pp in Q1, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. Versus the dollar the home currency is stronger versus the dollar (-28.77% in Q3); the NEER prints a trade-weighted appreciation (+28.49% in Q3); the real exchange rate shows a real appreciation (a stronger home currency), peaking at -28.35% in Q3.
 
-Nominal FX. NEER peaks at +28.49 % vs baseline in Q3, from +18.77 in Q1 to +6.12 in Q20. vs USD peaks at -28.77 % vs baseline in Q3, from -18.96 in Q1 to -6.25 in Q20.
+Equities and risk. Equity prices / financial conditions rises 1.08% by Q3; Tobin's Q (the value of installed capital) rises 0.80% by Q2; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices rise 0.29% by Q12; house prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at +8.57 % vs baseline in Q3, from +5.65 in Q1 to +1.83 in Q20. Services GDP peaks at +0.32 % vs baseline in Q3, from +0.21 in Q1 to +0.03 in Q20. Capital Stock peaks at +0.04 % vs baseline in Q19, from +0.00 in Q1 to +0.04 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q15 (Q20 is +0.04%).
+Sectors and capital. Manufacturing output rises 8.57% by Q3; services output rises 0.32% by Q3; the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q15 (Q20 is still +0.04%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/AU_Y.png)
 
@@ -177,27 +145,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## ZA — South Africa
 
-The main impact of a 20% metals-supply cut on South Africa would be a large rise in GDP of 0.31% by Q3. Equities peak at +1.22% in Q3.
+The main impact of a 20% metals-supply cut on South Africa is a large rise in GDP of 0.31% by Q3. This is a model impulse response versus baseline, not a forecast. Equities firm 1.22% by Q3. The three-year CPI impulse is +0.15 percentage points.
 
-Demand and trade. Consumption peaks at +0.18 % vs baseline in Q4, from +0.09 in Q1 to +0.02 in Q20. Investment peaks at +0.80 % vs baseline in Q2, from +0.54 in Q1 to +0.10 in Q20. Net Exports peaks at +2.12 % vs baseline in Q3, from +1.41 in Q1 to +0.42 in Q20. Gov Spending peaks at +0.27 % vs baseline in Q3, from +0.18 in Q1 to +0.06 in Q20. Gov Debt peaks at +0.18 % vs baseline in Q13, from +0.02 in Q1 to +0.16 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) improves to +2.12% in Q3; private investment / the cost of capital rises 0.80% by Q2; government spending rises 0.27% by Q3; household consumption rises 0.18% by Q4; the same direction shows up in government debt.
 
-External / FX. The real exchange rate shows real appreciation (a stronger home currency). Real Exchange Rate peaks at -9.59 % vs baseline in Q3, from -6.32 in Q1 to -1.99 in Q20.
+Labour. Real wages rises 0.36% by Q19; employment rises 0.25% by Q7; unemployment eases by -0.07 percentage points in Q6.
 
-Labour. Employment peaks at +0.25 % vs baseline in Q7, from +0.05 in Q1 to +0.08 in Q20. Unemployment peaks at -0.07 pp in Q6, from -0.02 in Q1 to -0.01 in Q20. Real Wages peaks at +0.36 % vs baseline in Q19, from +0.00 in Q1 to +0.36 in Q20.
+Prices. Firms' marginal cost rises 0.19% by Q3; CPI inflation, domestic inflation stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.15 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.00 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.02 in Q1 to -0.00 in Q20. Marginal Cost peaks at +0.19 % vs baseline in Q3, from +0.13 in Q1 to +0.02 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.50% by Q5; 5-year bond prices cheapen 0.21% by Q1; 2-year bond prices cheapen 0.19% by Q2; 10-year bond prices cheapen 0.18% by Q1; the same direction shows up in 30-year bond prices, the local policy rate, 3-month government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.12 pp (annualized) in Q5, from +0.04 in Q1 to -0.01 in Q20. Real Rate peaks at +0.03 pp (annualized) in Q5, from +0.01 in Q1 to -0.00 in Q20. Govt 3M Yield peaks at +0.12 pp (annualized) in Q5, from +0.04 in Q1 to -0.01 in Q20. Govt 2Y Yield peaks at +0.10 pp (annualized) in Q2, from +0.09 in Q1 to -0.01 in Q20. Govt 5Y Yield peaks at +0.05 pp (annualized) in Q1, from +0.05 in Q1 to -0.00 in Q20. Govt 10Y Yield peaks at +0.02 pp (annualized) in Q1, from +0.02 in Q1 to -0.00 in Q20. Govt 30Y Yield peaks at +0.01 pp (annualized) in Q1, from +0.01 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.50 % vs baseline in Q5, from -0.15 in Q1 to +0.04 in Q20. Bond Price 3M peaks at -0.03 % vs baseline in Q5, from -0.01 in Q1 to +0.00 in Q20. Bond Price 2Y peaks at -0.19 % vs baseline in Q2, from -0.18 in Q1 to +0.02 in Q20. Bond Price 5Y peaks at -0.21 % vs baseline in Q1, from -0.21 in Q1 to +0.02 in Q20. Bond Price 10Y peaks at -0.18 % vs baseline in Q1, from -0.18 in Q1 to +0.01 in Q20. Bond Price 30Y peaks at -0.13 % vs baseline in Q1, from -0.13 in Q1 to +0.01 in Q20. Equity Index peaks at +1.22 % vs baseline in Q3, from +0.83 in Q1 to +0.14 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at +0.56 % vs baseline in Q2, from +0.38 in Q1 to +0.07 in Q20. House Prices peaks at +0.25 % vs baseline in Q10, from +0.03 in Q1 to +0.18 in Q20. Bank Equity peaks at +0.03 % vs baseline in Q12, from +0.00 in Q1 to +0.02 in Q20. Bank Credit peaks at +0.01 % vs baseline in Q12, from +0.00 in Q1 to +0.01 in Q20. Credit Spread peaks at +0.00 pp in Q1, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. Versus the dollar the home currency is stronger versus the dollar (-10.01% in Q3); the real exchange rate shows a real appreciation (a stronger home currency), peaking at -9.59% in Q3; the NEER prints a trade-weighted appreciation (+9.29% in Q3).
 
-Nominal FX. NEER peaks at +9.29 % vs baseline in Q3, from +6.12 in Q1 to +1.92 in Q20. vs USD peaks at -10.01 % vs baseline in Q3, from -6.60 in Q1 to -2.15 in Q20.
+Equities and risk. Equity prices / financial conditions rises 1.22% by Q3; Tobin's Q (the value of installed capital) rises 0.56% by Q2; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices rise 0.25% by Q10; house prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at +2.93 % vs baseline in Q3, from +1.93 in Q1 to +0.60 in Q20. Services GDP peaks at +0.20 % vs baseline in Q3, from +0.13 in Q1 to +0.02 in Q20. Capital Stock peaks at +0.03 % vs baseline in Q20, from +0.00 in Q1 to +0.03 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q13 (Q20 is +0.03%).
+Sectors and capital. Manufacturing output rises 2.93% by Q3; services output rises 0.20% by Q3; the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q13 (Q20 is still +0.03%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/ZA_Y.png)
 
@@ -227,27 +197,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## RU — Russia
 
-The main impact of a 20% metals-supply cut on Russia would be a moderate rise in GDP of 0.18% by Q3. Equities peak at +0.28% in Q3.
+The main impact of a 20% metals-supply cut on Russia is a moderate rise in GDP of 0.18% by Q3. This is a model impulse response versus baseline, not a forecast. Equities firm 0.28% by Q3. The three-year CPI impulse is +0.18 percentage points.
 
-Demand and trade. Consumption peaks at +0.10 % vs baseline in Q4, from +0.05 in Q1 to -0.01 in Q20. Investment peaks at +0.44 % vs baseline in Q2, from +0.31 in Q1 to -0.01 in Q20. Net Exports peaks at +1.28 % vs baseline in Q3, from +0.84 in Q1 to +0.26 in Q20. Gov Spending peaks at +0.38 % vs baseline in Q3, from +0.25 in Q1 to +0.08 in Q20. Gov Debt peaks at +0.05 % vs baseline in Q9, from +0.01 in Q1 to +0.03 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) improves to +1.28% in Q3; private investment / the cost of capital rises 0.44% by Q2; government spending rises 0.38% by Q3; household consumption rises 0.10% by Q4; government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real appreciation (a stronger home currency). Real Exchange Rate peaks at -0.56 % vs baseline in Q3, from -0.38 in Q1 to -0.07 in Q20.
+Labour. Real wages rises 0.25% by Q15; employment rises 0.13% by Q7; unemployment eases by -0.05 percentage points in Q6.
 
-Labour. Employment peaks at +0.13 % vs baseline in Q7, from +0.02 in Q1 to +0.00 in Q20. Unemployment peaks at -0.05 pp in Q6, from -0.01 in Q1 to +0.01 in Q20. Real Wages peaks at +0.25 % vs baseline in Q15, from +0.00 in Q1 to +0.21 in Q20.
+Prices. Firms' marginal cost rises 0.11% by Q3; CPI inflation, domestic inflation stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.18 percentage points. CPI Inflation peaks at +0.03 pp in Q3, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q3, from +0.01 in Q1 to -0.00 in Q20. Marginal Cost peaks at +0.11 % vs baseline in Q3, from +0.08 in Q1 to -0.01 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.41% by Q5; 5-year bond prices cheapen 0.21% by Q1; 2-year bond prices cheapen 0.20% by Q2; 10-year bond prices cheapen 0.13% by Q1; the same direction shows up in the local policy rate, 3-month government yields, 2-year government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.13 pp (annualized) in Q5, from +0.03 in Q1 to -0.03 in Q20. Real Rate peaks at +0.03 pp (annualized) in Q5, from +0.01 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.13 pp (annualized) in Q5, from +0.03 in Q1 to -0.03 in Q20. Govt 2Y Yield peaks at +0.11 pp (annualized) in Q2, from +0.10 in Q1 to -0.03 in Q20. Govt 5Y Yield peaks at +0.05 pp (annualized) in Q1, from +0.05 in Q1 to -0.02 in Q20. Govt 10Y Yield peaks at +0.02 pp (annualized) in Q1, from +0.02 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at +0.01 pp (annualized) in Q1, from +0.01 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.41 % vs baseline in Q5, from -0.10 in Q1 to +0.09 in Q20. Bond Price 3M peaks at -0.03 % vs baseline in Q5, from -0.01 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.20 % vs baseline in Q2, from -0.19 in Q1 to +0.05 in Q20. Bond Price 5Y peaks at -0.21 % vs baseline in Q1, from -0.21 in Q1 to +0.07 in Q20. Bond Price 10Y peaks at -0.13 % vs baseline in Q1, from -0.13 in Q1 to +0.07 in Q20. Bond Price 30Y peaks at -0.09 % vs baseline in Q1, from -0.09 in Q1 to +0.05 in Q20. Equity Index peaks at +0.28 % vs baseline in Q3, from +0.21 in Q1 to -0.00 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at +0.31 % vs baseline in Q2, from +0.22 in Q1 to -0.00 in Q20. House Prices peaks at +0.13 % vs baseline in Q8, from +0.02 in Q1 to +0.04 in Q20. Bank Equity peaks at +0.01 % vs baseline in Q11, from +0.00 in Q1 to +0.01 in Q20. Bank Credit peaks at +0.00 % vs baseline in Q11, from +0.00 in Q1 to +0.00 in Q20. Credit Spread peaks at +0.00 pp in Q1, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. Versus the dollar the home currency is stronger versus the dollar (-0.98% in Q3); the NEER prints a trade-weighted appreciation (+0.62% in Q3); the real exchange rate shows a real appreciation (a stronger home currency), peaking at -0.56% in Q3.
 
-Nominal FX. NEER peaks at +0.62 % vs baseline in Q3, from +0.43 in Q1 to +0.08 in Q20. vs USD peaks at -0.98 % vs baseline in Q3, from -0.66 in Q1 to -0.23 in Q20.
+Equities and risk. Tobin's Q (the value of installed capital) rises 0.31% by Q2; equity prices / financial conditions rises 0.28% by Q3; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices rise 0.13% by Q8; house prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at +0.20 % vs baseline in Q3, from +0.14 in Q1 to +0.02 in Q20. Services GDP peaks at +0.10 % vs baseline in Q3, from +0.07 in Q1 to -0.01 in Q20. Capital Stock peaks at +0.01 % vs baseline in Q9, from +0.00 in Q1 to +0.01 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q10 (Q20 is -0.02%).
+Sectors and capital. Manufacturing output rises 0.20% by Q3; services output rises 0.10% by Q3; the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q10 (Q20 is still -0.02%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/RU_Y.png)
 
@@ -277,27 +249,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## KR — South Korea
 
-The main impact of a 20% metals-supply cut on South Korea would be a moderate drop in GDP of 0.18% by Q3. Equities peak at -0.46% in Q4.
+The main impact of a 20% metals-supply cut on South Korea is a moderate drop in GDP of 0.18% by Q3. This is a model impulse response versus baseline, not a forecast. Equities soften 0.46% by Q4. The three-year CPI impulse is +0.13 percentage points.
 
-Demand and trade. Consumption peaks at -0.11 % vs baseline in Q4, from -0.06 in Q1 to -0.02 in Q20. Investment peaks at -0.54 % vs baseline in Q3, from -0.32 in Q1 to +0.02 in Q20. Net Exports peaks at -1.05 % vs baseline in Q3, from -0.70 in Q1 to -0.18 in Q20. Gov Spending peaks at +0.03 % vs baseline in Q4, from +0.02 in Q1 to +0.00 in Q20. Gov Debt peaks at -0.09 % vs baseline in Q16, from -0.01 in Q1 to -0.08 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) softens to -1.05% in Q3; private investment / the cost of capital falls 0.54% by Q3; household consumption falls 0.11% by Q4; government debt falls 0.09% by Q16; government spending stay close to baseline.
 
-External / FX. The real exchange rate shows real depreciation (a weaker, more competitive home currency). Real Exchange Rate peaks at +1.36 % vs baseline in Q3, from +0.88 in Q1 to +0.43 in Q20.
+Labour. Real wages falls 0.15% by Q20; employment falls 0.13% by Q10; unemployment rises by +0.06 percentage points in Q8.
 
-Labour. Employment peaks at -0.13 % vs baseline in Q10, from -0.02 in Q1 to -0.07 in Q20. Unemployment peaks at +0.06 pp in Q8, from +0.01 in Q1 to +0.02 in Q20. Real Wages peaks at -0.15 % vs baseline in Q20, from -0.00 in Q1 to -0.15 in Q20.
+Prices. Firms' marginal cost falls 0.10% by Q4; CPI inflation, domestic inflation stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.13 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Marginal Cost peaks at -0.10 % vs baseline in Q4, from -0.06 in Q1 to -0.02 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) rally 0.29% by Q18; 10-year bond prices rally 0.23% by Q10; 5-year bond prices rally 0.20% by Q12; 30-year bond prices rally 0.17% by Q10; the same direction shows up in 2-year bond prices, the local policy rate, 3-month government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at -0.06 pp (annualized) in Q18, from +0.02 in Q1 to -0.06 in Q20. Real Rate peaks at -0.01 pp (annualized) in Q18, from +0.00 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at -0.06 pp (annualized) in Q18, from +0.02 in Q1 to -0.06 in Q20. Govt 2Y Yield peaks at -0.06 pp (annualized) in Q15, from +0.04 in Q1 to -0.05 in Q20. Govt 5Y Yield peaks at -0.04 pp (annualized) in Q12, from -0.01 in Q1 to -0.03 in Q20. Govt 10Y Yield peaks at -0.03 pp (annualized) in Q10, from -0.02 in Q1 to -0.02 in Q20. Govt 30Y Yield peaks at -0.01 pp (annualized) in Q10, from -0.01 in Q1 to -0.01 in Q20. Bond Price (7y) peaks at +0.29 % vs baseline in Q18, from -0.10 in Q1 to +0.28 in Q20. Bond Price 3M peaks at +0.01 % vs baseline in Q18, from -0.00 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at +0.11 % vs baseline in Q15, from -0.07 in Q1 to +0.09 in Q20. Bond Price 5Y peaks at +0.20 % vs baseline in Q12, from +0.05 in Q1 to +0.14 in Q20. Bond Price 10Y peaks at +0.23 % vs baseline in Q10, from +0.16 in Q1 to +0.14 in Q20. Bond Price 30Y peaks at +0.17 % vs baseline in Q10, from +0.13 in Q1 to +0.11 in Q20. Equity Index peaks at -0.46 % vs baseline in Q4, from -0.28 in Q1 to -0.05 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.38 % vs baseline in Q3, from -0.23 in Q1 to +0.01 in Q20. House Prices peaks at -0.15 % vs baseline in Q14, from -0.01 in Q1 to -0.13 in Q20. Bank Equity peaks at -0.05 % vs baseline in Q12, from -0.01 in Q1 to -0.04 in Q20. Bank Credit peaks at -0.04 % vs baseline in Q12, from -0.00 in Q1 to -0.03 in Q20. Credit Spread peaks at +0.00 pp in Q12, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. The NEER prints a trade-weighted depreciation (-3.10% in Q3); the real exchange rate shows a real depreciation (a weaker, more competitive home currency), peaking at +1.36% in Q3; versus the dollar the home currency is weaker versus the dollar (+0.95% in Q4).
 
-Nominal FX. NEER peaks at -3.10 % vs baseline in Q3, from -2.03 in Q1 to -0.80 in Q20. vs USD peaks at +0.95 % vs baseline in Q4, from +0.60 in Q1 to +0.26 in Q20.
+Equities and risk. Equity prices / financial conditions falls 0.46% by Q4; Tobin's Q (the value of installed capital) falls 0.38% by Q3; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices fall 0.15% by Q14; house prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at -0.47 % vs baseline in Q3, from -0.30 in Q1 to -0.14 in Q20. Services GDP peaks at -0.11 % vs baseline in Q3, from -0.07 in Q1 to -0.02 in Q20. Capital Stock peaks at -0.03 % vs baseline in Q19, from -0.00 in Q1 to -0.03 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q19 (Q20 is -0.03%).
+Sectors and capital. Manufacturing output falls 0.47% by Q3; services output falls 0.11% by Q3; the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q19 (Q20 is still -0.03%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/KR_Y.png)
 
@@ -327,27 +301,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## AR — Argentina
 
-The main impact of a 20% metals-supply cut on Argentina would be a moderate drop in GDP of 0.15% by Q11. Equities peak at -0.26% in Q10.
+The main impact of a 20% metals-supply cut on Argentina is a moderate drop in GDP of 0.15% by Q11. This is a model impulse response versus baseline, not a forecast. Equities soften 0.26% by Q10.
 
-Demand and trade. Consumption peaks at -0.07 % vs baseline in Q12, from -0.01 in Q1 to -0.00 in Q20. Investment peaks at -0.34 % vs baseline in Q8, from -0.09 in Q1 to +0.13 in Q20. Net Exports peaks at +0.02 % vs baseline in Q9, from +0.00 in Q1 to -0.00 in Q20. Gov Spending peaks at +0.03 % vs baseline in Q11, from +0.00 in Q1 to -0.00 in Q20. Gov Debt peaks at -0.10 % vs baseline in Q20, from +0.00 in Q1 to -0.10 in Q20.
+Demand and trade. Private investment / the cost of capital falls 0.34% by Q8; government debt falls 0.10% by Q20; household consumption, the trade balance, government spending stay close to baseline.
 
-External / FX. The real exchange rate shows real appreciation (a stronger home currency). Real Exchange Rate peaks at -0.38 % vs baseline in Q3, from -0.27 in Q1 to -0.09 in Q20.
+Labour. Real wages falls 0.24% by Q20; employment falls 0.12% by Q15; unemployment stay close to baseline.
 
-Labour. Employment peaks at -0.12 % vs baseline in Q15, from +0.00 in Q1 to -0.08 in Q20. Unemployment peaks at +0.03 pp in Q13, from +0.00 in Q1 to +0.01 in Q20. Real Wages peaks at -0.24 % vs baseline in Q20, from +0.00 in Q1 to -0.24 in Q20.
+Prices. Firms' marginal cost falls 0.09% by Q11; CPI inflation, domestic inflation stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.04 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Marginal Cost peaks at -0.09 % vs baseline in Q11, from -0.00 in Q1 to +0.01 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.29% by Q3; 5-year bond prices rally 0.25% by Q8; 2-year bond prices rally 0.19% by Q11; 10-year bond prices rally 0.13% by Q8; the same direction shows up in the local policy rate, 3-month government yields, 2-year government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.12 pp (annualized) in Q3, from +0.06 in Q1 to -0.06 in Q20. Real Rate peaks at +0.03 pp (annualized) in Q3, from +0.01 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.12 pp (annualized) in Q3, from +0.06 in Q1 to -0.06 in Q20. Govt 2Y Yield peaks at -0.10 pp (annualized) in Q11, from +0.07 in Q1 to -0.02 in Q20. Govt 5Y Yield peaks at -0.06 pp (annualized) in Q8, from -0.02 in Q1 to +0.01 in Q20. Govt 10Y Yield peaks at -0.02 pp (annualized) in Q8, from -0.01 in Q1 to +0.01 in Q20. Govt 30Y Yield peaks at -0.00 pp (annualized) in Q8, from +0.00 in Q1 to +0.00 in Q20. Bond Price (7y) peaks at -0.29 % vs baseline in Q3, from -0.14 in Q1 to +0.14 in Q20. Bond Price 3M peaks at -0.03 % vs baseline in Q3, from -0.01 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at +0.19 % vs baseline in Q11, from -0.13 in Q1 to +0.03 in Q20. Bond Price 5Y peaks at +0.25 % vs baseline in Q8, from +0.11 in Q1 to -0.04 in Q20. Bond Price 10Y peaks at +0.13 % vs baseline in Q8, from +0.04 in Q1 to -0.08 in Q20. Bond Price 30Y peaks at +0.08 % vs baseline in Q8, from -0.00 in Q1 to -0.06 in Q20. Equity Index peaks at -0.26 % vs baseline in Q10, from -0.03 in Q1 to +0.05 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.24 % vs baseline in Q8, from -0.06 in Q1 to +0.09 in Q20. House Prices peaks at -0.13 % vs baseline in Q15, from -0.00 in Q1 to -0.10 in Q20. Bank Equity peaks at -0.00 % vs baseline in Q19, from +0.00 in Q1 to -0.00 in Q20. Bank Credit peaks at -0.00 % vs baseline in Q19, from +0.00 in Q1 to -0.00 in Q20. Credit Spread peaks at +0.00 pp in Q19, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. Versus the dollar the home currency is stronger versus the dollar (-0.80% in Q3); the NEER prints a trade-weighted depreciation (-0.51% in Q5); the real exchange rate shows a real appreciation (a stronger home currency), peaking at -0.38% in Q3.
 
-Nominal FX. NEER peaks at -0.51 % vs baseline in Q5, from -0.28 in Q1 to -0.05 in Q20. vs USD peaks at -0.80 % vs baseline in Q3, from -0.54 in Q1 to -0.25 in Q20.
+Equities and risk. Equity prices / financial conditions falls 0.26% by Q10; Tobin's Q (the value of installed capital) falls 0.24% by Q8; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices fall 0.13% by Q15; house prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at +0.11 % vs baseline in Q3, from +0.08 in Q1 to +0.03 in Q20. Services GDP peaks at -0.08 % vs baseline in Q11, from -0.00 in Q1 to +0.01 in Q20. Capital Stock peaks at -0.02 % vs baseline in Q16, from -0.00 in Q1 to -0.02 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q18 (Q20 is +0.01%).
+Sectors and capital. Manufacturing output rises 0.11% by Q3; services output falls 0.08% by Q11; the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q18 (Q20 is still +0.01%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/AR_Y.png)
 
@@ -377,27 +353,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## JP — Japan
 
-The main impact of a 20% metals-supply cut on Japan would be a moderate drop in GDP of 0.15% by Q3. Equities peak at -0.40% in Q4.
+The main impact of a 20% metals-supply cut on Japan is a moderate drop in GDP of 0.15% by Q3. This is a model impulse response versus baseline, not a forecast. Equities soften 0.40% by Q4. The three-year CPI impulse is +0.09 percentage points.
 
-Demand and trade. Consumption peaks at -0.09 % vs baseline in Q4, from -0.05 in Q1 to -0.02 in Q20. Investment peaks at -0.40 % vs baseline in Q3, from -0.24 in Q1 to -0.08 in Q20. Net Exports peaks at -0.85 % vs baseline in Q3, from -0.56 in Q1 to -0.17 in Q20. Gov Spending peaks at +0.03 % vs baseline in Q4, from +0.02 in Q1 to +0.01 in Q20. Gov Debt peaks at -0.04 % vs baseline in Q20, from -0.00 in Q1 to -0.04 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) softens to -0.85% in Q3; private investment / the cost of capital falls 0.40% by Q3; household consumption falls 0.09% by Q4; government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real depreciation (a weaker, more competitive home currency). Real Exchange Rate peaks at +0.99 % vs baseline in Q4, from +0.61 in Q1 to +0.11 in Q20.
+Labour. Employment falls 0.11% by Q8; unemployment rises by +0.08 percentage points in Q8; real wages stay close to baseline.
 
-Labour. Employment peaks at -0.11 % vs baseline in Q8, from -0.02 in Q1 to -0.05 in Q20. Unemployment peaks at +0.08 pp in Q8, from +0.01 in Q1 to +0.04 in Q20. Real Wages peaks at +0.06 % vs baseline in Q11, from -0.00 in Q1 to +0.02 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.09 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.03 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Marginal Cost peaks at -0.08 % vs baseline in Q4, from -0.05 in Q1 to -0.02 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.17% by Q5; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.01 pp (annualized) in Q6, from +0.00 in Q1 to -0.00 in Q20. Real Rate peaks at +0.00 pp (annualized) in Q6, from +0.00 in Q1 to -0.00 in Q20. Govt 3M Yield peaks at +0.01 pp (annualized) in Q6, from +0.00 in Q1 to -0.00 in Q20. Govt 2Y Yield peaks at +0.01 pp (annualized) in Q3, from +0.01 in Q1 to -0.00 in Q20. Govt 5Y Yield peaks at +0.01 pp (annualized) in Q1, from +0.01 in Q1 to -0.01 in Q20. Govt 10Y Yield peaks at -0.00 pp (annualized) in Q20, from +0.00 in Q1 to -0.00 in Q20. Govt 30Y Yield peaks at -0.00 pp (annualized) in Q18, from -0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.17 % vs baseline in Q5, from -0.05 in Q1 to +0.06 in Q20. Bond Price 3M peaks at -0.00 % vs baseline in Q6, from -0.00 in Q1 to +0.00 in Q20. Bond Price 2Y peaks at -0.02 % vs baseline in Q3, from -0.02 in Q1 to +0.01 in Q20. Bond Price 5Y peaks at -0.03 % vs baseline in Q1, from -0.03 in Q1 to +0.02 in Q20. Bond Price 10Y peaks at +0.04 % vs baseline in Q20, from -0.01 in Q1 to +0.04 in Q20. Bond Price 30Y peaks at +0.05 % vs baseline in Q18, from +0.02 in Q1 to +0.05 in Q20. Equity Index peaks at -0.40 % vs baseline in Q4, from -0.25 in Q1 to -0.08 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.28 % vs baseline in Q3, from -0.17 in Q1 to -0.06 in Q20. House Prices peaks at -0.11 % vs baseline in Q15, from -0.01 in Q1 to -0.10 in Q20. Bank Equity peaks at -0.06 % vs baseline in Q12, from -0.01 in Q1 to -0.05 in Q20. Bank Credit peaks at -0.04 % vs baseline in Q12, from -0.00 in Q1 to -0.04 in Q20. Credit Spread peaks at +0.00 pp in Q12, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. The NEER prints a trade-weighted depreciation (-3.41% in Q3); the real exchange rate shows a real depreciation (a weaker, more competitive home currency), peaking at +0.99% in Q4; versus the dollar the home currency is weaker versus the dollar (+0.57% in Q4).
 
-Nominal FX. NEER peaks at -3.41 % vs baseline in Q3, from -2.21 in Q1 to -0.62 in Q20. vs USD peaks at +0.57 % vs baseline in Q4, from +0.33 in Q1 to -0.05 in Q20.
+Equities and risk. Equity prices / financial conditions falls 0.40% by Q4; Tobin's Q (the value of installed capital) falls 0.28% by Q3; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices fall 0.11% by Q15; house prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at -0.34 % vs baseline in Q4, from -0.21 in Q1 to -0.04 in Q20. Services GDP peaks at -0.10 % vs baseline in Q3, from -0.07 in Q1 to -0.02 in Q20. Capital Stock peaks at -0.02 % vs baseline in Q20, from -0.00 in Q1 to -0.02 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q20 (Q20 is -0.03%).
+Sectors and capital. Manufacturing output falls 0.34% by Q4; services output falls 0.10% by Q3; the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q20 (Q20 is still -0.03%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/JP_Y.png)
 
@@ -427,27 +405,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## DE — Germany
 
-The main impact of a 20% metals-supply cut on Germany would be a moderate drop in GDP of 0.12% by Q4. Equities peak at -0.25% in Q4.
+The main impact of a 20% metals-supply cut on Germany is a moderate drop in GDP of 0.12% by Q4. This is a model impulse response versus baseline, not a forecast. Equities soften 0.25% by Q4. The three-year CPI impulse is +0.06 percentage points.
 
-Demand and trade. Consumption peaks at -0.06 % vs baseline in Q4, from -0.03 in Q1 to -0.02 in Q20. Investment peaks at -0.38 % vs baseline in Q4, from -0.21 in Q1 to -0.03 in Q20. Net Exports peaks at -0.64 % vs baseline in Q3, from -0.42 in Q1 to -0.13 in Q20. Gov Spending peaks at +0.02 % vs baseline in Q4, from +0.02 in Q1 to +0.01 in Q20. Gov Debt peaks at +0.02 % vs baseline in Q17, from +0.00 in Q1 to +0.01 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) softens to -0.64% in Q3; private investment / the cost of capital falls 0.38% by Q4; household consumption, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real depreciation (a weaker, more competitive home currency). Real Exchange Rate peaks at +0.87 % vs baseline in Q3, from +0.58 in Q1 to +0.16 in Q20.
+Labour. Employment falls 0.09% by Q10; real wages falls 0.08% by Q20; unemployment rises by +0.07 percentage points in Q9.
 
-Labour. Employment peaks at -0.09 % vs baseline in Q10, from -0.01 in Q1 to -0.05 in Q20. Unemployment peaks at +0.07 pp in Q9, from +0.01 in Q1 to +0.04 in Q20. Real Wages peaks at -0.08 % vs baseline in Q20, from -0.00 in Q1 to -0.08 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.06 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.01 in Q1 to -0.00 in Q20. Marginal Cost peaks at -0.07 % vs baseline in Q4, from -0.04 in Q1 to -0.02 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.37% by Q5; 10-year bond prices rally 0.11% by Q13; 5-year bond prices rally 0.10% by Q15; 30-year bond prices rally 0.09% by Q13; the same direction shows up in 2-year bond prices, the local policy rate, 3-month government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.05 pp (annualized) in Q5, from +0.02 in Q1 to -0.03 in Q20. Real Rate peaks at +0.01 pp (annualized) in Q5, from +0.00 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.05 pp (annualized) in Q5, from +0.02 in Q1 to -0.03 in Q20. Govt 2Y Yield peaks at +0.04 pp (annualized) in Q2, from +0.04 in Q1 to -0.03 in Q20. Govt 5Y Yield peaks at -0.02 pp (annualized) in Q15, from +0.01 in Q1 to -0.02 in Q20. Govt 10Y Yield peaks at -0.01 pp (annualized) in Q13, from -0.00 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.00 pp (annualized) in Q13, from -0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.37 % vs baseline in Q5, from -0.11 in Q1 to +0.19 in Q20. Bond Price 3M peaks at -0.01 % vs baseline in Q5, from -0.00 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.08 % vs baseline in Q2, from -0.08 in Q1 to +0.05 in Q20. Bond Price 5Y peaks at +0.10 % vs baseline in Q15, from -0.05 in Q1 to +0.08 in Q20. Bond Price 10Y peaks at +0.11 % vs baseline in Q13, from +0.02 in Q1 to +0.09 in Q20. Bond Price 30Y peaks at +0.09 % vs baseline in Q13, from +0.03 in Q1 to +0.07 in Q20. Equity Index peaks at -0.25 % vs baseline in Q4, from -0.15 in Q1 to -0.04 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.27 % vs baseline in Q4, from -0.15 in Q1 to -0.02 in Q20. House Prices peaks at -0.11 % vs baseline in Q15, from -0.01 in Q1 to -0.10 in Q20. Bank Equity peaks at -0.05 % vs baseline in Q13, from -0.00 in Q1 to -0.04 in Q20. Bank Credit peaks at -0.04 % vs baseline in Q13, from -0.00 in Q1 to -0.03 in Q20. Credit Spread peaks at +0.00 pp in Q12, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. The NEER prints a trade-weighted depreciation (-0.99% in Q3); the real exchange rate shows a real depreciation (a weaker, more competitive home currency), peaking at +0.87% in Q3; versus the dollar the home currency is weaker versus the dollar (+0.46% in Q3).
 
-Nominal FX. NEER peaks at -0.99 % vs baseline in Q3, from -0.65 in Q1 to -0.19 in Q20. vs USD peaks at +0.46 % vs baseline in Q3, from +0.30 in Q1 to -0.01 in Q20.
+Equities and risk. Tobin's Q (the value of installed capital) falls 0.27% by Q4; equity prices / financial conditions falls 0.25% by Q4; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices fall 0.11% by Q15; house prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at -0.30 % vs baseline in Q3, from -0.19 in Q1 to -0.05 in Q20. Services GDP peaks at -0.08 % vs baseline in Q4, from -0.05 in Q1 to -0.02 in Q20. Capital Stock peaks at -0.02 % vs baseline in Q20, from -0.00 in Q1 to -0.02 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q20 (Q20 is -0.03%).
+Sectors and capital. Manufacturing output falls 0.30% by Q3; services output falls 0.08% by Q4; the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q20 (Q20 is still -0.03%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/DE_Y.png)
 
@@ -477,27 +457,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## SE — Sweden
 
-The main impact of a 20% metals-supply cut on Sweden would be a moderate rise in GDP of 0.12% by Q3. Equities peak at +0.32% in Q3.
+The main impact of a 20% metals-supply cut on Sweden is a moderate rise in GDP of 0.12% by Q3. This is a model impulse response versus baseline, not a forecast. Equities firm 0.32% by Q3. The three-year CPI impulse is +0.10 percentage points.
 
-Demand and trade. Consumption peaks at +0.07 % vs baseline in Q4, from +0.04 in Q1 to +0.01 in Q20. Investment peaks at +0.28 % vs baseline in Q2, from +0.19 in Q1 to +0.07 in Q20. Net Exports peaks at +0.84 % vs baseline in Q3, from +0.56 in Q1 to +0.16 in Q20. Gov Spending peaks at +0.06 % vs baseline in Q3, from +0.04 in Q1 to +0.01 in Q20. Gov Debt peaks at -0.04 % vs baseline in Q10, from -0.00 in Q1 to -0.03 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) improves to +0.84% in Q3; private investment / the cost of capital rises 0.28% by Q2; household consumption, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real appreciation (a stronger home currency). Real Exchange Rate peaks at -4.35 % vs baseline in Q3, from -2.87 in Q1 to -0.92 in Q20.
+Labour. Real wages rises 0.13% by Q18; employment rises 0.08% by Q8; unemployment eases by -0.05 percentage points in Q6.
 
-Labour. Employment peaks at +0.08 % vs baseline in Q8, from +0.01 in Q1 to +0.04 in Q20. Unemployment peaks at -0.05 pp in Q6, from -0.01 in Q1 to -0.01 in Q20. Real Wages peaks at +0.13 % vs baseline in Q18, from +0.00 in Q1 to +0.13 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.10 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.00 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.01 in Q1 to -0.00 in Q20. Marginal Cost peaks at +0.07 % vs baseline in Q3, from +0.05 in Q1 to +0.01 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.47% by Q5; 5-year bond prices cheapen 0.12% by Q1; 2-year bond prices cheapen 0.12% by Q2; the local policy rate rises 0.08 percentage points by Q5; the same direction shows up in 3-month government yields, 2-year government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.08 pp (annualized) in Q5, from +0.02 in Q1 to -0.02 in Q20. Real Rate peaks at +0.02 pp (annualized) in Q5, from +0.01 in Q1 to -0.00 in Q20. Govt 3M Yield peaks at +0.08 pp (annualized) in Q5, from +0.02 in Q1 to -0.02 in Q20. Govt 2Y Yield peaks at +0.06 pp (annualized) in Q2, from +0.06 in Q1 to -0.02 in Q20. Govt 5Y Yield peaks at +0.03 pp (annualized) in Q1, from +0.03 in Q1 to -0.01 in Q20. Govt 10Y Yield peaks at +0.01 pp (annualized) in Q1, from +0.01 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at +0.00 pp (annualized) in Q1, from +0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.47 % vs baseline in Q5, from -0.13 in Q1 to +0.10 in Q20. Bond Price 3M peaks at -0.02 % vs baseline in Q5, from -0.01 in Q1 to +0.00 in Q20. Bond Price 2Y peaks at -0.12 % vs baseline in Q2, from -0.11 in Q1 to +0.03 in Q20. Bond Price 5Y peaks at -0.12 % vs baseline in Q1, from -0.12 in Q1 to +0.05 in Q20. Bond Price 10Y peaks at -0.07 % vs baseline in Q1, from -0.07 in Q1 to +0.05 in Q20. Bond Price 30Y peaks at -0.05 % vs baseline in Q1, from -0.05 in Q1 to +0.04 in Q20. Equity Index peaks at +0.32 % vs baseline in Q3, from +0.23 in Q1 to +0.07 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at +0.20 % vs baseline in Q2, from +0.14 in Q1 to +0.05 in Q20. House Prices peaks at +0.08 % vs baseline in Q12, from +0.01 in Q1 to +0.07 in Q20. Bank Equity peaks at +0.01 % vs baseline in Q11, from +0.00 in Q1 to +0.01 in Q20. Bank Credit peaks at +0.00 % vs baseline in Q11, from +0.00 in Q1 to +0.00 in Q20. Credit Spread peaks at +0.00 pp in Q1, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. Versus the dollar the home currency is stronger versus the dollar (-4.77% in Q3); the NEER prints a trade-weighted appreciation (+4.47% in Q3); the real exchange rate shows a real appreciation (a stronger home currency), peaking at -4.35% in Q3.
 
-Nominal FX. NEER peaks at +4.47 % vs baseline in Q3, from +2.95 in Q1 to +0.94 in Q20. vs USD peaks at -4.77 % vs baseline in Q3, from -3.15 in Q1 to -1.08 in Q20.
+Equities and risk. Equity prices / financial conditions rises 0.32% by Q3; Tobin's Q (the value of installed capital) rises 0.20% by Q2; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at +1.33 % vs baseline in Q3, from +0.88 in Q1 to +0.28 in Q20. Services GDP peaks at +0.08 % vs baseline in Q3, from +0.06 in Q1 to +0.01 in Q20. Capital Stock peaks at +0.01 % vs baseline in Q20, from +0.00 in Q1 to +0.01 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q14 (Q20 is +0.02%).
+Sectors and capital. Manufacturing output rises 1.33% by Q3; services output rises 0.08% by Q3; the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q14 (Q20 is still +0.02%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/SE_Y.png)
 
@@ -527,27 +509,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## BR — Brazil
 
-The main impact of a 20% metals-supply cut on Brazil would be a moderate rise in GDP of 0.12% by Q3. Equities peak at +0.20% in Q2.
+The main impact of a 20% metals-supply cut on Brazil is a moderate rise in GDP of 0.12% by Q3. This is a model impulse response versus baseline, not a forecast. Equities firm 0.20% by Q2. The three-year CPI impulse is +0.13 percentage points.
 
-Demand and trade. Consumption peaks at +0.06 % vs baseline in Q4, from +0.03 in Q1 to -0.02 in Q20. Investment peaks at +0.20 % vs baseline in Q2, from +0.15 in Q1 to +0.01 in Q20. Net Exports peaks at +0.85 % vs baseline in Q3, from +0.57 in Q1 to +0.18 in Q20. Gov Spending peaks at +0.13 % vs baseline in Q3, from +0.09 in Q1 to +0.04 in Q20. Gov Debt peaks at +0.02 % vs baseline in Q8, from +0.00 in Q1 to +0.00 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) improves to +0.85% in Q3; private investment / the cost of capital rises 0.20% by Q2; government spending rises 0.13% by Q3; household consumption, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real appreciation (a stronger home currency). Real Exchange Rate peaks at -2.30 % vs baseline in Q3, from -1.48 in Q1 to -0.34 in Q20.
+Labour. Real wages rises 0.14% by Q13; employment, unemployment stay close to baseline.
 
-Labour. Employment peaks at +0.07 % vs baseline in Q6, from +0.01 in Q1 to -0.03 in Q20. Unemployment peaks at -0.02 pp in Q5, from -0.01 in Q1 to +0.01 in Q20. Real Wages peaks at +0.14 % vs baseline in Q13, from +0.00 in Q1 to +0.08 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.13 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.01 in Q1 to -0.00 in Q20. Marginal Cost peaks at +0.07 % vs baseline in Q3, from +0.05 in Q1 to -0.02 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.68% by Q4; 2-year bond prices cheapen 0.24% by Q2; 5-year bond prices cheapen 0.17% by Q1; the local policy rate rises 0.16 percentage points by Q4; the same direction shows up in 3-month government yields, 10-year bond prices, 2-year government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.16 pp (annualized) in Q4, from +0.06 in Q1 to -0.05 in Q20. Real Rate peaks at +0.04 pp (annualized) in Q4, from +0.01 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.16 pp (annualized) in Q4, from +0.06 in Q1 to -0.05 in Q20. Govt 2Y Yield peaks at +0.12 pp (annualized) in Q2, from +0.12 in Q1 to -0.04 in Q20. Govt 5Y Yield peaks at +0.04 pp (annualized) in Q1, from +0.04 in Q1 to -0.02 in Q20. Govt 10Y Yield peaks at -0.02 pp (annualized) in Q12, from +0.01 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.01 pp (annualized) in Q12, from +0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.68 % vs baseline in Q4, from -0.23 in Q1 to +0.21 in Q20. Bond Price 3M peaks at -0.04 % vs baseline in Q4, from -0.01 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.24 % vs baseline in Q2, from -0.23 in Q1 to +0.08 in Q20. Bond Price 5Y peaks at -0.17 % vs baseline in Q1, from -0.17 in Q1 to +0.11 in Q20. Bond Price 10Y peaks at +0.16 % vs baseline in Q12, from -0.07 in Q1 to +0.10 in Q20. Bond Price 30Y peaks at +0.11 % vs baseline in Q12, from -0.05 in Q1 to +0.07 in Q20. Equity Index peaks at +0.20 % vs baseline in Q2, from +0.15 in Q1 to -0.03 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at +0.14 % vs baseline in Q2, from +0.11 in Q1 to +0.00 in Q20. House Prices peaks at +0.06 % vs baseline in Q6, from +0.01 in Q1 to -0.02 in Q20. Bank Equity peaks at +0.01 % vs baseline in Q11, from +0.00 in Q1 to +0.01 in Q20. Bank Credit peaks at +0.00 % vs baseline in Q11, from +0.00 in Q1 to +0.00 in Q20. Credit Spread peaks at +0.00 pp in Q1, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. Versus the dollar the home currency is stronger versus the dollar (-2.72% in Q3); the real exchange rate shows a real appreciation (a stronger home currency), peaking at -2.30% in Q3; the NEER prints a trade-weighted appreciation (+1.90% in Q3).
 
-Nominal FX. NEER peaks at +1.90 % vs baseline in Q3, from +1.22 in Q1 to +0.27 in Q20. vs USD peaks at -2.72 % vs baseline in Q3, from -1.76 in Q1 to -0.51 in Q20.
+Equities and risk. Equity prices / financial conditions rises 0.20% by Q2; Tobin's Q (the value of installed capital) rises 0.14% by Q2; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at +0.71 % vs baseline in Q3, from +0.46 in Q1 to +0.10 in Q20. Services GDP peaks at +0.08 % vs baseline in Q3, from +0.05 in Q1 to -0.02 in Q20. Capital Stock peaks at -0.00 % vs baseline in Q19, from +0.00 in Q1 to -0.00 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q8 (Q20 is -0.03%).
+Sectors and capital. Manufacturing output rises 0.71% by Q3; services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q8 (Q20 is still -0.03%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/BR_Y.png)
 
@@ -577,27 +561,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## TR — Turkey
 
-The main impact of a 20% metals-supply cut on Turkey would be a moderate drop in GDP of 0.11% by Q9. Equities peak at -0.23% in Q7.
+The main impact of a 20% metals-supply cut on Turkey is a moderate drop in GDP of 0.11% by Q9. This is a model impulse response versus baseline, not a forecast. Equities soften 0.23% by Q7. The three-year CPI impulse is +0.08 percentage points.
 
-Demand and trade. Consumption peaks at -0.06 % vs baseline in Q10, from -0.03 in Q1 to -0.00 in Q20. Investment peaks at -0.37 % vs baseline in Q5, from -0.19 in Q1 to +0.11 in Q20. Net Exports peaks at -0.42 % vs baseline in Q3, from -0.28 in Q1 to -0.08 in Q20. Gov Spending peaks at +0.02 % vs baseline in Q10, from +0.01 in Q1 to -0.00 in Q20. Gov Debt peaks at -0.11 % vs baseline in Q17, from -0.00 in Q1 to -0.10 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) softens to -0.42% in Q3; private investment / the cost of capital falls 0.37% by Q5; government debt falls 0.11% by Q17; household consumption, government spending stay close to baseline.
 
-External / FX. The real exchange rate shows real depreciation (a weaker, more competitive home currency). Real Exchange Rate peaks at +0.29 % vs baseline in Q8, from +0.14 in Q1 to +0.07 in Q20.
+Labour. Real wages falls 0.17% by Q20; employment falls 0.10% by Q14; unemployment stay close to baseline.
 
-Labour. Employment peaks at -0.10 % vs baseline in Q14, from -0.01 in Q1 to -0.06 in Q20. Unemployment peaks at +0.03 pp in Q11, from +0.00 in Q1 to +0.01 in Q20. Real Wages peaks at -0.17 % vs baseline in Q20, from -0.00 in Q1 to -0.17 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.08 percentage points. CPI Inflation peaks at +0.02 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.01 in Q1 to -0.01 in Q20. Marginal Cost peaks at -0.07 % vs baseline in Q10, from -0.03 in Q1 to +0.00 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.29% by Q4; 5-year bond prices rally 0.19% by Q9; 10-year bond prices rally 0.14% by Q9; 2-year bond prices rally 0.12% by Q13; the same direction shows up in 30-year bond prices, the local policy rate, 3-month government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.09 pp (annualized) in Q4, from +0.04 in Q1 to -0.05 in Q20. Real Rate peaks at +0.02 pp (annualized) in Q4, from +0.01 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.09 pp (annualized) in Q4, from +0.04 in Q1 to -0.05 in Q20. Govt 2Y Yield peaks at -0.06 pp (annualized) in Q13, from +0.06 in Q1 to -0.03 in Q20. Govt 5Y Yield peaks at -0.04 pp (annualized) in Q9, from -0.01 in Q1 to -0.01 in Q20. Govt 10Y Yield peaks at -0.02 pp (annualized) in Q9, from -0.01 in Q1 to -0.00 in Q20. Govt 30Y Yield peaks at -0.01 pp (annualized) in Q9, from -0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.29 % vs baseline in Q4, from -0.13 in Q1 to +0.17 in Q20. Bond Price 3M peaks at -0.02 % vs baseline in Q4, from -0.01 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at +0.12 % vs baseline in Q13, from -0.12 in Q1 to +0.06 in Q20. Bond Price 5Y peaks at +0.19 % vs baseline in Q9, from +0.03 in Q1 to +0.04 in Q20. Bond Price 10Y peaks at +0.14 % vs baseline in Q9, from +0.05 in Q1 to +0.02 in Q20. Bond Price 30Y peaks at +0.10 % vs baseline in Q9, from +0.02 in Q1 to +0.01 in Q20. Equity Index peaks at -0.23 % vs baseline in Q7, from -0.10 in Q1 to +0.04 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.26 % vs baseline in Q5, from -0.13 in Q1 to +0.07 in Q20. House Prices peaks at -0.13 % vs baseline in Q14, from -0.01 in Q1 to -0.10 in Q20. Bank Equity peaks at -0.02 % vs baseline in Q12, from -0.00 in Q1 to -0.01 in Q20. Bank Credit peaks at -0.01 % vs baseline in Q12, from -0.00 in Q1 to -0.01 in Q20. Credit Spread peaks at +0.00 pp in Q12, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. The NEER prints a trade-weighted depreciation (-0.34% in Q6); the real exchange rate shows a real depreciation (a weaker, more competitive home currency), peaking at +0.29% in Q8; versus the dollar the home currency is stronger versus the dollar (-0.18% in Q2).
 
-Nominal FX. NEER peaks at -0.34 % vs baseline in Q6, from -0.19 in Q1 to -0.08 in Q20. vs USD peaks at -0.18 % vs baseline in Q2, from -0.14 in Q1 to -0.09 in Q20.
+Equities and risk. Tobin's Q (the value of installed capital) falls 0.26% by Q5; equity prices / financial conditions falls 0.23% by Q7; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices fall 0.13% by Q14; house prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at -0.12 % vs baseline in Q8, from -0.06 in Q1 to -0.02 in Q20. Services GDP peaks at -0.07 % vs baseline in Q9, from -0.03 in Q1 to +0.00 in Q20. Capital Stock peaks at -0.02 % vs baseline in Q16, from -0.00 in Q1 to -0.02 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q18 (Q20 is +0.00%).
+Sectors and capital. Manufacturing output falls 0.12% by Q8; services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q18 (Q20 is still +0.00%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/TR_Y.png)
 
@@ -627,27 +613,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## IT — Italy
 
-The main impact of a 20% metals-supply cut on Italy would be only a small drop in GDP of 0.10% by Q4. Equities peak at -0.20% in Q4.
+The main impact of a 20% metals-supply cut on Italy is only a small drop in GDP of 0.10% by Q4. This is a model impulse response versus baseline, not a forecast. Equities soften 0.20% by Q4. The three-year CPI impulse is +0.08 percentage points.
 
-Demand and trade. Consumption peaks at -0.05 % vs baseline in Q4, from -0.03 in Q1 to -0.01 in Q20. Investment peaks at -0.32 % vs baseline in Q4, from -0.18 in Q1 to -0.01 in Q20. Net Exports peaks at -0.51 % vs baseline in Q3, from -0.34 in Q1 to -0.10 in Q20. Gov Spending peaks at +0.02 % vs baseline in Q4, from +0.01 in Q1 to +0.00 in Q20. Gov Debt peaks at +0.01 % vs baseline in Q5, from +0.00 in Q1 to +0.00 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) softens to -0.51% in Q3; private investment / the cost of capital falls 0.32% by Q4; household consumption, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real depreciation (a weaker, more competitive home currency). Real Exchange Rate peaks at +0.44 % vs baseline in Q3, from +0.29 in Q1 to +0.07 in Q20.
+Labour. Employment, unemployment, real wages stay close to baseline.
 
-Labour. Employment peaks at -0.07 % vs baseline in Q10, from -0.01 in Q1 to -0.05 in Q20. Unemployment peaks at +0.03 pp in Q8, from +0.01 in Q1 to +0.02 in Q20. Real Wages peaks at +0.03 % vs baseline in Q10, from -0.00 in Q1 to -0.02 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.08 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.01 in Q1 to -0.00 in Q20. Marginal Cost peaks at -0.05 % vs baseline in Q4, from -0.03 in Q1 to -0.01 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.37% by Q5; 10-year bond prices rally 0.11% by Q13; 5-year bond prices rally 0.10% by Q15; 30-year bond prices rally 0.09% by Q13; the same direction shows up in 2-year bond prices, the local policy rate, 3-month government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.05 pp (annualized) in Q5, from +0.02 in Q1 to -0.03 in Q20. Real Rate peaks at +0.01 pp (annualized) in Q5, from +0.00 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.05 pp (annualized) in Q5, from +0.02 in Q1 to -0.03 in Q20. Govt 2Y Yield peaks at +0.04 pp (annualized) in Q2, from +0.04 in Q1 to -0.03 in Q20. Govt 5Y Yield peaks at -0.02 pp (annualized) in Q15, from +0.01 in Q1 to -0.02 in Q20. Govt 10Y Yield peaks at -0.01 pp (annualized) in Q13, from -0.00 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.00 pp (annualized) in Q13, from -0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.37 % vs baseline in Q5, from -0.11 in Q1 to +0.18 in Q20. Bond Price 3M peaks at -0.01 % vs baseline in Q5, from -0.00 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.08 % vs baseline in Q2, from -0.08 in Q1 to +0.05 in Q20. Bond Price 5Y peaks at +0.10 % vs baseline in Q15, from -0.05 in Q1 to +0.08 in Q20. Bond Price 10Y peaks at +0.11 % vs baseline in Q13, from +0.02 in Q1 to +0.09 in Q20. Bond Price 30Y peaks at +0.09 % vs baseline in Q13, from +0.03 in Q1 to +0.07 in Q20. Equity Index peaks at -0.20 % vs baseline in Q4, from -0.11 in Q1 to -0.02 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.22 % vs baseline in Q4, from -0.12 in Q1 to -0.01 in Q20. House Prices peaks at -0.08 % vs baseline in Q15, from -0.01 in Q1 to -0.08 in Q20. Bank Equity peaks at -0.03 % vs baseline in Q12, from -0.00 in Q1 to -0.03 in Q20. Bank Credit peaks at -0.03 % vs baseline in Q12, from -0.00 in Q1 to -0.02 in Q20. Credit Spread peaks at +0.00 pp in Q12, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. The real exchange rate shows a real depreciation (a weaker, more competitive home currency), peaking at +0.44% in Q3; the NEER prints a trade-weighted depreciation (-0.38% in Q3); versus the dollar the home currency is stronger versus the dollar (-0.10% in Q18).
 
-Nominal FX. NEER peaks at -0.38 % vs baseline in Q3, from -0.25 in Q1 to -0.06 in Q20. vs USD peaks at -0.10 % vs baseline in Q18, from +0.01 in Q1 to -0.09 in Q20.
+Equities and risk. Tobin's Q (the value of installed capital) falls 0.22% by Q4; equity prices / financial conditions falls 0.20% by Q4; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices fall 0.08% by Q15; house prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at -0.15 % vs baseline in Q3, from -0.10 in Q1 to -0.03 in Q20. Services GDP peaks at -0.07 % vs baseline in Q4, from -0.04 in Q1 to -0.02 in Q20. Capital Stock peaks at -0.02 % vs baseline in Q20, from -0.00 in Q1 to -0.02 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q20 (Q20 is -0.02%).
+Sectors and capital. Manufacturing output falls 0.15% by Q3; services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q20 (Q20 is still -0.02%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/IT_Y.png)
 
@@ -677,27 +665,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## PL — Poland
 
-The main impact of a 20% metals-supply cut on Poland would be only a small drop in GDP of 0.08% by Q4. Equities peak at -0.20% in Q4.
+The main impact of a 20% metals-supply cut on Poland is only a small drop in GDP of 0.08% by Q4. This is a model impulse response versus baseline, not a forecast. Equities soften 0.20% by Q4. The three-year CPI impulse is +0.08 percentage points.
 
-Demand and trade. Consumption peaks at -0.05 % vs baseline in Q4, from -0.03 in Q1 to -0.01 in Q20. Investment peaks at -0.33 % vs baseline in Q4, from -0.18 in Q1 to +0.00 in Q20. Net Exports peaks at -0.42 % vs baseline in Q3, from -0.28 in Q1 to -0.08 in Q20. Gov Spending peaks at +0.02 % vs baseline in Q4, from +0.01 in Q1 to +0.00 in Q20. Gov Debt peaks at +0.00 % vs baseline in Q1, from +0.00 in Q1 to +0.00 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) softens to -0.42% in Q3; private investment / the cost of capital falls 0.33% by Q4; household consumption, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real depreciation (a weaker, more competitive home currency). Real Exchange Rate peaks at +0.86 % vs baseline in Q3, from +0.57 in Q1 to +0.21 in Q20.
+Labour. Employment, unemployment, real wages stay close to baseline.
 
-Labour. Employment peaks at -0.07 % vs baseline in Q11, from -0.01 in Q1 to -0.04 in Q20. Unemployment peaks at +0.03 pp in Q10, from +0.01 in Q1 to +0.02 in Q20. Real Wages peaks at -0.08 % vs baseline in Q20, from -0.00 in Q1 to -0.08 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.08 percentage points. CPI Inflation peaks at +0.02 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.01 in Q1 to -0.00 in Q20. Marginal Cost peaks at -0.05 % vs baseline in Q4, from -0.03 in Q1 to -0.01 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.30% by Q4; 10-year bond prices rally 0.13% by Q12; 5-year bond prices rally 0.12% by Q13; 30-year bond prices rally 0.10% by Q12; the same direction shows up in 2-year bond prices, the local policy rate, 3-month government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.07 pp (annualized) in Q4, from +0.02 in Q1 to -0.03 in Q20. Real Rate peaks at +0.02 pp (annualized) in Q4, from +0.01 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.07 pp (annualized) in Q4, from +0.02 in Q1 to -0.03 in Q20. Govt 2Y Yield peaks at +0.05 pp (annualized) in Q2, from +0.05 in Q1 to -0.03 in Q20. Govt 5Y Yield peaks at -0.03 pp (annualized) in Q13, from +0.01 in Q1 to -0.02 in Q20. Govt 10Y Yield peaks at -0.02 pp (annualized) in Q12, from -0.00 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.01 pp (annualized) in Q12, from -0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.30 % vs baseline in Q4, from -0.10 in Q1 to +0.14 in Q20. Bond Price 3M peaks at -0.02 % vs baseline in Q4, from -0.01 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.10 % vs baseline in Q2, from -0.10 in Q1 to +0.06 in Q20. Bond Price 5Y peaks at +0.12 % vs baseline in Q13, from -0.05 in Q1 to +0.09 in Q20. Bond Price 10Y peaks at +0.13 % vs baseline in Q12, from +0.03 in Q1 to +0.10 in Q20. Bond Price 30Y peaks at +0.10 % vs baseline in Q12, from +0.03 in Q1 to +0.07 in Q20. Equity Index peaks at -0.20 % vs baseline in Q4, from -0.11 in Q1 to -0.01 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.23 % vs baseline in Q4, from -0.12 in Q1 to +0.00 in Q20. House Prices peaks at -0.09 % vs baseline in Q15, from -0.01 in Q1 to -0.08 in Q20. Bank Equity peaks at -0.02 % vs baseline in Q13, from -0.00 in Q1 to -0.02 in Q20. Bank Credit peaks at -0.02 % vs baseline in Q13, from -0.00 in Q1 to -0.02 in Q20. Credit Spread peaks at +0.00 pp in Q12, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. The real exchange rate shows a real depreciation (a weaker, more competitive home currency), peaking at +0.86% in Q3; the NEER prints a trade-weighted depreciation (-0.70% in Q3); versus the dollar the home currency is weaker versus the dollar (+0.44% in Q3).
 
-Nominal FX. NEER peaks at -0.70 % vs baseline in Q3, from -0.47 in Q1 to -0.18 in Q20. vs USD peaks at +0.44 % vs baseline in Q3, from +0.29 in Q1 to +0.04 in Q20.
+Equities and risk. Tobin's Q (the value of installed capital) falls 0.23% by Q4; equity prices / financial conditions falls 0.20% by Q4; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices fall 0.09% by Q15; house prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at -0.28 % vs baseline in Q3, from -0.19 in Q1 to -0.07 in Q20. Services GDP peaks at -0.05 % vs baseline in Q4, from -0.03 in Q1 to -0.01 in Q20. Capital Stock peaks at -0.02 % vs baseline in Q19, from -0.00 in Q1 to -0.02 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q20 (Q20 is -0.02%).
+Sectors and capital. Manufacturing output falls 0.28% by Q3; services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q20 (Q20 is still -0.02%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/PL_Y.png)
 
@@ -727,27 +717,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## FR — France
 
-The main impact of a 20% metals-supply cut on France would be only a small drop in GDP of 0.07% by Q4. Equities peak at -0.19% in Q5.
+The main impact of a 20% metals-supply cut on France is only a small drop in GDP of 0.07% by Q4. This is a model impulse response versus baseline, not a forecast. Equities soften 0.19% by Q5. The three-year CPI impulse is +0.08 percentage points.
 
-Demand and trade. Consumption peaks at -0.04 % vs baseline in Q4, from -0.02 in Q1 to -0.01 in Q20. Investment peaks at -0.27 % vs baseline in Q4, from -0.13 in Q1 to -0.00 in Q20. Net Exports peaks at -0.34 % vs baseline in Q3, from -0.22 in Q1 to -0.07 in Q20. Gov Spending peaks at +0.02 % vs baseline in Q4, from +0.01 in Q1 to +0.00 in Q20. Gov Debt peaks at +0.05 % vs baseline in Q18, from +0.00 in Q1 to +0.05 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) softens to -0.34% in Q3; private investment / the cost of capital falls 0.27% by Q4; household consumption, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real depreciation (a weaker, more competitive home currency). Real Exchange Rate peaks at +0.44 % vs baseline in Q3, from +0.29 in Q1 to +0.07 in Q20.
+Labour. Employment, unemployment, real wages stay close to baseline.
 
-Labour. Employment peaks at -0.06 % vs baseline in Q12, from -0.01 in Q1 to -0.04 in Q20. Unemployment peaks at +0.04 pp in Q10, from +0.01 in Q1 to +0.02 in Q20. Real Wages peaks at +0.03 % vs baseline in Q10, from -0.00 in Q1 to -0.02 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.08 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.02 in Q1 to -0.00 in Q20. Marginal Cost peaks at -0.04 % vs baseline in Q4, from -0.02 in Q1 to -0.01 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.37% by Q5; 10-year bond prices rally 0.11% by Q13; 5-year bond prices rally 0.10% by Q15; 30-year bond prices rally 0.09% by Q13; the same direction shows up in 2-year bond prices, the local policy rate, 3-month government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.05 pp (annualized) in Q5, from +0.02 in Q1 to -0.03 in Q20. Real Rate peaks at +0.01 pp (annualized) in Q5, from +0.00 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.05 pp (annualized) in Q5, from +0.02 in Q1 to -0.03 in Q20. Govt 2Y Yield peaks at +0.04 pp (annualized) in Q2, from +0.04 in Q1 to -0.03 in Q20. Govt 5Y Yield peaks at -0.02 pp (annualized) in Q15, from +0.01 in Q1 to -0.02 in Q20. Govt 10Y Yield peaks at -0.01 pp (annualized) in Q13, from -0.00 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.00 pp (annualized) in Q13, from -0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.37 % vs baseline in Q5, from -0.11 in Q1 to +0.19 in Q20. Bond Price 3M peaks at -0.01 % vs baseline in Q5, from -0.00 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.08 % vs baseline in Q2, from -0.08 in Q1 to +0.05 in Q20. Bond Price 5Y peaks at +0.10 % vs baseline in Q15, from -0.05 in Q1 to +0.08 in Q20. Bond Price 10Y peaks at +0.11 % vs baseline in Q13, from +0.02 in Q1 to +0.09 in Q20. Bond Price 30Y peaks at +0.09 % vs baseline in Q13, from +0.03 in Q1 to +0.07 in Q20. Equity Index peaks at -0.19 % vs baseline in Q5, from -0.10 in Q1 to -0.02 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.19 % vs baseline in Q4, from -0.09 in Q1 to -0.00 in Q20. House Prices peaks at -0.07 % vs baseline in Q15, from -0.00 in Q1 to -0.07 in Q20. Bank Equity peaks at -0.03 % vs baseline in Q13, from -0.00 in Q1 to -0.03 in Q20. Bank Credit peaks at -0.03 % vs baseline in Q13, from -0.00 in Q1 to -0.02 in Q20. Credit Spread peaks at +0.00 pp in Q13, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. The real exchange rate shows a real depreciation (a weaker, more competitive home currency), peaking at +0.44% in Q3; the NEER prints a trade-weighted depreciation (-0.25% in Q3); versus the dollar the home currency is stronger versus the dollar (-0.10% in Q18).
 
-Nominal FX. NEER peaks at -0.25 % vs baseline in Q3, from -0.17 in Q1 to -0.04 in Q20. vs USD peaks at -0.10 % vs baseline in Q18, from +0.01 in Q1 to -0.09 in Q20.
+Equities and risk. Equity prices / financial conditions falls 0.19% by Q5; Tobin's Q (the value of installed capital) falls 0.19% by Q4; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at -0.15 % vs baseline in Q3, from -0.10 in Q1 to -0.02 in Q20. Services GDP peaks at -0.05 % vs baseline in Q4, from -0.03 in Q1 to -0.01 in Q20. Capital Stock peaks at -0.01 % vs baseline in Q20, from -0.00 in Q1 to -0.01 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. By Q20 GDP is still -0.02% from baseline.
+Sectors and capital. Manufacturing output falls 0.15% by Q3; services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+By Q20, GDP is still -0.02% from baseline.
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/FR_Y.png)
 
@@ -777,27 +769,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## NG — Nigeria
 
-The main impact of a 20% metals-supply cut on Nigeria would be only a small drop in GDP of 0.07% by Q12. Equities peak at -0.12% in Q9.
+The main impact of a 20% metals-supply cut on Nigeria is only a small drop in GDP of 0.07% by Q12. This is a model impulse response versus baseline, not a forecast. Equities soften 0.12% by Q9. The three-year CPI impulse is +0.09 percentage points.
 
-Demand and trade. Consumption peaks at -0.04 % vs baseline in Q12, from -0.00 in Q1 to -0.01 in Q20. Investment peaks at -0.20 % vs baseline in Q7, from -0.05 in Q1 to +0.07 in Q20. Net Exports peaks at +0.01 % vs baseline in Q8, from +0.00 in Q1 to -0.00 in Q20. Gov Spending peaks at +0.01 % vs baseline in Q11, from +0.00 in Q1 to -0.00 in Q20. Gov Debt peaks at -0.14 % vs baseline in Q20, from +0.00 in Q1 to -0.14 in Q20.
+Demand and trade. Private investment / the cost of capital falls 0.20% by Q7; government debt falls 0.14% by Q20; household consumption, the trade balance, government spending stay close to baseline.
 
-External / FX. The real exchange rate shows real depreciation (a weaker, more competitive home currency). Real Exchange Rate peaks at +0.08 % vs baseline in Q11, from -0.00 in Q1 to +0.01 in Q20.
+Labour. Real wages falls 0.08% by Q20; employment, unemployment stay close to baseline.
 
-Labour. Employment peaks at -0.05 % vs baseline in Q16, from +0.00 in Q1 to -0.04 in Q20. Unemployment peaks at +0.00 pp in Q13, from +0.00 in Q1 to +0.00 in Q20. Real Wages peaks at -0.08 % vs baseline in Q20, from +0.00 in Q1 to -0.08 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.09 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Marginal Cost peaks at -0.04 % vs baseline in Q12, from +0.00 in Q1 to -0.00 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.22% by Q4; 5-year bond prices rally 0.14% by Q10; 2-year bond prices cheapen 0.12% by Q1; 10-year bond prices rally 0.11% by Q10; the same direction shows up in the local policy rate, 3-month government yields, 2-year government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.09 pp (annualized) in Q4, from +0.03 in Q1 to -0.04 in Q20. Real Rate peaks at +0.02 pp (annualized) in Q4, from +0.01 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.09 pp (annualized) in Q4, from +0.03 in Q1 to -0.04 in Q20. Govt 2Y Yield peaks at +0.06 pp (annualized) in Q1, from +0.06 in Q1 to -0.03 in Q20. Govt 5Y Yield peaks at -0.03 pp (annualized) in Q10, from +0.00 in Q1 to -0.01 in Q20. Govt 10Y Yield peaks at -0.01 pp (annualized) in Q10, from -0.00 in Q1 to -0.00 in Q20. Govt 30Y Yield peaks at -0.00 pp (annualized) in Q10, from +0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.22 % vs baseline in Q4, from -0.08 in Q1 to +0.11 in Q20. Bond Price 3M peaks at -0.02 % vs baseline in Q4, from -0.01 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.12 % vs baseline in Q1, from -0.12 in Q1 to +0.05 in Q20. Bond Price 5Y peaks at +0.14 % vs baseline in Q10, from -0.01 in Q1 to +0.04 in Q20. Bond Price 10Y peaks at +0.11 % vs baseline in Q10, from +0.01 in Q1 to +0.03 in Q20. Bond Price 30Y peaks at +0.08 % vs baseline in Q10, from +0.00 in Q1 to +0.02 in Q20. Equity Index peaks at -0.12 % vs baseline in Q9, from -0.02 in Q1 to +0.02 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.14 % vs baseline in Q7, from -0.03 in Q1 to +0.05 in Q20. House Prices peaks at -0.07 % vs baseline in Q16, from -0.00 in Q1 to -0.06 in Q20. Bank Equity peaks at -0.00 % vs baseline in Q19, from +0.00 in Q1 to -0.00 in Q20. Bank Credit peaks at -0.00 % vs baseline in Q19, from +0.00 in Q1 to -0.00 in Q20. Credit Spread peaks at +0.00 pp in Q19, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. Versus the dollar the home currency is stronger versus the dollar (-0.41% in Q3); the NEER prints a trade-weighted depreciation (-0.31% in Q4); the real exchange rate shows a real depreciation (a weaker, more competitive home currency), peaking at +0.08% in Q11.
 
-Nominal FX. NEER peaks at -0.31 % vs baseline in Q4, from -0.19 in Q1 to -0.06 in Q20. vs USD peaks at -0.41 % vs baseline in Q3, from -0.28 in Q1 to -0.15 in Q20.
+Equities and risk. Tobin's Q (the value of installed capital) falls 0.14% by Q7; equity prices / financial conditions falls 0.12% by Q9; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at -0.03 % vs baseline in Q11, from +0.00 in Q1 to -0.00 in Q20. Services GDP peaks at -0.03 % vs baseline in Q12, from -0.00 in Q1 to -0.00 in Q20. Capital Stock peaks at -0.01 % vs baseline in Q16, from -0.00 in Q1 to -0.01 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q19 (Q20 is -0.00%).
+Sectors and capital. Manufacturing output, services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q19 (Q20 is still -0.00%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/NG_Y.png)
 
@@ -827,27 +821,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## UK — United Kingdom
 
-The main impact of a 20% metals-supply cut on United Kingdom would be only a small drop in GDP of 0.06% by Q4. Equities peak at -0.19% in Q4.
+The main impact of a 20% metals-supply cut on United Kingdom is only a small drop in GDP of 0.06% by Q4. This is a model impulse response versus baseline, not a forecast. Equities soften 0.19% by Q4. The three-year CPI impulse is +0.08 percentage points.
 
-Demand and trade. Consumption peaks at -0.04 % vs baseline in Q4, from -0.02 in Q1 to -0.01 in Q20. Investment peaks at -0.20 % vs baseline in Q4, from -0.11 in Q1 to -0.03 in Q20. Net Exports peaks at -0.34 % vs baseline in Q3, from -0.22 in Q1 to -0.07 in Q20. Gov Spending peaks at +0.01 % vs baseline in Q4, from +0.01 in Q1 to +0.00 in Q20. Gov Debt peaks at -0.00 % vs baseline in Q8, from -0.00 in Q1 to -0.00 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) softens to -0.34% in Q3; private investment / the cost of capital falls 0.20% by Q4; household consumption, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real depreciation (a weaker, more competitive home currency). Real Exchange Rate peaks at +0.51 % vs baseline in Q4, from +0.31 in Q1 to +0.01 in Q20.
+Labour. Employment, unemployment, real wages stay close to baseline.
 
-Labour. Employment peaks at -0.06 % vs baseline in Q9, from -0.01 in Q1 to -0.03 in Q20. Unemployment peaks at +0.04 pp in Q9, from +0.01 in Q1 to +0.02 in Q20. Real Wages peaks at +0.04 % vs baseline in Q10, from -0.00 in Q1 to -0.02 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.08 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.02 in Q1 to -0.00 in Q20. Marginal Cost peaks at -0.04 % vs baseline in Q4, from -0.02 in Q1 to -0.01 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.15% by Q6; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.02 pp (annualized) in Q6, from +0.00 in Q1 to -0.01 in Q20. Real Rate peaks at +0.01 pp (annualized) in Q6, from +0.00 in Q1 to -0.00 in Q20. Govt 3M Yield peaks at +0.02 pp (annualized) in Q6, from +0.00 in Q1 to -0.01 in Q20. Govt 2Y Yield peaks at +0.02 pp (annualized) in Q3, from +0.02 in Q1 to -0.01 in Q20. Govt 5Y Yield peaks at -0.01 pp (annualized) in Q20, from +0.01 in Q1 to -0.01 in Q20. Govt 10Y Yield peaks at -0.01 pp (annualized) in Q19, from -0.00 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.00 pp (annualized) in Q16, from -0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.15 % vs baseline in Q6, from -0.04 in Q1 to +0.05 in Q20. Bond Price 3M peaks at -0.01 % vs baseline in Q6, from -0.00 in Q1 to +0.00 in Q20. Bond Price 2Y peaks at -0.04 % vs baseline in Q3, from -0.03 in Q1 to +0.02 in Q20. Bond Price 5Y peaks at +0.04 % vs baseline in Q20, from -0.04 in Q1 to +0.04 in Q20. Bond Price 10Y peaks at +0.07 % vs baseline in Q19, from +0.00 in Q1 to +0.07 in Q20. Bond Price 30Y peaks at +0.07 % vs baseline in Q16, from +0.04 in Q1 to +0.07 in Q20. Equity Index peaks at -0.19 % vs baseline in Q4, from -0.11 in Q1 to -0.02 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.14 % vs baseline in Q4, from -0.08 in Q1 to -0.02 in Q20. House Prices peaks at -0.06 % vs baseline in Q16, from -0.00 in Q1 to -0.05 in Q20. Bank Equity peaks at -0.02 % vs baseline in Q13, from -0.00 in Q1 to -0.02 in Q20. Bank Credit peaks at -0.02 % vs baseline in Q13, from -0.00 in Q1 to -0.02 in Q20. Credit Spread peaks at +0.00 pp in Q13, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. The NEER prints a trade-weighted depreciation (-0.62% in Q4); the real exchange rate shows a real depreciation (a weaker, more competitive home currency), peaking at +0.51% in Q4; versus the dollar the home currency is stronger versus the dollar (-0.16% in Q19).
 
-Nominal FX. NEER peaks at -0.62 % vs baseline in Q4, from -0.39 in Q1 to -0.02 in Q20. vs USD peaks at -0.16 % vs baseline in Q19, from +0.03 in Q1 to -0.16 in Q20.
+Equities and risk. Equity prices / financial conditions falls 0.19% by Q4; Tobin's Q (the value of installed capital) falls 0.14% by Q4; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at -0.16 % vs baseline in Q4, from -0.10 in Q1 to -0.00 in Q20. Services GDP peaks at -0.05 % vs baseline in Q4, from -0.03 in Q1 to -0.01 in Q20. Capital Stock peaks at -0.01 % vs baseline in Q20, from -0.00 in Q1 to -0.01 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q20 (Q20 is -0.02%).
+Sectors and capital. Manufacturing output falls 0.16% by Q4; services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q20 (Q20 is still -0.02%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/UK_Y.png)
 
@@ -877,27 +873,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## ES — Spain
 
-The main impact of a 20% metals-supply cut on Spain would be only a small drop in GDP of 0.06% by Q4. Equities peak at -0.16% in Q4.
+The main impact of a 20% metals-supply cut on Spain is only a small drop in GDP of 0.06% by Q4. This is a model impulse response versus baseline, not a forecast. Equities soften 0.16% by Q4. The three-year CPI impulse is +0.08 percentage points.
 
-Demand and trade. Consumption peaks at -0.04 % vs baseline in Q4, from -0.02 in Q1 to -0.01 in Q20. Investment peaks at -0.24 % vs baseline in Q4, from -0.13 in Q1 to +0.00 in Q20. Net Exports peaks at -0.34 % vs baseline in Q3, from -0.23 in Q1 to -0.07 in Q20. Gov Spending peaks at +0.01 % vs baseline in Q4, from +0.01 in Q1 to +0.00 in Q20. Gov Debt peaks at +0.00 % vs baseline in Q17, from +0.00 in Q1 to +0.00 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) softens to -0.34% in Q3; private investment / the cost of capital falls 0.24% by Q4; household consumption, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real depreciation (a weaker, more competitive home currency). Real Exchange Rate peaks at +0.44 % vs baseline in Q3, from +0.29 in Q1 to +0.07 in Q20.
+Labour. Employment, unemployment, real wages stay close to baseline.
 
-Labour. Employment peaks at -0.05 % vs baseline in Q11, from -0.01 in Q1 to -0.03 in Q20. Unemployment peaks at +0.03 pp in Q10, from +0.00 in Q1 to +0.01 in Q20. Real Wages peaks at +0.04 % vs baseline in Q10, from -0.00 in Q1 to -0.01 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.08 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.01 in Q1 to -0.00 in Q20. Marginal Cost peaks at -0.04 % vs baseline in Q4, from -0.02 in Q1 to -0.01 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.37% by Q5; 10-year bond prices rally 0.11% by Q13; 5-year bond prices rally 0.10% by Q15; 30-year bond prices rally 0.09% by Q13; the same direction shows up in 2-year bond prices, the local policy rate, 3-month government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.05 pp (annualized) in Q5, from +0.02 in Q1 to -0.03 in Q20. Real Rate peaks at +0.01 pp (annualized) in Q5, from +0.00 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.05 pp (annualized) in Q5, from +0.02 in Q1 to -0.03 in Q20. Govt 2Y Yield peaks at +0.04 pp (annualized) in Q2, from +0.04 in Q1 to -0.03 in Q20. Govt 5Y Yield peaks at -0.02 pp (annualized) in Q15, from +0.01 in Q1 to -0.02 in Q20. Govt 10Y Yield peaks at -0.01 pp (annualized) in Q13, from -0.00 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.00 pp (annualized) in Q13, from -0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.37 % vs baseline in Q5, from -0.11 in Q1 to +0.19 in Q20. Bond Price 3M peaks at -0.01 % vs baseline in Q5, from -0.00 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.08 % vs baseline in Q2, from -0.08 in Q1 to +0.05 in Q20. Bond Price 5Y peaks at +0.10 % vs baseline in Q15, from -0.05 in Q1 to +0.08 in Q20. Bond Price 10Y peaks at +0.11 % vs baseline in Q13, from +0.02 in Q1 to +0.09 in Q20. Bond Price 30Y peaks at +0.09 % vs baseline in Q13, from +0.03 in Q1 to +0.07 in Q20. Equity Index peaks at -0.16 % vs baseline in Q4, from -0.09 in Q1 to -0.01 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.17 % vs baseline in Q4, from -0.09 in Q1 to +0.00 in Q20. House Prices peaks at -0.06 % vs baseline in Q15, from -0.00 in Q1 to -0.06 in Q20. Bank Equity peaks at -0.02 % vs baseline in Q13, from -0.00 in Q1 to -0.02 in Q20. Bank Credit peaks at -0.02 % vs baseline in Q13, from -0.00 in Q1 to -0.01 in Q20. Credit Spread peaks at +0.00 pp in Q13, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. The NEER prints a trade-weighted depreciation (-0.54% in Q3); the real exchange rate shows a real depreciation (a weaker, more competitive home currency), peaking at +0.44% in Q3; versus the dollar the home currency is stronger versus the dollar (-0.10% in Q18).
 
-Nominal FX. NEER peaks at -0.54 % vs baseline in Q3, from -0.35 in Q1 to -0.10 in Q20. vs USD peaks at -0.10 % vs baseline in Q18, from +0.01 in Q1 to -0.09 in Q20.
+Equities and risk. Tobin's Q (the value of installed capital) falls 0.17% by Q4; equity prices / financial conditions falls 0.16% by Q4; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at -0.14 % vs baseline in Q3, from -0.10 in Q1 to -0.02 in Q20. Services GDP peaks at -0.05 % vs baseline in Q4, from -0.03 in Q1 to -0.01 in Q20. Capital Stock peaks at -0.01 % vs baseline in Q19, from -0.00 in Q1 to -0.01 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q20 (Q20 is -0.02%).
+Sectors and capital. Manufacturing output falls 0.14% by Q3; services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q20 (Q20 is still -0.02%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/ES_Y.png)
 
@@ -927,27 +925,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## TH — Thailand
 
-The main impact of a 20% metals-supply cut on Thailand would be only a small drop in GDP of 0.06% by Q4. Equities peak at -0.19% in Q4.
+The main impact of a 20% metals-supply cut on Thailand is only a small drop in GDP of 0.06% by Q4. This is a model impulse response versus baseline, not a forecast. Equities soften 0.19% by Q4. The three-year CPI impulse is +0.10 percentage points.
 
-Demand and trade. Consumption peaks at -0.04 % vs baseline in Q4, from -0.02 in Q1 to -0.01 in Q20. Investment peaks at -0.24 % vs baseline in Q4, from -0.13 in Q1 to +0.02 in Q20. Net Exports peaks at -0.33 % vs baseline in Q3, from -0.22 in Q1 to -0.06 in Q20. Gov Spending peaks at +0.01 % vs baseline in Q4, from +0.01 in Q1 to +0.00 in Q20. Gov Debt peaks at -0.08 % vs baseline in Q16, from -0.01 in Q1 to -0.08 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) softens to -0.33% in Q3; private investment / the cost of capital falls 0.24% by Q4; household consumption, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real depreciation (a weaker, more competitive home currency). Real Exchange Rate peaks at +0.25 % vs baseline in Q4, from +0.17 in Q1 to +0.08 in Q20.
+Labour. Employment, unemployment, real wages stay close to baseline.
 
-Labour. Employment peaks at -0.05 % vs baseline in Q11, from -0.01 in Q1 to -0.03 in Q20. Unemployment peaks at +0.01 pp in Q8, from +0.00 in Q1 to +0.00 in Q20. Real Wages peaks at -0.06 % vs baseline in Q20, from -0.00 in Q1 to -0.06 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.10 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.03 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.02 in Q1 to -0.00 in Q20. Marginal Cost peaks at -0.03 % vs baseline in Q4, from -0.02 in Q1 to -0.01 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.22% by Q4; 10-year bond prices rally 0.13% by Q12; 5-year bond prices rally 0.12% by Q13; 30-year bond prices rally 0.10% by Q11; the same direction shows up in the local policy rate, 3-month government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.05 pp (annualized) in Q4, from +0.02 in Q1 to -0.03 in Q20. Real Rate peaks at +0.01 pp (annualized) in Q4, from +0.00 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.05 pp (annualized) in Q4, from +0.02 in Q1 to -0.03 in Q20. Govt 2Y Yield peaks at +0.04 pp (annualized) in Q2, from +0.04 in Q1 to -0.03 in Q20. Govt 5Y Yield peaks at -0.03 pp (annualized) in Q13, from +0.00 in Q1 to -0.02 in Q20. Govt 10Y Yield peaks at -0.02 pp (annualized) in Q12, from -0.01 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.01 pp (annualized) in Q11, from -0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.22 % vs baseline in Q4, from -0.07 in Q1 to +0.14 in Q20. Bond Price 3M peaks at -0.01 % vs baseline in Q4, from -0.00 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.07 % vs baseline in Q2, from -0.07 in Q1 to +0.06 in Q20. Bond Price 5Y peaks at +0.12 % vs baseline in Q13, from -0.02 in Q1 to +0.09 in Q20. Bond Price 10Y peaks at +0.13 % vs baseline in Q12, from +0.05 in Q1 to +0.09 in Q20. Bond Price 30Y peaks at +0.10 % vs baseline in Q11, from +0.05 in Q1 to +0.07 in Q20. Equity Index peaks at -0.19 % vs baseline in Q4, from -0.10 in Q1 to -0.02 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.17 % vs baseline in Q4, from -0.09 in Q1 to +0.01 in Q20. House Prices peaks at -0.08 % vs baseline in Q14, from -0.01 in Q1 to -0.07 in Q20. Bank Equity peaks at -0.02 % vs baseline in Q13, from -0.00 in Q1 to -0.01 in Q20. Bank Credit peaks at -0.01 % vs baseline in Q13, from -0.00 in Q1 to -0.01 in Q20. Credit Spread peaks at +0.00 pp in Q13, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. The NEER prints a trade-weighted depreciation (-0.97% in Q3); the real exchange rate shows a real depreciation (a weaker, more competitive home currency), peaking at +0.25% in Q4; versus the dollar the home currency is stronger versus the dollar (-0.17% in Q3).
 
-Nominal FX. NEER peaks at -0.97 % vs baseline in Q3, from -0.65 in Q1 to -0.24 in Q20. vs USD peaks at -0.17 % vs baseline in Q3, from -0.11 in Q1 to -0.09 in Q20.
+Equities and risk. Equity prices / financial conditions falls 0.19% by Q4; Tobin's Q (the value of installed capital) falls 0.17% by Q4; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices fall 0.08% by Q14; house prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at -0.10 % vs baseline in Q4, from -0.06 in Q1 to -0.03 in Q20. Services GDP peaks at -0.03 % vs baseline in Q4, from -0.02 in Q1 to -0.01 in Q20. Capital Stock peaks at -0.01 % vs baseline in Q18, from -0.00 in Q1 to -0.01 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q20 (Q20 is -0.01%).
+Sectors and capital. Manufacturing output falls 0.10% by Q4; services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q20 (Q20 is still -0.01%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/TH_Y.png)
 
@@ -977,27 +977,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## CA — Canada
 
-The main impact of a 20% metals-supply cut on Canada would be only a small rise in GDP of 0.06% by Q3. Equities peak at +0.13% in Q2.
+The main impact of a 20% metals-supply cut on Canada is only a small rise in GDP of 0.06% by Q3. This is a model impulse response versus baseline, not a forecast. Equities firm 0.13% by Q2. The three-year CPI impulse is +0.07 percentage points.
 
-Demand and trade. Consumption peaks at +0.04 % vs baseline in Q4, from +0.02 in Q1 to -0.00 in Q20. Investment peaks at +0.09 % vs baseline in Q2, from +0.07 in Q1 to +0.04 in Q20. Net Exports peaks at +0.42 % vs baseline in Q3, from +0.28 in Q1 to +0.08 in Q20. Gov Spending peaks at +0.10 % vs baseline in Q3, from +0.06 in Q1 to +0.02 in Q20. Gov Debt peaks at +0.01 % vs baseline in Q8, from +0.00 in Q1 to +0.00 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) improves to +0.42% in Q3; government spending rises 0.10% by Q3; private investment / the cost of capital rises 0.09% by Q2; household consumption, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real appreciation (a stronger home currency). Real Exchange Rate peaks at -0.50 % vs baseline in Q4, from -0.31 in Q1 to -0.11 in Q20.
+Labour. Employment, unemployment, real wages stay close to baseline.
 
-Labour. Employment peaks at +0.05 % vs baseline in Q6, from +0.01 in Q1 to -0.00 in Q20. Unemployment peaks at -0.02 pp in Q5, from -0.01 in Q1 to +0.00 in Q20. Real Wages peaks at +0.07 % vs baseline in Q14, from +0.00 in Q1 to +0.06 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.07 percentage points. CPI Inflation peaks at +0.02 pp in Q2, from +0.02 in Q1 to -0.00 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.01 in Q1 to -0.00 in Q20. Marginal Cost peaks at +0.04 % vs baseline in Q3, from +0.03 in Q1 to -0.00 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.60% by Q5; 2-year bond prices cheapen 0.16% by Q2; 5-year bond prices cheapen 0.14% by Q1; the local policy rate rises 0.10 percentage points by Q5; the same direction shows up in 3-month government yields, 2-year government yields, 10-year bond prices; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.10 pp (annualized) in Q5, from +0.03 in Q1 to -0.03 in Q20. Real Rate peaks at +0.03 pp (annualized) in Q5, from +0.01 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.10 pp (annualized) in Q5, from +0.03 in Q1 to -0.03 in Q20. Govt 2Y Yield peaks at +0.08 pp (annualized) in Q2, from +0.08 in Q1 to -0.02 in Q20. Govt 5Y Yield peaks at +0.03 pp (annualized) in Q1, from +0.03 in Q1 to -0.01 in Q20. Govt 10Y Yield peaks at +0.01 pp (annualized) in Q1, from +0.01 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at +0.00 pp (annualized) in Q1, from +0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.60 % vs baseline in Q5, from -0.18 in Q1 to +0.16 in Q20. Bond Price 3M peaks at -0.03 % vs baseline in Q5, from -0.01 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.16 % vs baseline in Q2, from -0.15 in Q1 to +0.04 in Q20. Bond Price 5Y peaks at -0.14 % vs baseline in Q1, from -0.14 in Q1 to +0.06 in Q20. Bond Price 10Y peaks at -0.08 % vs baseline in Q1, from -0.08 in Q1 to +0.05 in Q20. Bond Price 30Y peaks at -0.06 % vs baseline in Q1, from -0.06 in Q1 to +0.04 in Q20. Equity Index peaks at +0.13 % vs baseline in Q2, from +0.10 in Q1 to +0.01 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at +0.06 % vs baseline in Q2, from +0.05 in Q1 to +0.03 in Q20. House Prices peaks at +0.03 % vs baseline in Q8, from +0.00 in Q1 to +0.01 in Q20. Bank Equity peaks at +0.00 % vs baseline in Q9, from +0.00 in Q1 to +0.00 in Q20. Bank Credit peaks at +0.00 % vs baseline in Q9, from +0.00 in Q1 to +0.00 in Q20. Credit Spread peaks at +0.00 pp in Q1, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. Versus the dollar the home currency is stronger versus the dollar (-0.91% in Q3); the real exchange rate shows a real appreciation (a stronger home currency), peaking at -0.50% in Q4; the NEER prints a trade-weighted appreciation (+0.49% in Q4).
 
-Nominal FX. NEER peaks at +0.49 % vs baseline in Q4, from +0.31 in Q1 to +0.16 in Q20. vs USD peaks at -0.91 % vs baseline in Q3, from -0.59 in Q1 to -0.28 in Q20.
+Equities and risk. Equity prices / financial conditions rises 0.13% by Q2; the VIX (global equity-implied volatility), Tobin's Q (the value of installed capital) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at +0.16 % vs baseline in Q4, from +0.10 in Q1 to +0.03 in Q20. Services GDP peaks at +0.04 % vs baseline in Q3, from +0.03 in Q1 to -0.00 in Q20. Capital Stock peaks at +0.00 % vs baseline in Q4, from +0.00 in Q1 to -0.00 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q9 (Q20 is -0.00%).
+Sectors and capital. Manufacturing output rises 0.16% by Q4; services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q9 (Q20 is still -0.00%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/CA_Y.png)
 
@@ -1027,27 +1029,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## IN — India
 
-The main impact of a 20% metals-supply cut on India would be only a small drop in GDP of 0.06% by Q12. Equities peak at -0.14% in Q11.
+The main impact of a 20% metals-supply cut on India is only a small drop in GDP of 0.06% by Q12. This is a model impulse response versus baseline, not a forecast. Equities soften 0.14% by Q11. The three-year CPI impulse is +0.11 percentage points.
 
-Demand and trade. Consumption peaks at -0.03 % vs baseline in Q13, from +0.00 in Q1 to -0.01 in Q20. Investment peaks at -0.17 % vs baseline in Q7, from -0.02 in Q1 to +0.05 in Q20. Net Exports peaks at +0.08 % vs baseline in Q4, from +0.05 in Q1 to +0.02 in Q20. Gov Spending peaks at +0.01 % vs baseline in Q11, from +0.00 in Q1 to +0.00 in Q20. Gov Debt peaks at -0.05 % vs baseline in Q20, from +0.00 in Q1 to -0.05 in Q20.
+Demand and trade. Private investment / the cost of capital falls 0.17% by Q7; the trade balance (net exports — this model does not split imports from exports) improves to +0.08% in Q4; household consumption, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real depreciation (a weaker, more competitive home currency). Real Exchange Rate peaks at +0.21 % vs baseline in Q5, from +0.12 in Q1 to +0.08 in Q20.
+Labour. Employment, unemployment, real wages stay close to baseline.
 
-Labour. Employment peaks at -0.03 % vs baseline in Q17, from +0.00 in Q1 to -0.03 in Q20. Unemployment peaks at +0.00 pp in Q13, from +0.00 in Q1 to +0.00 in Q20. Real Wages peaks at +0.06 % vs baseline in Q10, from +0.00 in Q1 to -0.03 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.11 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.01 in Q1 to -0.01 in Q20. Marginal Cost peaks at -0.03 % vs baseline in Q12, from +0.01 in Q1 to -0.01 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.50% by Q4; 5-year bond prices rally 0.14% by Q12; 2-year bond prices cheapen 0.14% by Q2; 10-year bond prices rally 0.13% by Q11; the same direction shows up in the local policy rate, 3-month government yields, 30-year bond prices; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.10 pp (annualized) in Q4, from +0.03 in Q1 to -0.05 in Q20. Real Rate peaks at +0.03 pp (annualized) in Q4, from +0.01 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.10 pp (annualized) in Q4, from +0.03 in Q1 to -0.05 in Q20. Govt 2Y Yield peaks at +0.08 pp (annualized) in Q2, from +0.08 in Q1 to -0.03 in Q20. Govt 5Y Yield peaks at -0.03 pp (annualized) in Q12, from +0.01 in Q1 to -0.02 in Q20. Govt 10Y Yield peaks at -0.02 pp (annualized) in Q11, from +0.00 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.01 pp (annualized) in Q11, from +0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.50 % vs baseline in Q4, from -0.16 in Q1 to +0.24 in Q20. Bond Price 3M peaks at -0.03 % vs baseline in Q4, from -0.01 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.14 % vs baseline in Q2, from -0.14 in Q1 to +0.06 in Q20. Bond Price 5Y peaks at +0.14 % vs baseline in Q12, from -0.06 in Q1 to +0.07 in Q20. Bond Price 10Y peaks at +0.13 % vs baseline in Q11, from -0.00 in Q1 to +0.06 in Q20. Bond Price 30Y peaks at +0.09 % vs baseline in Q11, from -0.01 in Q1 to +0.04 in Q20. Equity Index peaks at -0.14 % vs baseline in Q11, from +0.01 in Q1 to -0.00 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.12 % vs baseline in Q7, from -0.02 in Q1 to +0.04 in Q20. House Prices peaks at -0.05 % vs baseline in Q16, from +0.00 in Q1 to -0.04 in Q20. Bank Equity peaks at +0.00 % vs baseline in Q9, from +0.00 in Q1 to +0.00 in Q20. Bank Credit peaks at +0.00 % vs baseline in Q9, from +0.00 in Q1 to +0.00 in Q20. Credit Spread peaks at +0.00 pp in Q1, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. The NEER prints a trade-weighted depreciation (-1.64% in Q3); versus the dollar the home currency is stronger versus the dollar (-0.22% in Q3); the real exchange rate shows a real depreciation (a weaker, more competitive home currency), peaking at +0.21% in Q5.
 
-Nominal FX. NEER peaks at -1.64 % vs baseline in Q3, from -1.08 in Q1 to -0.37 in Q20. vs USD peaks at -0.22 % vs baseline in Q3, from -0.15 in Q1 to -0.09 in Q20.
+Equities and risk. Equity prices / financial conditions falls 0.14% by Q11; Tobin's Q (the value of installed capital) falls 0.12% by Q7; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at -0.07 % vs baseline in Q9, from -0.04 in Q1 to -0.03 in Q20. Services GDP peaks at -0.03 % vs baseline in Q12, from +0.00 in Q1 to -0.01 in Q20. Capital Stock peaks at -0.01 % vs baseline in Q16, from -0.00 in Q1 to -0.01 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q20 (Q20 is -0.01%).
+Sectors and capital. Manufacturing output, services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q20 (Q20 is still -0.01%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/IN_Y.png)
 
@@ -1077,27 +1081,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## MX — Mexico
 
-The main impact of a 20% metals-supply cut on Mexico would be only a small rise in GDP of 0.05% by Q3. Equities peak at +0.07% in Q2.
+The main impact of a 20% metals-supply cut on Mexico is only a small rise in GDP of 0.05% by Q3. This is a model impulse response versus baseline, not a forecast. The three-year CPI impulse is +0.10 percentage points.
 
-Demand and trade. Consumption peaks at +0.03 % vs baseline in Q4, from +0.01 in Q1 to -0.00 in Q20. Investment peaks at -0.08 % vs baseline in Q9, from +0.06 in Q1 to +0.06 in Q20. Net Exports peaks at +0.42 % vs baseline in Q3, from +0.28 in Q1 to +0.08 in Q20. Gov Spending peaks at +0.10 % vs baseline in Q3, from +0.06 in Q1 to +0.02 in Q20. Gov Debt peaks at +0.04 % vs baseline in Q7, from +0.01 in Q1 to +0.01 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) improves to +0.42% in Q3; government spending rises 0.10% by Q3; private investment / the cost of capital falls 0.08% by Q9; household consumption, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real appreciation (a stronger home currency). Real Exchange Rate peaks at -0.92 % vs baseline in Q3, from -0.59 in Q1 to -0.17 in Q20.
+Labour. Real wages rises 0.08% by Q13; employment, unemployment stay close to baseline.
 
-Labour. Employment peaks at +0.04 % vs baseline in Q6, from +0.01 in Q1 to -0.01 in Q20. Unemployment peaks at -0.01 pp in Q5, from -0.00 in Q1 to +0.00 in Q20. Real Wages peaks at +0.08 % vs baseline in Q13, from +0.00 in Q1 to +0.05 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.10 percentage points. CPI Inflation peaks at +0.02 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.01 in Q1 to -0.00 in Q20. Marginal Cost peaks at +0.03 % vs baseline in Q3, from +0.02 in Q1 to -0.00 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.44% by Q4; 2-year bond prices cheapen 0.16% by Q2; 5-year bond prices cheapen 0.11% by Q1; the local policy rate rises 0.11 percentage points by Q4; the same direction shows up in 3-month government yields, 10-year bond prices, 2-year government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.11 pp (annualized) in Q4, from +0.04 in Q1 to -0.04 in Q20. Real Rate peaks at +0.03 pp (annualized) in Q4, from +0.01 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.11 pp (annualized) in Q4, from +0.04 in Q1 to -0.04 in Q20. Govt 2Y Yield peaks at +0.08 pp (annualized) in Q2, from +0.08 in Q1 to -0.03 in Q20. Govt 5Y Yield peaks at +0.02 pp (annualized) in Q1, from +0.02 in Q1 to -0.01 in Q20. Govt 10Y Yield peaks at -0.01 pp (annualized) in Q13, from +0.01 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.00 pp (annualized) in Q12, from +0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.44 % vs baseline in Q4, from -0.16 in Q1 to +0.15 in Q20. Bond Price 3M peaks at -0.03 % vs baseline in Q4, from -0.01 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.16 % vs baseline in Q2, from -0.15 in Q1 to +0.05 in Q20. Bond Price 5Y peaks at -0.11 % vs baseline in Q1, from -0.11 in Q1 to +0.06 in Q20. Bond Price 10Y peaks at +0.11 % vs baseline in Q13, from -0.05 in Q1 to +0.07 in Q20. Bond Price 30Y peaks at +0.08 % vs baseline in Q12, from -0.03 in Q1 to +0.05 in Q20. Equity Index peaks at +0.07 % vs baseline in Q2, from +0.06 in Q1 to +0.02 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.06 % vs baseline in Q9, from +0.04 in Q1 to +0.04 in Q20. House Prices peaks at +0.03 % vs baseline in Q6, from +0.01 in Q1 to -0.00 in Q20. Bank Equity peaks at +0.00 % vs baseline in Q10, from +0.00 in Q1 to +0.00 in Q20. Bank Credit peaks at +0.00 % vs baseline in Q10, from +0.00 in Q1 to +0.00 in Q20. Credit Spread peaks at +0.00 pp in Q1, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. Versus the dollar the home currency is stronger versus the dollar (-1.34% in Q3); the NEER prints a trade-weighted appreciation (+1.07% in Q3); the real exchange rate shows a real appreciation (a stronger home currency), peaking at -0.92% in Q3.
 
-Nominal FX. NEER peaks at +1.07 % vs baseline in Q3, from +0.69 in Q1 to +0.24 in Q20. vs USD peaks at -1.34 % vs baseline in Q3, from -0.87 in Q1 to -0.34 in Q20.
+Equities and risk. Equity prices / financial conditions, the VIX (global equity-implied volatility), Tobin's Q (the value of installed capital) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at +0.29 % vs baseline in Q3, from +0.19 in Q1 to +0.05 in Q20. Services GDP peaks at +0.03 % vs baseline in Q3, from +0.02 in Q1 to -0.00 in Q20. Capital Stock peaks at -0.00 % vs baseline in Q16, from +0.00 in Q1 to -0.00 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q8 (Q20 is -0.00%).
+Sectors and capital. Manufacturing output rises 0.29% by Q3; services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q8 (Q20 is still -0.00%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/MX_Y.png)
 
@@ -1127,27 +1133,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## CO — Colombia
 
-The main impact of a 20% metals-supply cut on Colombia would be only a small drop in GDP of 0.05% by Q12. Equities peak at -0.10% in Q9.
+The main impact of a 20% metals-supply cut on Colombia is only a small drop in GDP of 0.05% by Q12. This is a model impulse response versus baseline, not a forecast. Equities soften 0.10% by Q9. The three-year CPI impulse is +0.10 percentage points.
 
-Demand and trade. Consumption peaks at -0.03 % vs baseline in Q13, from -0.00 in Q1 to -0.01 in Q20. Investment peaks at -0.18 % vs baseline in Q6, from -0.05 in Q1 to +0.04 in Q20. Net Exports peaks at +0.00 % vs baseline in Q14, from -0.00 in Q1 to +0.00 in Q20. Gov Spending peaks at +0.01 % vs baseline in Q12, from +0.00 in Q1 to +0.00 in Q20. Gov Debt peaks at -0.05 % vs baseline in Q19, from +0.00 in Q1 to -0.05 in Q20.
+Demand and trade. Private investment / the cost of capital falls 0.18% by Q6; household consumption, the trade balance, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real appreciation (a stronger home currency). Real Exchange Rate peaks at -0.46 % vs baseline in Q3, from -0.30 in Q1 to -0.04 in Q20.
+Labour. Employment, unemployment, real wages stay close to baseline.
 
-Labour. Employment peaks at -0.04 % vs baseline in Q16, from +0.00 in Q1 to -0.03 in Q20. Unemployment peaks at +0.00 pp in Q13, from +0.00 in Q1 to +0.00 in Q20. Real Wages peaks at +0.05 % vs baseline in Q10, from +0.00 in Q1 to -0.03 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.10 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.01 in Q1 to -0.00 in Q20. Marginal Cost peaks at -0.03 % vs baseline in Q12, from -0.00 in Q1 to -0.00 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.34% by Q4; 2-year bond prices cheapen 0.13% by Q1; 10-year bond prices rally 0.13% by Q11; 5-year bond prices rally 0.13% by Q12; the same direction shows up in the local policy rate, 3-month government yields, 30-year bond prices; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.09 pp (annualized) in Q4, from +0.03 in Q1 to -0.04 in Q20. Real Rate peaks at +0.02 pp (annualized) in Q4, from +0.01 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.09 pp (annualized) in Q4, from +0.03 in Q1 to -0.04 in Q20. Govt 2Y Yield peaks at +0.07 pp (annualized) in Q1, from +0.07 in Q1 to -0.03 in Q20. Govt 5Y Yield peaks at -0.03 pp (annualized) in Q12, from +0.02 in Q1 to -0.02 in Q20. Govt 10Y Yield peaks at -0.02 pp (annualized) in Q11, from +0.00 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.01 pp (annualized) in Q11, from +0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.34 % vs baseline in Q4, from -0.12 in Q1 to +0.14 in Q20. Bond Price 3M peaks at -0.02 % vs baseline in Q4, from -0.01 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.13 % vs baseline in Q1, from -0.13 in Q1 to +0.06 in Q20. Bond Price 5Y peaks at +0.13 % vs baseline in Q12, from -0.07 in Q1 to +0.08 in Q20. Bond Price 10Y peaks at +0.13 % vs baseline in Q11, from -0.00 in Q1 to +0.07 in Q20. Bond Price 30Y peaks at +0.09 % vs baseline in Q11, from +0.00 in Q1 to +0.05 in Q20. Equity Index peaks at -0.10 % vs baseline in Q9, from -0.02 in Q1 to +0.01 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.13 % vs baseline in Q6, from -0.04 in Q1 to +0.03 in Q20. House Prices peaks at -0.05 % vs baseline in Q16, from -0.00 in Q1 to -0.05 in Q20. Bank Equity peaks at -0.00 % vs baseline in Q18, from +0.00 in Q1 to -0.00 in Q20. Bank Credit peaks at -0.00 % vs baseline in Q18, from +0.00 in Q1 to -0.00 in Q20. Credit Spread peaks at +0.00 pp in Q18, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. Versus the dollar the home currency is stronger versus the dollar (-0.87% in Q3); the real exchange rate shows a real appreciation (a stronger home currency), peaking at -0.46% in Q3; the NEER prints a trade-weighted appreciation (+0.22% in Q3).
 
-Nominal FX. NEER peaks at +0.22 % vs baseline in Q3, from +0.14 in Q1 to +0.01 in Q20. vs USD peaks at -0.87 % vs baseline in Q3, from -0.57 in Q1 to -0.20 in Q20.
+Equities and risk. Tobin's Q (the value of installed capital) falls 0.13% by Q6; equity prices / financial conditions falls 0.10% by Q9; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at +0.14 % vs baseline in Q3, from +0.09 in Q1 to +0.01 in Q20. Services GDP peaks at -0.03 % vs baseline in Q12, from -0.00 in Q1 to -0.01 in Q20. Capital Stock peaks at -0.01 % vs baseline in Q17, from -0.00 in Q1 to -0.01 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q20 (Q20 is -0.01%).
+Sectors and capital. Manufacturing output rises 0.14% by Q3; services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q20 (Q20 is still -0.01%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/CO_Y.png)
 
@@ -1177,27 +1185,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## ID — Indonesia
 
-The main impact of a 20% metals-supply cut on Indonesia would be only a small rise in GDP of 0.04% by Q3. Equities peak at +0.06% in Q2.
+The main impact of a 20% metals-supply cut on Indonesia is only a small rise in GDP of 0.04% by Q3. This is a model impulse response versus baseline, not a forecast. The three-year CPI impulse is +0.12 percentage points.
 
-Demand and trade. Consumption peaks at +0.03 % vs baseline in Q4, from +0.01 in Q1 to -0.01 in Q20. Investment peaks at -0.08 % vs baseline in Q9, from +0.06 in Q1 to +0.03 in Q20. Net Exports peaks at +0.34 % vs baseline in Q3, from +0.22 in Q1 to +0.07 in Q20. Gov Spending peaks at +0.04 % vs baseline in Q3, from +0.03 in Q1 to +0.01 in Q20. Gov Debt peaks at +0.04 % vs baseline in Q7, from +0.01 in Q1 to -0.00 in Q20.
+Demand and trade. The trade balance (net exports — this model does not split imports from exports) improves to +0.34% in Q3; private investment / the cost of capital falls 0.08% by Q9; household consumption, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real appreciation (a stronger home currency). Real Exchange Rate peaks at -0.47 % vs baseline in Q3, from -0.31 in Q1 to -0.07 in Q20.
+Labour. Real wages rises 0.09% by Q12; employment, unemployment stay close to baseline.
 
-Labour. Employment peaks at +0.03 % vs baseline in Q7, from +0.00 in Q1 to -0.01 in Q20. Unemployment peaks at -0.00 pp in Q5, from -0.00 in Q1 to +0.00 in Q20. Real Wages peaks at +0.09 % vs baseline in Q12, from +0.00 in Q1 to +0.04 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.12 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.01 in Q1 to -0.00 in Q20. Marginal Cost peaks at +0.03 % vs baseline in Q3, from +0.02 in Q1 to -0.00 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.36% by Q5; 2-year bond prices cheapen 0.13% by Q2; 5-year bond prices cheapen 0.11% by Q1; 10-year bond prices rally 0.09% by Q13; the same direction shows up in the local policy rate, 3-month government yields, 2-year government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.09 pp (annualized) in Q5, from +0.02 in Q1 to -0.03 in Q20. Real Rate peaks at +0.02 pp (annualized) in Q5, from +0.01 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.09 pp (annualized) in Q5, from +0.02 in Q1 to -0.03 in Q20. Govt 2Y Yield peaks at +0.07 pp (annualized) in Q2, from +0.07 in Q1 to -0.02 in Q20. Govt 5Y Yield peaks at +0.02 pp (annualized) in Q1, from +0.02 in Q1 to -0.01 in Q20. Govt 10Y Yield peaks at -0.01 pp (annualized) in Q13, from +0.01 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.00 pp (annualized) in Q13, from +0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.36 % vs baseline in Q5, from -0.10 in Q1 to +0.13 in Q20. Bond Price 3M peaks at -0.02 % vs baseline in Q5, from -0.01 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.13 % vs baseline in Q2, from -0.13 in Q1 to +0.05 in Q20. Bond Price 5Y peaks at -0.11 % vs baseline in Q1, from -0.11 in Q1 to +0.07 in Q20. Bond Price 10Y peaks at +0.09 % vs baseline in Q13, from -0.04 in Q1 to +0.06 in Q20. Bond Price 30Y peaks at +0.07 % vs baseline in Q13, from -0.03 in Q1 to +0.05 in Q20. Equity Index peaks at +0.06 % vs baseline in Q2, from +0.05 in Q1 to +0.00 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.06 % vs baseline in Q9, from +0.04 in Q1 to +0.02 in Q20. House Prices peaks at +0.02 % vs baseline in Q6, from +0.00 in Q1 to -0.01 in Q20. Bank Equity peaks at +0.00 % vs baseline in Q11, from +0.00 in Q1 to +0.00 in Q20. Bank Credit peaks at +0.00 % vs baseline in Q11, from +0.00 in Q1 to +0.00 in Q20. Credit Spread peaks at +0.00 pp in Q1, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. Versus the dollar the home currency is stronger versus the dollar (-0.88% in Q3); the NEER prints a trade-weighted depreciation (-0.62% in Q3); the real exchange rate shows a real appreciation (a stronger home currency), peaking at -0.47% in Q3.
 
-Nominal FX. NEER peaks at -0.62 % vs baseline in Q3, from -0.41 in Q1 to -0.16 in Q20. vs USD peaks at -0.88 % vs baseline in Q3, from -0.59 in Q1 to -0.23 in Q20.
+Equities and risk. Equity prices / financial conditions, the VIX (global equity-implied volatility), Tobin's Q (the value of installed capital) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at +0.15 % vs baseline in Q3, from +0.10 in Q1 to +0.02 in Q20. Services GDP peaks at +0.02 % vs baseline in Q3, from +0.01 in Q1 to -0.00 in Q20. Capital Stock peaks at -0.00 % vs baseline in Q17, from +0.00 in Q1 to -0.00 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. The GDP response has mostly faded by Q8 (Q20 is -0.01%).
+Sectors and capital. Manufacturing output rises 0.15% by Q3; services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+The GDP response has mostly faded by Q8 (Q20 is still -0.01%).
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/ID_Y.png)
 
@@ -1227,27 +1237,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## SA — Saudi Arabia
 
-The main impact of a 20% metals-supply cut on Saudi Arabia would be only a small drop in GDP of 0.04% by Q10. Equities peak at -0.18% in Q8.
+The main impact of a 20% metals-supply cut on Saudi Arabia is only a small drop in GDP of 0.04% by Q10. This is a model impulse response versus baseline, not a forecast. Equities soften 0.18% by Q8. The three-year CPI impulse is +0.07 percentage points.
 
-Demand and trade. Consumption peaks at -0.02 % vs baseline in Q3, from -0.01 in Q1 to -0.01 in Q20. Investment peaks at -0.22 % vs baseline in Q5, from -0.10 in Q1 to +0.03 in Q20. Net Exports peaks at -0.21 % vs baseline in Q3, from -0.14 in Q1 to -0.05 in Q20. Gov Spending peaks at +0.01 % vs baseline in Q3, from +0.01 in Q1 to -0.00 in Q20. Gov Debt peaks at -0.08 % vs baseline in Q20, from -0.00 in Q1 to -0.08 in Q20.
+Demand and trade. Private investment / the cost of capital falls 0.22% by Q5; the trade balance (net exports — this model does not split imports from exports) softens to -0.21% in Q3; household consumption, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real appreciation (a stronger home currency). Real Exchange Rate peaks at -0.04 % vs baseline in Q9, from -0.00 in Q1 to -0.00 in Q20.
+Labour. Employment, unemployment, real wages stay close to baseline.
 
-Labour. Employment peaks at -0.04 % vs baseline in Q14, from -0.00 in Q1 to -0.03 in Q20. Unemployment peaks at +0.02 pp in Q13, from +0.00 in Q1 to +0.01 in Q20. Real Wages peaks at +0.02 % vs baseline in Q10, from -0.00 in Q1 to -0.02 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.07 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.00 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.01 in Q1 to -0.00 in Q20. Marginal Cost peaks at -0.02 % vs baseline in Q10, from -0.01 in Q1 to -0.01 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.42% by Q4; 5-year bond prices rally 0.14% by Q12; 10-year bond prices rally 0.13% by Q11; 2-year bond prices cheapen 0.12% by Q2; the same direction shows up in 30-year bond prices, the local policy rate, 3-month government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.08 pp (annualized) in Q4, from +0.03 in Q1 to -0.04 in Q20. Real Rate peaks at +0.02 pp (annualized) in Q4, from +0.01 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.08 pp (annualized) in Q4, from +0.03 in Q1 to -0.04 in Q20. Govt 2Y Yield peaks at +0.06 pp (annualized) in Q2, from +0.06 in Q1 to -0.03 in Q20. Govt 5Y Yield peaks at -0.03 pp (annualized) in Q12, from +0.01 in Q1 to -0.02 in Q20. Govt 10Y Yield peaks at -0.02 pp (annualized) in Q11, from -0.00 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.00 pp (annualized) in Q12, from -0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.42 % vs baseline in Q4, from -0.13 in Q1 to +0.22 in Q20. Bond Price 3M peaks at -0.02 % vs baseline in Q4, from -0.01 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.12 % vs baseline in Q2, from -0.12 in Q1 to +0.07 in Q20. Bond Price 5Y peaks at +0.14 % vs baseline in Q12, from -0.05 in Q1 to +0.09 in Q20. Bond Price 10Y peaks at +0.13 % vs baseline in Q11, from +0.02 in Q1 to +0.07 in Q20. Bond Price 30Y peaks at +0.09 % vs baseline in Q12, from +0.01 in Q1 to +0.05 in Q20. Equity Index peaks at -0.18 % vs baseline in Q8, from -0.09 in Q1 to -0.04 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.16 % vs baseline in Q5, from -0.07 in Q1 to +0.02 in Q20. House Prices peaks at -0.06 % vs baseline in Q15, from -0.00 in Q1 to -0.05 in Q20. Bank Equity peaks at -0.01 % vs baseline in Q16, from -0.00 in Q1 to -0.01 in Q20. Bank Credit peaks at -0.01 % vs baseline in Q16, from -0.00 in Q1 to -0.01 in Q20. Credit Spread peaks at +0.00 pp in Q16, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. Versus the dollar the home currency is stronger versus the dollar (-0.43% in Q4); the NEER prints a trade-weighted depreciation (-0.13% in Q3); the real exchange rate stay close to baseline.
 
-Nominal FX. NEER peaks at -0.13 % vs baseline in Q3, from -0.09 in Q1 to -0.02 in Q20. vs USD peaks at -0.43 % vs baseline in Q4, from -0.28 in Q1 to -0.17 in Q20.
+Equities and risk. Equity prices / financial conditions falls 0.18% by Q8; Tobin's Q (the value of installed capital) falls 0.16% by Q5; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at +0.01 % vs baseline in Q10, from -0.00 in Q1 to -0.00 in Q20. Services GDP peaks at -0.02 % vs baseline in Q10, from -0.01 in Q1 to -0.01 in Q20. Capital Stock peaks at -0.01 % vs baseline in Q17, from -0.00 in Q1 to -0.01 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. By Q20 GDP is still -0.01% from baseline.
+Sectors and capital. Manufacturing output, services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+By Q20, GDP is still -0.01% from baseline.
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/SA_Y.png)
 
@@ -1277,27 +1289,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## US — United States
 
-The main impact of a 20% metals-supply cut on the United States would be only a small drop in GDP of 0.04% by Q11. Equities peak at -0.13% in Q10.
+The main impact of a 20% metals-supply cut on the United States is only a small drop in GDP of 0.04% by Q11. This is a model impulse response versus baseline, not a forecast. Equities soften 0.13% by Q10. The three-year CPI impulse is +0.10 percentage points.
 
-Demand and trade. Consumption peaks at -0.02 % vs baseline in Q13, from -0.00 in Q1 to -0.01 in Q20. Investment peaks at -0.17 % vs baseline in Q6, from -0.04 in Q1 to +0.05 in Q20. Net Exports peaks at +0.00 % vs baseline in Q17, from -0.00 in Q1 to +0.00 in Q20. Gov Spending peaks at +0.01 % vs baseline in Q12, from +0.00 in Q1 to +0.00 in Q20. Gov Debt peaks at -0.01 % vs baseline in Q14, from +0.00 in Q1 to -0.00 in Q20.
+Demand and trade. Private investment / the cost of capital falls 0.17% by Q6; household consumption, the trade balance, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real depreciation (a weaker, more competitive home currency). Real Exchange Rate peaks at +0.42 % vs baseline in Q3, from +0.28 in Q1 to +0.17 in Q20.
+Labour. Employment, unemployment, real wages stay close to baseline.
 
-Labour. Employment peaks at -0.04 % vs baseline in Q14, from +0.00 in Q1 to -0.02 in Q20. Unemployment peaks at +0.03 pp in Q14, from +0.00 in Q1 to +0.02 in Q20. Real Wages peaks at +0.05 % vs baseline in Q11, from +0.00 in Q1 to +0.01 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.10 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.01 in Q1 to -0.00 in Q20. Marginal Cost peaks at -0.02 % vs baseline in Q12, from -0.00 in Q1 to -0.01 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.55% by Q4; 5-year bond prices rally 0.14% by Q12; 10-year bond prices rally 0.13% by Q11; 2-year bond prices cheapen 0.12% by Q2; the same direction shows up in 30-year bond prices, the local policy rate, 3-month government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.08 pp (annualized) in Q4, from +0.03 in Q1 to -0.04 in Q20. Real Rate peaks at +0.02 pp (annualized) in Q4, from +0.01 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.08 pp (annualized) in Q4, from +0.03 in Q1 to -0.04 in Q20. Govt 2Y Yield peaks at +0.06 pp (annualized) in Q2, from +0.06 in Q1 to -0.03 in Q20. Govt 5Y Yield peaks at -0.03 pp (annualized) in Q12, from +0.01 in Q1 to -0.02 in Q20. Govt 10Y Yield peaks at -0.02 pp (annualized) in Q11, from -0.00 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.00 pp (annualized) in Q12, from -0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.55 % vs baseline in Q4, from -0.17 in Q1 to +0.29 in Q20. Bond Price 3M peaks at -0.02 % vs baseline in Q4, from -0.01 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.12 % vs baseline in Q2, from -0.12 in Q1 to +0.07 in Q20. Bond Price 5Y peaks at +0.14 % vs baseline in Q12, from -0.05 in Q1 to +0.09 in Q20. Bond Price 10Y peaks at +0.13 % vs baseline in Q11, from +0.02 in Q1 to +0.07 in Q20. Bond Price 30Y peaks at +0.09 % vs baseline in Q12, from +0.01 in Q1 to +0.05 in Q20. Equity Index peaks at -0.13 % vs baseline in Q10, from -0.02 in Q1 to -0.01 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.12 % vs baseline in Q6, from -0.03 in Q1 to +0.03 in Q20. House Prices peaks at -0.03 % vs baseline in Q16, from -0.00 in Q1 to -0.03 in Q20. Bank Equity peaks at -0.00 % vs baseline in Q14, from -0.00 in Q1 to -0.00 in Q20. Bank Credit peaks at -0.00 % vs baseline in Q14, from -0.00 in Q1 to -0.00 in Q20. Credit Spread peaks at +0.00 pp in Q14, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. The NEER prints a trade-weighted depreciation (-0.85% in Q3); versus the dollar the home currency is stronger versus the dollar (-0.85% in Q3); the real exchange rate shows a real depreciation (a weaker, more competitive home currency), peaking at +0.42% in Q3.
 
-Nominal FX. NEER peaks at -0.85 % vs baseline in Q3, from -0.56 in Q1 to -0.26 in Q20. vs USD peaks at -0.85 % vs baseline in Q3, from -0.56 in Q1 to -0.26 in Q20.
+Equities and risk. Equity prices / financial conditions falls 0.13% by Q10; Tobin's Q (the value of installed capital) falls 0.12% by Q6; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at -0.13 % vs baseline in Q3, from -0.08 in Q1 to -0.05 in Q20. Services GDP peaks at -0.03 % vs baseline in Q11, from -0.00 in Q1 to -0.01 in Q20. Capital Stock peaks at -0.01 % vs baseline in Q16, from -0.00 in Q1 to -0.01 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. By Q20 GDP is still -0.01% from baseline.
+Sectors and capital. Manufacturing output falls 0.13% by Q3; services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+By Q20, GDP is still -0.01% from baseline.
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/US_Y.png)
 
@@ -1327,27 +1341,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## NO — Norway
 
-The main impact of a 20% metals-supply cut on Norway would be only a small drop in GDP of 0.03% by Q12. Equities peak at -0.06% in Q9.
+The main impact of a 20% metals-supply cut on Norway is only a small drop in GDP of 0.03% by Q12. This is a model impulse response versus baseline, not a forecast. The three-year CPI impulse is +0.10 percentage points.
 
-Demand and trade. Consumption peaks at -0.01 % vs baseline in Q14, from -0.00 in Q1 to -0.01 in Q20. Investment peaks at -0.12 % vs baseline in Q6, from -0.03 in Q1 to +0.02 in Q20. Net Exports peaks at -0.01 % vs baseline in Q13, from +0.00 in Q1 to -0.00 in Q20. Gov Spending peaks at +0.00 % vs baseline in Q4, from +0.00 in Q1 to -0.00 in Q20. Gov Debt peaks at +0.01 % vs baseline in Q19, from +0.00 in Q1 to +0.01 in Q20.
+Demand and trade. Private investment / the cost of capital falls 0.12% by Q6; household consumption, the trade balance, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real appreciation (a stronger home currency). Real Exchange Rate peaks at -0.44 % vs baseline in Q3, from -0.29 in Q1 to -0.05 in Q20.
+Labour. Employment, unemployment, real wages stay close to baseline.
 
-Labour. Employment peaks at -0.02 % vs baseline in Q17, from +0.00 in Q1 to -0.02 in Q20. Unemployment peaks at +0.02 pp in Q15, from +0.00 in Q1 to +0.01 in Q20. Real Wages peaks at +0.05 % vs baseline in Q12, from +0.00 in Q1 to +0.02 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.10 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.00 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.02 in Q1 to -0.00 in Q20. Marginal Cost peaks at -0.02 % vs baseline in Q13, from +0.00 in Q1 to -0.01 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.42% by Q5; 10-year bond prices rally 0.11% by Q13; 2-year bond prices cheapen 0.10% by Q2; 5-year bond prices rally 0.10% by Q14; the same direction shows up in the local policy rate, 3-month government yields, 2-year government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.07 pp (annualized) in Q5, from +0.02 in Q1 to -0.03 in Q20. Real Rate peaks at +0.02 pp (annualized) in Q5, from +0.00 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.07 pp (annualized) in Q5, from +0.02 in Q1 to -0.03 in Q20. Govt 2Y Yield peaks at +0.05 pp (annualized) in Q2, from +0.05 in Q1 to -0.03 in Q20. Govt 5Y Yield peaks at -0.02 pp (annualized) in Q14, from +0.02 in Q1 to -0.02 in Q20. Govt 10Y Yield peaks at -0.01 pp (annualized) in Q13, from -0.00 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.00 pp (annualized) in Q13, from -0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.42 % vs baseline in Q5, from -0.12 in Q1 to +0.19 in Q20. Bond Price 3M peaks at -0.02 % vs baseline in Q5, from -0.00 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.10 % vs baseline in Q2, from -0.10 in Q1 to +0.05 in Q20. Bond Price 5Y peaks at +0.10 % vs baseline in Q14, from -0.07 in Q1 to +0.08 in Q20. Bond Price 10Y peaks at +0.11 % vs baseline in Q13, from +0.00 in Q1 to +0.08 in Q20. Bond Price 30Y peaks at +0.08 % vs baseline in Q13, from +0.01 in Q1 to +0.06 in Q20. Equity Index peaks at -0.06 % vs baseline in Q9, from -0.01 in Q1 to -0.00 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.09 % vs baseline in Q6, from -0.02 in Q1 to +0.02 in Q20. House Prices peaks at -0.03 % vs baseline in Q18, from -0.00 in Q1 to -0.02 in Q20. Bank Equity peaks at -0.01 % vs baseline in Q18, from +0.00 in Q1 to -0.01 in Q20. Bank Credit peaks at -0.00 % vs baseline in Q18, from +0.00 in Q1 to -0.00 in Q20. Credit Spread peaks at +0.00 pp in Q18, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. Versus the dollar the home currency is stronger versus the dollar (-0.86% in Q3); the real exchange rate shows a real appreciation (a stronger home currency), peaking at -0.44% in Q3; the NEER prints a trade-weighted depreciation (-0.22% in Q3).
 
-Nominal FX. NEER peaks at -0.22 % vs baseline in Q3, from -0.14 in Q1 to -0.09 in Q20. vs USD peaks at -0.86 % vs baseline in Q3, from -0.57 in Q1 to -0.22 in Q20.
+Equities and risk. Tobin's Q (the value of installed capital) falls 0.09% by Q6; equity prices / financial conditions, the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at +0.13 % vs baseline in Q3, from +0.09 in Q1 to +0.01 in Q20. Services GDP peaks at -0.02 % vs baseline in Q12, from -0.00 in Q1 to -0.01 in Q20. Capital Stock peaks at -0.01 % vs baseline in Q17, from -0.00 in Q1 to -0.01 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. By Q20 GDP is still -0.01% from baseline.
+Sectors and capital. Manufacturing output rises 0.13% by Q3; services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+By Q20, GDP is still -0.01% from baseline.
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/NO_Y.png)
 
@@ -1377,27 +1393,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## NL — Netherlands
 
-The main impact of a 20% metals-supply cut on Netherlands would be only a small drop in GDP of 0.03% by Q10. Equities peak at -0.09% in Q7.
+The main impact of a 20% metals-supply cut on Netherlands is only a small drop in GDP of 0.03% by Q10. This is a model impulse response versus baseline, not a forecast. Equities soften 0.09% by Q7. The three-year CPI impulse is +0.09 percentage points.
 
-Demand and trade. Consumption peaks at -0.01 % vs baseline in Q11, from -0.00 in Q1 to -0.00 in Q20. Investment peaks at -0.13 % vs baseline in Q6, from -0.04 in Q1 to +0.02 in Q20. Net Exports peaks at +0.01 % vs baseline in Q6, from +0.00 in Q1 to -0.00 in Q20. Gov Spending peaks at +0.00 % vs baseline in Q10, from +0.00 in Q1 to +0.00 in Q20. Gov Debt peaks at +0.00 % vs baseline in Q18, from +0.00 in Q1 to +0.00 in Q20.
+Demand and trade. Private investment / the cost of capital falls 0.13% by Q6; household consumption, the trade balance, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real depreciation (a weaker, more competitive home currency). Real Exchange Rate peaks at +0.01 % vs baseline in Q8, from +0.00 in Q1 to -0.01 in Q20.
+Labour. Employment, unemployment, real wages stay close to baseline.
 
-Labour. Employment peaks at -0.02 % vs baseline in Q15, from -0.00 in Q1 to -0.02 in Q20. Unemployment peaks at +0.02 pp in Q13, from +0.00 in Q1 to +0.01 in Q20. Real Wages peaks at +0.05 % vs baseline in Q11, from +0.00 in Q1 to +0.01 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.09 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.02 in Q1 to -0.00 in Q20. Marginal Cost peaks at -0.01 % vs baseline in Q11, from -0.00 in Q1 to -0.00 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.37% by Q5; 10-year bond prices rally 0.11% by Q13; 5-year bond prices rally 0.10% by Q15; 30-year bond prices rally 0.09% by Q13; the same direction shows up in 2-year bond prices, the local policy rate, 3-month government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.05 pp (annualized) in Q5, from +0.02 in Q1 to -0.03 in Q20. Real Rate peaks at +0.01 pp (annualized) in Q5, from +0.00 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.05 pp (annualized) in Q5, from +0.02 in Q1 to -0.03 in Q20. Govt 2Y Yield peaks at +0.04 pp (annualized) in Q2, from +0.04 in Q1 to -0.03 in Q20. Govt 5Y Yield peaks at -0.02 pp (annualized) in Q15, from +0.01 in Q1 to -0.02 in Q20. Govt 10Y Yield peaks at -0.01 pp (annualized) in Q13, from -0.00 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.00 pp (annualized) in Q13, from -0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.37 % vs baseline in Q5, from -0.11 in Q1 to +0.19 in Q20. Bond Price 3M peaks at -0.01 % vs baseline in Q5, from -0.00 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.08 % vs baseline in Q2, from -0.08 in Q1 to +0.05 in Q20. Bond Price 5Y peaks at +0.10 % vs baseline in Q15, from -0.05 in Q1 to +0.08 in Q20. Bond Price 10Y peaks at +0.11 % vs baseline in Q13, from +0.02 in Q1 to +0.09 in Q20. Bond Price 30Y peaks at +0.09 % vs baseline in Q13, from +0.03 in Q1 to +0.07 in Q20. Equity Index peaks at -0.09 % vs baseline in Q7, from -0.03 in Q1 to -0.00 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.09 % vs baseline in Q6, from -0.03 in Q1 to +0.02 in Q20. House Prices peaks at -0.03 % vs baseline in Q16, from -0.00 in Q1 to -0.03 in Q20. Bank Equity peaks at -0.01 % vs baseline in Q16, from -0.00 in Q1 to -0.01 in Q20. Bank Credit peaks at -0.01 % vs baseline in Q16, from -0.00 in Q1 to -0.01 in Q20. Credit Spread peaks at +0.00 pp in Q15, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. Versus the dollar the home currency is stronger versus the dollar (-0.41% in Q3); the NEER prints a trade-weighted depreciation (-0.12% in Q3); the real exchange rate stay close to baseline.
 
-Nominal FX. NEER peaks at -0.12 % vs baseline in Q3, from -0.08 in Q1 to -0.01 in Q20. vs USD peaks at -0.41 % vs baseline in Q3, from -0.28 in Q1 to -0.18 in Q20.
+Equities and risk. Tobin's Q (the value of installed capital) falls 0.09% by Q6; equity prices / financial conditions falls 0.09% by Q7; the VIX (global equity-implied volatility) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at -0.01 % vs baseline in Q8, from -0.00 in Q1 to +0.00 in Q20. Services GDP peaks at -0.02 % vs baseline in Q10, from -0.01 in Q1 to -0.01 in Q20. Capital Stock peaks at -0.01 % vs baseline in Q17, from -0.00 in Q1 to -0.01 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. By Q20 GDP is still -0.01% from baseline.
+Sectors and capital. Manufacturing output, services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+By Q20, GDP is still -0.01% from baseline.
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/NL_Y.png)
 
@@ -1427,27 +1445,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## MY — Malaysia
 
-The main impact of a 20% metals-supply cut on Malaysia would be only a small drop in GDP of 0.02% by Q12. Equities peak at -0.07% in Q8.
+The main impact of a 20% metals-supply cut on Malaysia is only a small drop in GDP of 0.02% by Q12. This is a model impulse response versus baseline, not a forecast. The three-year CPI impulse is +0.10 percentage points.
 
-Demand and trade. Consumption peaks at -0.01 % vs baseline in Q13, from -0.00 in Q1 to -0.01 in Q20. Investment peaks at -0.11 % vs baseline in Q6, from -0.03 in Q1 to +0.02 in Q20. Net Exports peaks at +0.01 % vs baseline in Q5, from +0.01 in Q1 to +0.00 in Q20. Gov Spending peaks at +0.00 % vs baseline in Q11, from +0.00 in Q1 to +0.00 in Q20. Gov Debt peaks at -0.03 % vs baseline in Q20, from +0.00 in Q1 to -0.03 in Q20.
+Demand and trade. Private investment / the cost of capital falls 0.11% by Q6; household consumption, the trade balance, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real appreciation (a stronger home currency). Real Exchange Rate peaks at -0.19 % vs baseline in Q3, from -0.12 in Q1 to -0.03 in Q20.
+Labour. Employment, unemployment, real wages stay close to baseline.
 
-Labour. Employment peaks at -0.02 % vs baseline in Q16, from +0.00 in Q1 to -0.01 in Q20. Unemployment peaks at +0.01 pp in Q14, from +0.00 in Q1 to +0.00 in Q20. Real Wages peaks at +0.05 % vs baseline in Q10, from +0.00 in Q1 to +0.00 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.10 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.03 in Q1 to -0.00 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.02 in Q1 to -0.00 in Q20. Marginal Cost peaks at -0.01 % vs baseline in Q12, from -0.00 in Q1 to -0.00 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.23% by Q5; 2-year bond prices cheapen 0.09% by Q2; 10-year bond prices rally 0.08% by Q13; the local policy rate rises 0.06 percentage points by Q5; the same direction shows up in 3-month government yields; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.06 pp (annualized) in Q5, from +0.02 in Q1 to -0.02 in Q20. Real Rate peaks at +0.01 pp (annualized) in Q5, from +0.00 in Q1 to -0.01 in Q20. Govt 3M Yield peaks at +0.06 pp (annualized) in Q5, from +0.02 in Q1 to -0.02 in Q20. Govt 2Y Yield peaks at +0.04 pp (annualized) in Q2, from +0.04 in Q1 to -0.02 in Q20. Govt 5Y Yield peaks at -0.02 pp (annualized) in Q14, from +0.01 in Q1 to -0.01 in Q20. Govt 10Y Yield peaks at -0.01 pp (annualized) in Q13, from +0.00 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.00 pp (annualized) in Q13, from -0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.23 % vs baseline in Q5, from -0.08 in Q1 to +0.10 in Q20. Bond Price 3M peaks at -0.01 % vs baseline in Q5, from -0.00 in Q1 to +0.01 in Q20. Bond Price 2Y peaks at -0.09 % vs baseline in Q2, from -0.08 in Q1 to +0.04 in Q20. Bond Price 5Y peaks at +0.08 % vs baseline in Q14, from -0.06 in Q1 to +0.06 in Q20. Bond Price 10Y peaks at +0.08 % vs baseline in Q13, from -0.00 in Q1 to +0.06 in Q20. Bond Price 30Y peaks at +0.06 % vs baseline in Q13, from +0.00 in Q1 to +0.04 in Q20. Equity Index peaks at -0.07 % vs baseline in Q8, from -0.01 in Q1 to +0.00 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.07 % vs baseline in Q6, from -0.02 in Q1 to +0.02 in Q20. House Prices peaks at -0.03 % vs baseline in Q16, from -0.00 in Q1 to -0.03 in Q20. Bank Equity peaks at -0.00 % vs baseline in Q19, from +0.00 in Q1 to -0.00 in Q20. Bank Credit peaks at -0.00 % vs baseline in Q19, from +0.00 in Q1 to -0.00 in Q20. Credit Spread peaks at +0.00 pp in Q17, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. The NEER prints a trade-weighted depreciation (-1.03% in Q3); versus the dollar the home currency is stronger versus the dollar (-0.61% in Q3); the real exchange rate shows a real appreciation (a stronger home currency), peaking at -0.19% in Q3.
 
-Nominal FX. NEER peaks at -1.03 % vs baseline in Q3, from -0.68 in Q1 to -0.22 in Q20. vs USD peaks at -0.61 % vs baseline in Q3, from -0.40 in Q1 to -0.20 in Q20.
+Equities and risk. Equity prices / financial conditions, the VIX (global equity-implied volatility), Tobin's Q (the value of installed capital) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at +0.05 % vs baseline in Q3, from +0.04 in Q1 to +0.01 in Q20. Services GDP peaks at -0.01 % vs baseline in Q12, from -0.00 in Q1 to -0.00 in Q20. Capital Stock peaks at -0.01 % vs baseline in Q17, from -0.00 in Q1 to -0.01 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. By Q20 GDP is still -0.01% from baseline.
+Sectors and capital. Manufacturing output, services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+By Q20, GDP is still -0.01% from baseline.
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/MY_Y.png)
 
@@ -1477,27 +1497,29 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## CH — Switzerland
 
-The main impact of a 20% metals-supply cut on Switzerland would be only a small drop in GDP of 0.02% by Q9. Equities peak at -0.10% in Q7.
+The main impact of a 20% metals-supply cut on Switzerland is only a small drop in GDP of 0.02% by Q9. This is a model impulse response versus baseline, not a forecast. Equities soften 0.10% by Q7. The three-year CPI impulse is +0.09 percentage points.
 
-Demand and trade. Consumption peaks at -0.01 % vs baseline in Q10, from -0.00 in Q1 to -0.00 in Q20. Investment peaks at -0.11 % vs baseline in Q6, from -0.03 in Q1 to +0.01 in Q20. Net Exports peaks at +0.01 % vs baseline in Q6, from +0.00 in Q1 to -0.00 in Q20. Gov Spending peaks at +0.00 % vs baseline in Q10, from +0.00 in Q1 to +0.00 in Q20. Gov Debt peaks at -0.01 % vs baseline in Q16, from -0.00 in Q1 to -0.01 in Q20.
+Demand and trade. Private investment / the cost of capital falls 0.11% by Q6; household consumption, the trade balance, government spending, government debt stay close to baseline.
 
-External / FX. The real exchange rate shows real depreciation (a weaker, more competitive home currency). Real Exchange Rate peaks at +0.46 % vs baseline in Q4, from +0.29 in Q1 to +0.06 in Q20.
+Labour. Employment, unemployment, real wages stay close to baseline.
 
-Labour. Employment peaks at -0.02 % vs baseline in Q13, from -0.00 in Q1 to -0.01 in Q20. Unemployment peaks at +0.02 pp in Q12, from +0.00 in Q1 to +0.01 in Q20. Real Wages peaks at +0.06 % vs baseline in Q12, from +0.00 in Q1 to +0.03 in Q20.
+Prices. CPI inflation, domestic inflation, firms' marginal cost stay close to baseline.
 
-Prices. The three-year CPI impulse is +0.09 percentage points. CPI Inflation peaks at +0.03 pp in Q2, from +0.02 in Q1 to -0.01 in Q20. Domestic Infl. peaks at +0.02 pp in Q2, from +0.02 in Q1 to -0.00 in Q20. Marginal Cost peaks at -0.01 % vs baseline in Q10, from -0.00 in Q1 to -0.00 in Q20.
+Policy rates and the government curve. Bond prices (higher discount rates) cheapen 0.29% by Q5; the rest of the government curve barely moves.
 
-Financial conditions. Policy Rate peaks at +0.04 pp (annualized) in Q5, from +0.01 in Q1 to -0.02 in Q20. Real Rate peaks at +0.01 pp (annualized) in Q5, from +0.00 in Q1 to -0.00 in Q20. Govt 3M Yield peaks at +0.04 pp (annualized) in Q5, from +0.01 in Q1 to -0.02 in Q20. Govt 2Y Yield peaks at +0.03 pp (annualized) in Q2, from +0.03 in Q1 to -0.02 in Q20. Govt 5Y Yield peaks at -0.01 pp (annualized) in Q16, from +0.01 in Q1 to -0.01 in Q20. Govt 10Y Yield peaks at -0.01 pp (annualized) in Q14, from -0.00 in Q1 to -0.01 in Q20. Govt 30Y Yield peaks at -0.00 pp (annualized) in Q14, from -0.00 in Q1 to -0.00 in Q20. Bond Price (7y) peaks at -0.29 % vs baseline in Q5, from -0.07 in Q1 to +0.12 in Q20. Bond Price 3M peaks at -0.01 % vs baseline in Q5, from -0.00 in Q1 to +0.00 in Q20. Bond Price 2Y peaks at -0.06 % vs baseline in Q2, from -0.06 in Q1 to +0.03 in Q20. Bond Price 5Y peaks at +0.06 % vs baseline in Q16, from -0.06 in Q1 to +0.06 in Q20. Bond Price 10Y peaks at +0.08 % vs baseline in Q14, from +0.00 in Q1 to +0.07 in Q20. Bond Price 30Y peaks at +0.06 % vs baseline in Q14, from +0.01 in Q1 to +0.05 in Q20. Equity Index peaks at -0.10 % vs baseline in Q7, from -0.03 in Q1 to -0.01 in Q20. VIX peaks at +15.09 index_level in Q10, from +15.01 in Q1 to +15.01 in Q20. Tobin's Q peaks at -0.08 % vs baseline in Q6, from -0.02 in Q1 to +0.01 in Q20. House Prices peaks at -0.02 % vs baseline in Q16, from -0.00 in Q1 to -0.02 in Q20. Bank Equity peaks at -0.01 % vs baseline in Q15, from -0.00 in Q1 to -0.01 in Q20. Bank Credit peaks at -0.01 % vs baseline in Q15, from -0.00 in Q1 to -0.01 in Q20. Credit Spread peaks at +0.00 pp in Q15, from +0.00 in Q1 to +0.00 in Q20.
+Exchange rates. The NEER prints a trade-weighted depreciation (-1.06% in Q3); the real exchange rate shows a real depreciation (a weaker, more competitive home currency), peaking at +0.46% in Q4; versus the dollar the home currency is stronger versus the dollar (-0.12% in Q18).
 
-Nominal FX. NEER peaks at -1.06 % vs baseline in Q3, from -0.69 in Q1 to -0.19 in Q20. vs USD peaks at -0.12 % vs baseline in Q18, from +0.02 in Q1 to -0.11 in Q20.
+Equities and risk. Equity prices / financial conditions falls 0.10% by Q7; the VIX (global equity-implied volatility), Tobin's Q (the value of installed capital) stay close to baseline.
 
-Commodities. Energy Price peaks at +80.03 USD/bbl (level) in Q3, from +80.01 in Q1 to +79.96 in Q20. Metals Price peaks at +143.18 index (level) in Q3, from +128.59 in Q1 to +108.65 in Q20. Food Price peaks at +100.04 index (level) in Q3, from +100.02 in Q1 to +99.95 in Q20. Gas Price peaks at +4.00 USD/mmBtu (level) in Q3, from +4.00 in Q1 to +4.00 in Q20. Copper Price peaks at +100.01 index (level) in Q3, from +100.01 in Q1 to +99.97 in Q20. Wheat Price peaks at +100.03 index (level) in Q3, from +100.01 in Q1 to +99.98 in Q20. Gold Price peaks at +2008.23 USD/oz (level) in Q11, from +2003.83 in Q1 to +2003.50 in Q20.
+Housing and credit. House prices and bank credit are close to unchanged.
 
-Sectoral and capital. Manuf. GDP peaks at -0.14 % vs baseline in Q4, from -0.09 in Q1 to -0.02 in Q20. Services GDP peaks at -0.02 % vs baseline in Q9, from -0.01 in Q1 to -0.01 in Q20. Capital Stock peaks at -0.01 % vs baseline in Q18, from -0.00 in Q1 to -0.01 in Q20.
+Commodities. The metals price index moves to 143.2 in Q3; other published commodity prices stay near their baselines.
 
-Timing. By Q20 GDP is still -0.01% from baseline.
+Sectors and capital. Manufacturing output falls 0.14% by Q4; services output, the capital stock stay close to baseline.
 
-These figures are model IRFs versus baseline, not forecasts.
+By Q20, GDP is still -0.01% from baseline.
+
+These figures are model IRFs versus baseline, not forecasts and not financial advice.
 
 ![GDP](charts/CH_Y.png)
 
@@ -1527,7 +1549,7 @@ These figures are model IRFs versus baseline, not forecasts.
 
 ## CN — China
 
-The main impact of a 20% metals-supply cut on China would be no material drop in GDP of 0.02% by Q14. Equities peak at +0.04% in Q2. This has almost no impact on China.
+The main impact of a 20% metals-supply cut on China is almost no drop in GDP of 0.02% by Q14. This is a model impulse response versus baseline, not a forecast. The three-year CPI impulse is +0.11 percentage points. This has almost no impact on China.
 
 ![GDP](charts/CN_Y.png)
 
