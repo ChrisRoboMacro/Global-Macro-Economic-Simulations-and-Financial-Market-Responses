@@ -7,7 +7,7 @@ These files are impulse responses versus a model baseline, not forecasts and not
 - `RER` increase = real depreciation (home currency weaker). Decrease = real appreciation.
 - `CPI_3yr_pp` = sum of quarterly `pi_cpi` over Q1–Q12 (percentage points). Not an annualized rate and not the CPI peak.
 
-## Series (26)
+## Series (45)
 
 | Key | Name | Unit |
 |---|---|---|
@@ -17,7 +17,7 @@ These files are impulse responses versus a model baseline, not forecasts and not
 | `i` | Policy Rate | pp_dev |
 | `RER` | Real exchange rate | pct_dev_from_baseline |
 | `P_H` | House Prices | pct_dev_from_baseline |
-| `Q_B` | Bond Price | pct_dev_from_baseline |
+| `Q_B` | Bond Price (7y) | pct_dev_from_baseline |
 | `equity` | Equity Index | pct_dev_from_baseline |
 | `y2` | Govt 2Y Yield | pp_dev |
 | `y5` | Govt 5Y Yield | pp_dev |
@@ -37,6 +37,25 @@ These files are impulse responses versus a model baseline, not forecasts and not
 | `lending_spread` | Credit Spread | pp_dev |
 | `gdp_services` | Services GDP | pct_dev_from_baseline |
 | `gdp_manufacturing` | Manuf. GDP | pct_dev_from_baseline |
+| `r` | Real Rate | pp_dev |
+| `bank_equity` | Bank Equity | pct_dev_from_baseline |
+| `vix` | VIX | index_level |
+| `y3m` | Govt 3M Yield | pp_dev |
+| `y30` | Govt 30Y Yield | pp_dev |
+| `Q_B_3m` | Bond Price 3M | pct_dev_from_baseline |
+| `Q_B_2y` | Bond Price 2Y | pct_dev_from_baseline |
+| `Q_B_5y` | Bond Price 5Y | pct_dev_from_baseline |
+| `Q_B_10y` | Bond Price 10Y | pct_dev_from_baseline |
+| `Q_B_30y` | Bond Price 30Y | pct_dev_from_baseline |
+| `NEER` | NEER | pct_dev_from_baseline |
+| `USD` | vs USD | pct_dev_from_baseline |
+| `P_energy` | Energy Price | USD/bbl (level) |
+| `P_metals` | Metals Price | index (level) |
+| `P_food` | Food Price | index (level) |
+| `P_gas` | Gas Price | USD/mmBtu (level) |
+| `P_copper` | Copper Price | index (level) |
+| `P_wheat` | Wheat Price | index (level) |
+| `P_gold` | Gold Price | USD/oz (level) |
 
 ## Shock inputs (active treatment only)
 
@@ -51,6 +70,7 @@ These files are impulse responses versus a model baseline, not forecasts and not
 | `risk_premium` | bp | 0 |
 | `vix` | index | 15 (active only if > 16) |
 | `bank_equity` | fraction by ISO2 | 0 |
+| `equity` | price fraction by ISO2 | 0 |
 | `sovereign_spread` | bp by ISO2 | 0 |
 | `bilateral_tariffs` | rate 0–0.60 | none |
 

@@ -6,19 +6,19 @@
       "src": "charts/global_NL_Y.png"
     },
     {
+      "var": "SA.Y",
+      "label": "SA GDP",
+      "src": "charts/global_SA_Y.png"
+    },
+    {
       "var": "MY.Y",
       "label": "MY GDP",
       "src": "charts/global_MY_Y.png"
     },
     {
-      "var": "MX.Y",
-      "label": "MX GDP",
-      "src": "charts/global_MX_Y.png"
-    },
-    {
-      "var": "TH.Y",
-      "label": "TH GDP",
-      "src": "charts/global_TH_Y.png"
+      "var": "NO.Y",
+      "label": "NO GDP",
+      "src": "charts/global_NO_Y.png"
     },
     {
       "var": "US.equity",
@@ -49,6 +49,41 @@
         "src": "charts/NL_equity.png"
       },
       {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/NL_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/NL_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/NL_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/NL_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/NL_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/NL_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/NL_P_energy.png"
+      },
+      {
         "var": "I",
         "label": "Investment",
         "src": "charts/NL_I.png"
@@ -57,723 +92,6 @@
         "var": "Q",
         "label": "Tobin's Q",
         "src": "charts/NL_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/NL_C.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/NL_gdp_services.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/NL_mc.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/NL_w.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/NL_P_H.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/NL_N.png"
-      },
-      {
-        "var": "unemployment",
-        "label": "Unemployment",
-        "src": "charts/NL_unemployment.png"
-      }
-    ],
-    "MY": [
-      {
-        "var": "Y",
-        "label": "GDP",
-        "src": "charts/MY_Y.png"
-      },
-      {
-        "var": "pi_cpi",
-        "label": "CPI Inflation",
-        "src": "charts/MY_pi_cpi.png"
-      },
-      {
-        "var": "equity",
-        "label": "Equity Index",
-        "src": "charts/MY_equity.png"
-      },
-      {
-        "var": "I",
-        "label": "Investment",
-        "src": "charts/MY_I.png"
-      },
-      {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/MY_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/MY_C.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/MY_Q_B.png"
-      },
-      {
-        "var": "B",
-        "label": "Gov Debt",
-        "src": "charts/MY_B.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/MY_w.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/MY_mc.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/MY_P_H.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/MY_gdp_services.png"
-      }
-    ],
-    "MX": [
-      {
-        "var": "Y",
-        "label": "GDP",
-        "src": "charts/MX_Y.png"
-      },
-      {
-        "var": "pi_cpi",
-        "label": "CPI Inflation",
-        "src": "charts/MX_pi_cpi.png"
-      },
-      {
-        "var": "equity",
-        "label": "Equity Index",
-        "src": "charts/MX_equity.png"
-      },
-      {
-        "var": "I",
-        "label": "Investment",
-        "src": "charts/MX_I.png"
-      },
-      {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/MX_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/MX_C.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/MX_Q_B.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/MX_w.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/MX_gdp_services.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/MX_mc.png"
-      },
-      {
-        "var": "B",
-        "label": "Gov Debt",
-        "src": "charts/MX_B.png"
-      },
-      {
-        "var": "RER",
-        "label": "Currency Strength",
-        "src": "charts/MX_RER.png"
-      }
-    ],
-    "TH": [
-      {
-        "var": "Y",
-        "label": "GDP",
-        "src": "charts/TH_Y.png"
-      },
-      {
-        "var": "pi_cpi",
-        "label": "CPI Inflation",
-        "src": "charts/TH_pi_cpi.png"
-      },
-      {
-        "var": "equity",
-        "label": "Equity Index",
-        "src": "charts/TH_equity.png"
-      },
-      {
-        "var": "I",
-        "label": "Investment",
-        "src": "charts/TH_I.png"
-      },
-      {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/TH_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/TH_C.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/TH_Q_B.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/TH_w.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/TH_mc.png"
-      },
-      {
-        "var": "B",
-        "label": "Gov Debt",
-        "src": "charts/TH_B.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/TH_gdp_services.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/TH_P_H.png"
-      }
-    ],
-    "CA": [
-      {
-        "var": "Y",
-        "label": "GDP",
-        "src": "charts/CA_Y.png"
-      },
-      {
-        "var": "pi_cpi",
-        "label": "CPI Inflation",
-        "src": "charts/CA_pi_cpi.png"
-      },
-      {
-        "var": "equity",
-        "label": "Equity Index",
-        "src": "charts/CA_equity.png"
-      },
-      {
-        "var": "I",
-        "label": "Investment",
-        "src": "charts/CA_I.png"
-      },
-      {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/CA_Q.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/CA_Q_B.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/CA_C.png"
-      },
-      {
-        "var": "RER",
-        "label": "Currency Strength",
-        "src": "charts/CA_RER.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/CA_gdp_services.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/CA_mc.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/CA_N.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/CA_w.png"
-      }
-    ],
-    "CH": [
-      {
-        "var": "Y",
-        "label": "GDP",
-        "src": "charts/CH_Y.png"
-      },
-      {
-        "var": "pi_cpi",
-        "label": "CPI Inflation",
-        "src": "charts/CH_pi_cpi.png"
-      },
-      {
-        "var": "equity",
-        "label": "Equity Index",
-        "src": "charts/CH_equity.png"
-      },
-      {
-        "var": "I",
-        "label": "Investment",
-        "src": "charts/CH_I.png"
-      },
-      {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/CH_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/CH_C.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/CH_Q_B.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/CH_gdp_services.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/CH_mc.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/CH_N.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/CH_P_H.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/CH_w.png"
-      }
-    ],
-    "PL": [
-      {
-        "var": "Y",
-        "label": "GDP",
-        "src": "charts/PL_Y.png"
-      },
-      {
-        "var": "pi_cpi",
-        "label": "CPI Inflation",
-        "src": "charts/PL_pi_cpi.png"
-      },
-      {
-        "var": "equity",
-        "label": "Equity Index",
-        "src": "charts/PL_equity.png"
-      },
-      {
-        "var": "I",
-        "label": "Investment",
-        "src": "charts/PL_I.png"
-      },
-      {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/PL_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/PL_C.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/PL_w.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/PL_gdp_services.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/PL_mc.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/PL_Q_B.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/PL_N.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/PL_P_H.png"
-      }
-    ],
-    "NO": [
-      {
-        "var": "Y",
-        "label": "GDP",
-        "src": "charts/NO_Y.png"
-      },
-      {
-        "var": "pi_cpi",
-        "label": "CPI Inflation",
-        "src": "charts/NO_pi_cpi.png"
-      },
-      {
-        "var": "equity",
-        "label": "Equity Index",
-        "src": "charts/NO_equity.png"
-      },
-      {
-        "var": "I",
-        "label": "Investment",
-        "src": "charts/NO_I.png"
-      },
-      {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/NO_Q.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/NO_Q_B.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/NO_C.png"
-      },
-      {
-        "var": "RER",
-        "label": "Currency Strength",
-        "src": "charts/NO_RER.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/NO_mc.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/NO_gdp_services.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/NO_w.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/NO_N.png"
-      }
-    ],
-    "DE": [
-      {
-        "var": "Y",
-        "label": "GDP",
-        "src": "charts/DE_Y.png"
-      },
-      {
-        "var": "pi_cpi",
-        "label": "CPI Inflation",
-        "src": "charts/DE_pi_cpi.png"
-      },
-      {
-        "var": "equity",
-        "label": "Equity Index",
-        "src": "charts/DE_equity.png"
-      },
-      {
-        "var": "I",
-        "label": "Investment",
-        "src": "charts/DE_I.png"
-      },
-      {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/DE_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/DE_C.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/DE_gdp_services.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/DE_w.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/DE_mc.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/DE_P_H.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/DE_N.png"
-      },
-      {
-        "var": "unemployment",
-        "label": "Unemployment",
-        "src": "charts/DE_unemployment.png"
-      }
-    ],
-    "CL": [
-      {
-        "var": "Y",
-        "label": "GDP",
-        "src": "charts/CL_Y.png"
-      },
-      {
-        "var": "pi_cpi",
-        "label": "CPI Inflation",
-        "src": "charts/CL_pi_cpi.png"
-      },
-      {
-        "var": "equity",
-        "label": "Equity Index",
-        "src": "charts/CL_equity.png"
-      },
-      {
-        "var": "I",
-        "label": "Investment",
-        "src": "charts/CL_I.png"
-      },
-      {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/CL_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/CL_C.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/CL_Q_B.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/CL_w.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/CL_gdp_services.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/CL_mc.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/CL_P_H.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/CL_N.png"
-      }
-    ],
-    "SE": [
-      {
-        "var": "Y",
-        "label": "GDP",
-        "src": "charts/SE_Y.png"
-      },
-      {
-        "var": "pi_cpi",
-        "label": "CPI Inflation",
-        "src": "charts/SE_pi_cpi.png"
-      },
-      {
-        "var": "equity",
-        "label": "Equity Index",
-        "src": "charts/SE_equity.png"
-      },
-      {
-        "var": "I",
-        "label": "Investment",
-        "src": "charts/SE_I.png"
-      },
-      {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/SE_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/SE_C.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/SE_gdp_services.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/SE_Q_B.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/SE_mc.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/SE_w.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/SE_P_H.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/SE_N.png"
-      }
-    ],
-    "KR": [
-      {
-        "var": "Y",
-        "label": "GDP",
-        "src": "charts/KR_Y.png"
-      },
-      {
-        "var": "pi_cpi",
-        "label": "CPI Inflation",
-        "src": "charts/KR_pi_cpi.png"
-      },
-      {
-        "var": "equity",
-        "label": "Equity Index",
-        "src": "charts/KR_equity.png"
-      },
-      {
-        "var": "I",
-        "label": "Investment",
-        "src": "charts/KR_I.png"
-      },
-      {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/KR_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/KR_C.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/KR_Q_B.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/KR_gdp_services.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/KR_mc.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/KR_w.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/KR_N.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/KR_P_H.png"
       }
     ],
     "SA": [
@@ -793,483 +111,483 @@
         "src": "charts/SA_equity.png"
       },
       {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/SA_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/SA_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/SA_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/SA_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/SA_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/SA_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/SA_P_energy.png"
+      },
+      {
         "var": "I",
         "label": "Investment",
         "src": "charts/SA_I.png"
       },
       {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/SA_Q_B.png"
-      },
-      {
         "var": "Q",
         "label": "Tobin's Q",
         "src": "charts/SA_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/SA_C.png"
-      },
-      {
-        "var": "B",
-        "label": "Gov Debt",
-        "src": "charts/SA_B.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/SA_w.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/SA_mc.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/SA_P_H.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/SA_N.png"
       }
     ],
-    "FR": [
+    "MY": [
       {
         "var": "Y",
         "label": "GDP",
-        "src": "charts/FR_Y.png"
+        "src": "charts/MY_Y.png"
       },
       {
         "var": "pi_cpi",
         "label": "CPI Inflation",
-        "src": "charts/FR_pi_cpi.png"
+        "src": "charts/MY_pi_cpi.png"
       },
       {
         "var": "equity",
         "label": "Equity Index",
-        "src": "charts/FR_equity.png"
+        "src": "charts/MY_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/MY_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/MY_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/MY_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/MY_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/MY_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/MY_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/MY_P_energy.png"
       },
       {
         "var": "I",
         "label": "Investment",
-        "src": "charts/FR_I.png"
+        "src": "charts/MY_I.png"
       },
       {
         "var": "Q",
         "label": "Tobin's Q",
-        "src": "charts/FR_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/FR_C.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/FR_gdp_services.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/FR_mc.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/FR_w.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/FR_P_H.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/FR_N.png"
-      },
-      {
-        "var": "B",
-        "label": "Gov Debt",
-        "src": "charts/FR_B.png"
+        "src": "charts/MY_Q.png"
       }
     ],
-    "ES": [
+    "NO": [
       {
         "var": "Y",
         "label": "GDP",
-        "src": "charts/ES_Y.png"
+        "src": "charts/NO_Y.png"
       },
       {
         "var": "pi_cpi",
         "label": "CPI Inflation",
-        "src": "charts/ES_pi_cpi.png"
+        "src": "charts/NO_pi_cpi.png"
       },
       {
         "var": "equity",
         "label": "Equity Index",
-        "src": "charts/ES_equity.png"
+        "src": "charts/NO_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/NO_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/NO_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/NO_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/NO_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/NO_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/NO_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/NO_P_energy.png"
       },
       {
         "var": "I",
         "label": "Investment",
-        "src": "charts/ES_I.png"
+        "src": "charts/NO_I.png"
       },
       {
         "var": "Q",
         "label": "Tobin's Q",
-        "src": "charts/ES_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/ES_C.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/ES_gdp_services.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/ES_mc.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/ES_w.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/ES_P_H.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/ES_N.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/ES_Q_B.png"
+        "src": "charts/NO_Q.png"
       }
     ],
-    "AU": [
+    "MX": [
       {
         "var": "Y",
         "label": "GDP",
-        "src": "charts/AU_Y.png"
+        "src": "charts/MX_Y.png"
       },
       {
         "var": "pi_cpi",
         "label": "CPI Inflation",
-        "src": "charts/AU_pi_cpi.png"
+        "src": "charts/MX_pi_cpi.png"
       },
       {
         "var": "equity",
         "label": "Equity Index",
-        "src": "charts/AU_equity.png"
+        "src": "charts/MX_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/MX_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/MX_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/MX_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/MX_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/MX_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/MX_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/MX_P_energy.png"
       },
       {
         "var": "I",
         "label": "Investment",
-        "src": "charts/AU_I.png"
+        "src": "charts/MX_I.png"
       },
       {
         "var": "Q",
         "label": "Tobin's Q",
-        "src": "charts/AU_Q.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/AU_Q_B.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/AU_C.png"
-      },
-      {
-        "var": "RER",
-        "label": "Currency Strength",
-        "src": "charts/AU_RER.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/AU_gdp_services.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/AU_mc.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/AU_w.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/AU_N.png"
+        "src": "charts/MX_Q.png"
       }
     ],
-    "ZA": [
+    "CA": [
       {
         "var": "Y",
         "label": "GDP",
-        "src": "charts/ZA_Y.png"
+        "src": "charts/CA_Y.png"
       },
       {
         "var": "pi_cpi",
         "label": "CPI Inflation",
-        "src": "charts/ZA_pi_cpi.png"
+        "src": "charts/CA_pi_cpi.png"
       },
       {
         "var": "equity",
         "label": "Equity Index",
-        "src": "charts/ZA_equity.png"
+        "src": "charts/CA_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/CA_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/CA_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/CA_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/CA_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/CA_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/CA_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/CA_P_energy.png"
       },
       {
         "var": "I",
         "label": "Investment",
-        "src": "charts/ZA_I.png"
+        "src": "charts/CA_I.png"
       },
       {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/ZA_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/ZA_C.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/ZA_Q_B.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/ZA_gdp_services.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/ZA_w.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/ZA_mc.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/ZA_P_H.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/ZA_N.png"
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/CA_P_gas.png"
       }
     ],
-    "CO": [
+    "TH": [
       {
         "var": "Y",
         "label": "GDP",
-        "src": "charts/CO_Y.png"
+        "src": "charts/TH_Y.png"
       },
       {
         "var": "pi_cpi",
         "label": "CPI Inflation",
-        "src": "charts/CO_pi_cpi.png"
+        "src": "charts/TH_pi_cpi.png"
       },
       {
         "var": "equity",
         "label": "Equity Index",
-        "src": "charts/CO_equity.png"
+        "src": "charts/TH_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/TH_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/TH_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/TH_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/TH_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/TH_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/TH_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/TH_P_energy.png"
       },
       {
         "var": "I",
         "label": "Investment",
-        "src": "charts/CO_I.png"
+        "src": "charts/TH_I.png"
       },
       {
         "var": "Q",
         "label": "Tobin's Q",
-        "src": "charts/CO_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/CO_C.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/CO_Q_B.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/CO_w.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/CO_gdp_services.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/CO_mc.png"
-      },
-      {
-        "var": "RER",
-        "label": "Currency Strength",
-        "src": "charts/CO_RER.png"
-      },
-      {
-        "var": "B",
-        "label": "Gov Debt",
-        "src": "charts/CO_B.png"
+        "src": "charts/TH_Q.png"
       }
     ],
-    "IT": [
+    "CH": [
       {
         "var": "Y",
         "label": "GDP",
-        "src": "charts/IT_Y.png"
+        "src": "charts/CH_Y.png"
       },
       {
         "var": "pi_cpi",
         "label": "CPI Inflation",
-        "src": "charts/IT_pi_cpi.png"
+        "src": "charts/CH_pi_cpi.png"
       },
       {
         "var": "equity",
         "label": "Equity Index",
-        "src": "charts/IT_equity.png"
+        "src": "charts/CH_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/CH_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/CH_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/CH_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/CH_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/CH_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/CH_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/CH_P_energy.png"
       },
       {
         "var": "I",
         "label": "Investment",
-        "src": "charts/IT_I.png"
+        "src": "charts/CH_I.png"
       },
       {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/IT_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/IT_C.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/IT_gdp_services.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/IT_mc.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/IT_N.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/IT_P_H.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/IT_w.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/IT_Q_B.png"
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/CH_P_gas.png"
       }
     ],
-    "TR": [
+    "PL": [
       {
         "var": "Y",
         "label": "GDP",
-        "src": "charts/TR_Y.png"
+        "src": "charts/PL_Y.png"
       },
       {
         "var": "pi_cpi",
         "label": "CPI Inflation",
-        "src": "charts/TR_pi_cpi.png"
+        "src": "charts/PL_pi_cpi.png"
       },
       {
         "var": "equity",
         "label": "Equity Index",
-        "src": "charts/TR_equity.png"
+        "src": "charts/PL_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/PL_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/PL_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/PL_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/PL_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/PL_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/PL_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/PL_P_energy.png"
       },
       {
         "var": "I",
         "label": "Investment",
-        "src": "charts/TR_I.png"
+        "src": "charts/PL_I.png"
       },
       {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/TR_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/TR_C.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/TR_Q_B.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/TR_w.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/TR_gdp_services.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/TR_mc.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/TR_P_H.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/TR_N.png"
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/PL_P_gas.png"
       }
     ],
     "RU": [
@@ -1289,235 +607,607 @@
         "src": "charts/RU_equity.png"
       },
       {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/RU_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/RU_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/RU_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/RU_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/RU_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/RU_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/RU_P_energy.png"
+      },
+      {
         "var": "I",
         "label": "Investment",
         "src": "charts/RU_I.png"
       },
       {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/RU_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/RU_C.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/RU_Q_B.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/RU_w.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/RU_mc.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/RU_gdp_services.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/RU_P_H.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/RU_N.png"
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/RU_P_gas.png"
       }
     ],
-    "ID": [
+    "CL": [
       {
         "var": "Y",
         "label": "GDP",
-        "src": "charts/ID_Y.png"
+        "src": "charts/CL_Y.png"
       },
       {
         "var": "pi_cpi",
         "label": "CPI Inflation",
-        "src": "charts/ID_pi_cpi.png"
+        "src": "charts/CL_pi_cpi.png"
       },
       {
         "var": "equity",
         "label": "Equity Index",
-        "src": "charts/ID_equity.png"
+        "src": "charts/CL_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/CL_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/CL_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/CL_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/CL_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/CL_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/CL_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/CL_P_energy.png"
       },
       {
         "var": "I",
         "label": "Investment",
-        "src": "charts/ID_I.png"
+        "src": "charts/CL_I.png"
       },
       {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/ID_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/ID_C.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/ID_Q_B.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/ID_w.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/ID_mc.png"
-      },
-      {
-        "var": "B",
-        "label": "Gov Debt",
-        "src": "charts/ID_B.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/ID_gdp_services.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/ID_P_H.png"
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/CL_P_gas.png"
       }
     ],
-    "UK": [
+    "DE": [
       {
         "var": "Y",
         "label": "GDP",
-        "src": "charts/UK_Y.png"
+        "src": "charts/DE_Y.png"
       },
       {
         "var": "pi_cpi",
         "label": "CPI Inflation",
-        "src": "charts/UK_pi_cpi.png"
+        "src": "charts/DE_pi_cpi.png"
       },
       {
         "var": "equity",
         "label": "Equity Index",
-        "src": "charts/UK_equity.png"
+        "src": "charts/DE_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/DE_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/DE_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/DE_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/DE_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/DE_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/DE_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/DE_P_energy.png"
       },
       {
         "var": "I",
         "label": "Investment",
-        "src": "charts/UK_I.png"
+        "src": "charts/DE_I.png"
       },
       {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/UK_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/UK_C.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/UK_gdp_services.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/UK_mc.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/UK_w.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/UK_N.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/UK_P_H.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/UK_Q_B.png"
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/DE_P_gas.png"
       }
     ],
-    "BR": [
+    "SE": [
       {
         "var": "Y",
         "label": "GDP",
-        "src": "charts/BR_Y.png"
+        "src": "charts/SE_Y.png"
       },
       {
         "var": "pi_cpi",
         "label": "CPI Inflation",
-        "src": "charts/BR_pi_cpi.png"
+        "src": "charts/SE_pi_cpi.png"
       },
       {
         "var": "equity",
         "label": "Equity Index",
-        "src": "charts/BR_equity.png"
+        "src": "charts/SE_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/SE_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/SE_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/SE_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/SE_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/SE_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/SE_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/SE_P_energy.png"
       },
       {
         "var": "I",
         "label": "Investment",
-        "src": "charts/BR_I.png"
+        "src": "charts/SE_I.png"
       },
       {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/BR_Q.png"
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/SE_P_gas.png"
+      }
+    ],
+    "KR": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/KR_Y.png"
       },
       {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/BR_Q_B.png"
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/KR_pi_cpi.png"
       },
       {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/BR_C.png"
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/KR_equity.png"
       },
       {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/BR_gdp_services.png"
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/KR_P_gold.png"
       },
       {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/BR_mc.png"
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/KR_P_wheat.png"
       },
       {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/BR_w.png"
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/KR_P_copper.png"
       },
       {
-        "var": "RER",
-        "label": "Currency Strength",
-        "src": "charts/BR_RER.png"
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/KR_P_metals.png"
       },
       {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/BR_P_H.png"
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/KR_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/KR_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/KR_P_energy.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/KR_I.png"
+      },
+      {
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/KR_P_gas.png"
+      }
+    ],
+    "FR": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/FR_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/FR_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/FR_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/FR_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/FR_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/FR_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/FR_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/FR_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/FR_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/FR_P_energy.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/FR_I.png"
+      },
+      {
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/FR_P_gas.png"
+      }
+    ],
+    "ES": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/ES_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/ES_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/ES_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/ES_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/ES_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/ES_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/ES_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/ES_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/ES_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/ES_P_energy.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/ES_I.png"
+      },
+      {
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/ES_P_gas.png"
+      }
+    ],
+    "AU": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/AU_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/AU_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/AU_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/AU_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/AU_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/AU_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/AU_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/AU_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/AU_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/AU_P_energy.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/AU_I.png"
+      },
+      {
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/AU_P_gas.png"
+      }
+    ],
+    "CO": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/CO_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/CO_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/CO_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/CO_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/CO_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/CO_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/CO_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/CO_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/CO_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/CO_P_energy.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/CO_I.png"
+      },
+      {
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/CO_P_gas.png"
+      }
+    ],
+    "ZA": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/ZA_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/ZA_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/ZA_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/ZA_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/ZA_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/ZA_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/ZA_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/ZA_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/ZA_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/ZA_P_energy.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/ZA_I.png"
+      },
+      {
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/ZA_P_gas.png"
       }
     ],
     "NG": [
@@ -1537,49 +1227,359 @@
         "src": "charts/NG_equity.png"
       },
       {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/NG_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/NG_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/NG_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/NG_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/NG_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/NG_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/NG_P_energy.png"
+      },
+      {
         "var": "I",
         "label": "Investment",
         "src": "charts/NG_I.png"
       },
       {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/NG_Q.png"
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/NG_P_gas.png"
+      }
+    ],
+    "IT": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/IT_Y.png"
       },
       {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/NG_C.png"
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/IT_pi_cpi.png"
       },
       {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/NG_Q_B.png"
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/IT_equity.png"
       },
       {
-        "var": "B",
-        "label": "Gov Debt",
-        "src": "charts/NG_B.png"
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/IT_P_gold.png"
       },
       {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/NG_w.png"
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/IT_P_wheat.png"
       },
       {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/NG_mc.png"
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/IT_P_copper.png"
       },
       {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/NG_gdp_services.png"
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/IT_P_metals.png"
       },
       {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/NG_P_H.png"
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/IT_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/IT_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/IT_P_energy.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/IT_I.png"
+      },
+      {
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/IT_P_gas.png"
+      }
+    ],
+    "TR": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/TR_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/TR_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/TR_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/TR_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/TR_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/TR_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/TR_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/TR_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/TR_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/TR_P_energy.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/TR_I.png"
+      },
+      {
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/TR_P_gas.png"
+      }
+    ],
+    "BR": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/BR_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/BR_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/BR_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/BR_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/BR_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/BR_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/BR_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/BR_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/BR_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/BR_P_energy.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/BR_I.png"
+      },
+      {
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/BR_P_gas.png"
+      }
+    ],
+    "ID": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/ID_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/ID_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/ID_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/ID_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/ID_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/ID_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/ID_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/ID_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/ID_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/ID_P_energy.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/ID_I.png"
+      },
+      {
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/ID_P_gas.png"
+      }
+    ],
+    "UK": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/UK_Y.png"
+      },
+      {
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/UK_pi_cpi.png"
+      },
+      {
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/UK_equity.png"
+      },
+      {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/UK_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/UK_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/UK_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/UK_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/UK_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/UK_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/UK_P_energy.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/UK_I.png"
+      },
+      {
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/UK_P_gas.png"
       }
     ],
     "AR": [
@@ -1599,111 +1599,49 @@
         "src": "charts/AR_equity.png"
       },
       {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/AR_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/AR_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/AR_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/AR_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/AR_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/AR_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/AR_P_energy.png"
+      },
+      {
         "var": "I",
         "label": "Investment",
         "src": "charts/AR_I.png"
       },
       {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/AR_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/AR_C.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/AR_Q_B.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/AR_w.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/AR_mc.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/AR_gdp_services.png"
-      },
-      {
-        "var": "i",
-        "label": "Policy Rate",
-        "src": "charts/AR_i.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/AR_N.png"
-      }
-    ],
-    "IN": [
-      {
-        "var": "Y",
-        "label": "GDP",
-        "src": "charts/IN_Y.png"
-      },
-      {
-        "var": "pi_cpi",
-        "label": "CPI Inflation",
-        "src": "charts/IN_pi_cpi.png"
-      },
-      {
-        "var": "equity",
-        "label": "Equity Index",
-        "src": "charts/IN_equity.png"
-      },
-      {
-        "var": "I",
-        "label": "Investment",
-        "src": "charts/IN_I.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/IN_Q_B.png"
-      },
-      {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/IN_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/IN_C.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/IN_w.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/IN_mc.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/IN_gdp_services.png"
-      },
-      {
-        "var": "B",
-        "label": "Gov Debt",
-        "src": "charts/IN_B.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/IN_P_H.png"
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/AR_P_gas.png"
       }
     ],
     "US": [
@@ -1723,49 +1661,111 @@
         "src": "charts/US_equity.png"
       },
       {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/US_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/US_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/US_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/US_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/US_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/US_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/US_P_energy.png"
+      },
+      {
         "var": "I",
         "label": "Investment",
         "src": "charts/US_I.png"
       },
       {
         "var": "Q_B",
-        "label": "Bond Price",
+        "label": "Bond Price (7y)",
         "src": "charts/US_Q_B.png"
+      }
+    ],
+    "IN": [
+      {
+        "var": "Y",
+        "label": "GDP",
+        "src": "charts/IN_Y.png"
       },
       {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/US_Q.png"
+        "var": "pi_cpi",
+        "label": "CPI Inflation",
+        "src": "charts/IN_pi_cpi.png"
       },
       {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/US_C.png"
+        "var": "equity",
+        "label": "Equity Index",
+        "src": "charts/IN_equity.png"
       },
       {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/US_gdp_services.png"
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/IN_P_gold.png"
       },
       {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/US_mc.png"
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/IN_P_wheat.png"
       },
       {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/US_N.png"
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/IN_P_copper.png"
       },
       {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/US_w.png"
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/IN_P_metals.png"
       },
       {
-        "var": "i",
-        "label": "Policy Rate",
-        "src": "charts/US_i.png"
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/IN_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/IN_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/IN_P_energy.png"
+      },
+      {
+        "var": "I",
+        "label": "Investment",
+        "src": "charts/IN_I.png"
+      },
+      {
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/IN_P_gas.png"
       }
     ],
     "CN": [
@@ -1785,49 +1785,49 @@
         "src": "charts/CN_equity.png"
       },
       {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/CN_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/CN_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/CN_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/CN_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/CN_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/CN_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/CN_P_energy.png"
+      },
+      {
         "var": "I",
         "label": "Investment",
         "src": "charts/CN_I.png"
       },
       {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/CN_Q.png"
-      },
-      {
-        "var": "Q_B",
-        "label": "Bond Price",
-        "src": "charts/CN_Q_B.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/CN_C.png"
-      },
-      {
-        "var": "w",
-        "label": "Real Wages",
-        "src": "charts/CN_w.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/CN_mc.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/CN_gdp_services.png"
-      },
-      {
-        "var": "B",
-        "label": "Gov Debt",
-        "src": "charts/CN_B.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/CN_P_H.png"
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/CN_P_gas.png"
       }
     ],
     "JP": [
@@ -1847,49 +1847,49 @@
         "src": "charts/JP_equity.png"
       },
       {
+        "var": "P_gold",
+        "label": "Gold Price",
+        "src": "charts/JP_P_gold.png"
+      },
+      {
+        "var": "P_wheat",
+        "label": "Wheat Price",
+        "src": "charts/JP_P_wheat.png"
+      },
+      {
+        "var": "P_copper",
+        "label": "Copper Price",
+        "src": "charts/JP_P_copper.png"
+      },
+      {
+        "var": "P_metals",
+        "label": "Metals Price",
+        "src": "charts/JP_P_metals.png"
+      },
+      {
+        "var": "P_food",
+        "label": "Food Price",
+        "src": "charts/JP_P_food.png"
+      },
+      {
+        "var": "vix",
+        "label": "VIX",
+        "src": "charts/JP_vix.png"
+      },
+      {
+        "var": "P_energy",
+        "label": "Energy Price",
+        "src": "charts/JP_P_energy.png"
+      },
+      {
         "var": "I",
         "label": "Investment",
         "src": "charts/JP_I.png"
       },
       {
-        "var": "Q",
-        "label": "Tobin's Q",
-        "src": "charts/JP_Q.png"
-      },
-      {
-        "var": "C",
-        "label": "Consumption",
-        "src": "charts/JP_C.png"
-      },
-      {
-        "var": "gdp_services",
-        "label": "Services GDP",
-        "src": "charts/JP_gdp_services.png"
-      },
-      {
-        "var": "mc",
-        "label": "Marginal Cost",
-        "src": "charts/JP_mc.png"
-      },
-      {
-        "var": "N",
-        "label": "Employment",
-        "src": "charts/JP_N.png"
-      },
-      {
-        "var": "P_H",
-        "label": "House Prices",
-        "src": "charts/JP_P_H.png"
-      },
-      {
-        "var": "RER",
-        "label": "Currency Strength",
-        "src": "charts/JP_RER.png"
-      },
-      {
-        "var": "unemployment",
-        "label": "Unemployment",
-        "src": "charts/JP_unemployment.png"
+        "var": "P_gas",
+        "label": "Gas Price",
+        "src": "charts/JP_P_gas.png"
       }
     ]
   }
