@@ -18,7 +18,7 @@ The point is to improve how an AI reads economics: what happens after an event, 
 
 **Contact Chris to discuss the full training set purchase options. [chris@robomacro.com](mailto:chris@robomacro.com)**
 
-Gated Hub copy (same sample): [CHRISrobomacro/global-macro-economic-simulations](https://huggingface.co/datasets/CHRISrobomacro/global-macro-economic-simulations)
+Gated Hub copy (same sample): [robomacro/global-macro-economic-simulations](https://huggingface.co/datasets/robomacro/global-macro-economic-simulations)
 
 | Split | Simulation | Training records | Human-readable report | Largest GDP move |
 |---|---|---|---|---|
