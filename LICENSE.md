@@ -1,17 +1,12 @@
-# License — evaluation only (draft; counsel before a sale)
+# License: CC BY 4.0 (10-simulation sample only)
 
-You may read these files to decide whether to license a larger pack.
+The ten sample simulations in this repository (the JSONL files, `UNITS.md`, `catalog.json` and the human-readable reports) are licensed under the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-You may **not**:
+You may use them for any purpose, including training, fine-tuning and evaluating models, and you may share and adapt them, as long as you credit "RoboMacro (robomacro.com)" and link to this licence.
 
-- train or fine-tune a model on these files
-- redistribute the JSONL, units sheet, or HTML
-- scrape a paid solve API to reconstruct a competing corpus
+Not covered by this licence:
 
-The solver and model are not licensed and are not in this repository.
+- The 1,000-simulation and 10,000-simulation packs. They are not in this repository and are licensed separately by contract (exclusive sale to one AI lab). Contact Chris: chris@robomacro.com
+- The model, solver and coupler, which are not in this repository.
 
-A paid invoice is required to train on any IRF pack. Exclusive grids are a separate contract.
-
-Warranty: model IRFs. No forecast, no investment advice. QA covers completeness and peak match, not economic truth.
-
-Long-form essays in `preview/` are not a training license.
+No warranty. Paths are model impulse responses versus a baseline, not forecasts, not market data and not investment advice. QA covers completeness and peak matching, not economic truth.

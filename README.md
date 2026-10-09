@@ -51,4 +51,4 @@ Each machine row is one `(shock, country)`: the active treatment, units, Q1–Q2
 
 ## License
 
-Evaluation only. See `LICENSE.md`. No training, no redistribution. A paid invoice is required to train on the 1,000- or 10,000-scenario packs. Paths are model IRFs versus baseline and are not investment advice.
+This 10-simulation sample is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): you may use it for anything, including training and fine-tuning models, with credit to RoboMacro (robomacro.com). See `LICENSE.md`. The 1,000- and 10,000-simulation packs are not covered and are licensed separately. Paths are model impulse responses versus a baseline and are not investment advice.
