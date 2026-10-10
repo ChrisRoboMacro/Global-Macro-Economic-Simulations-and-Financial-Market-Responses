@@ -20,7 +20,7 @@ The point is to improve how an AI reads economics: what happens after an event, 
 
 Gated Hub copy (same sample): [robomacro/global-macro-economic-simulations](https://huggingface.co/datasets/robomacro/global-macro-economic-simulations)
 
-Blog: [Same Bet, Different Engine: Chib & Tan's DSGE Transformer Next to Our Multi-Country Sims](https://robomacro.com/blog/why-ai-needs-synthetic-macro-data)
+Blog: [The Macro Training Data Only One AI Lab Will Own](https://robomacro.com/blog/macro-training-data-one-ai-lab) · [Same Bet, Different Engine](https://robomacro.com/blog/why-ai-needs-synthetic-macro-data)
 
 | Split | Simulation | Training records | Human-readable report | Largest GDP move |
 |---|---|---|---|---|
