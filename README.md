@@ -4,7 +4,7 @@
 
 **Contact Chris: [chris@robomacro.com](mailto:chris@robomacro.com)**
 
-Ten named global macro simulations. Each one ships the full human-readable report — cover briefing, thirty country chapters with charts, and the unedited Q1–Q20 JSON for all 45 series — plus the same numbers as machine tables.
+Ten named global macro simulations. Each one ships the full human-readable report — cover briefing, thirty country chapters with charts, and the unedited Q1–Q20 JSON for all 45 series — plus the same numbers as machine tables. Each human-readable report averages about 11,000 words.
 
 **Training records and human-readable reports, side by side:** [https://robomacro.com/GlobalMacroTrainingDataset/](https://robomacro.com/GlobalMacroTrainingDataset/)
 
@@ -20,7 +20,7 @@ The point is to improve how an AI reads economics: what happens after an event, 
 
 Gated Hub copy (same sample): [robomacro/global-macro-economic-simulations](https://huggingface.co/datasets/robomacro/global-macro-economic-simulations)
 
-Blog: [Why AI needs synthetic macro data](https://robomacro.com/blog/why-ai-needs-synthetic-macro-data)
+Blog: [Same Bet, Different Engine: Chib & Tan's DSGE Transformer Next to Our Multi-Country Sims](https://robomacro.com/blog/why-ai-needs-synthetic-macro-data)
 
 | Split | Simulation | Training records | Human-readable report | Largest GDP move |
 |---|---|---|---|---|
@@ -48,6 +48,25 @@ Each machine row is one `(shock, country)`: the active treatment, units, Q1–Q2
 - `catalog.json` — the ten active treatments
 - `train_qa.jsonl` / `eval_qa.jsonl` — short questions grounded in the numbers
 - `tool_use_examples.jsonl` — three treatment → summary traces
+
+## For AI labs
+
+The **1,000-simulation** and **10,000-simulation** packs are for exclusive sale to one AI lab, under a licence separate from this sample.
+
+What a pack contains, per simulation:
+
+- **30 country records**, each with Q1–Q20 impulse-response paths for **45 series**: 37 country-specific and 8 global. 25 of them are market series: FX, government yields, bond prices, equities, bank equity, house prices, VIX and commodities.
+- **Records written as JSON answers**: given a shock and a country, the structured answer a model should return (GDP peak and quarter, three-year CPI effect, equity peak, paths at Q4/Q8/Q12).
+- **QA rows** grounded in the numbers, and **tool-use rows** that teach a model to call for a simulation instead of guessing it.
+- A **human-readable report** of about 11,000 words.
+
+Shocks come from the Global Macro Model v6.4: **12 shock types** (policy rates, oil, metals, housing, fiscal, productivity, tariffs, risk premia and more), and they stack, so packs cover combined scenarios, not just single shocks. Evaluation runs under a frozen, SHA-256-hashed eval spec, with a private 20-simulation held-out set (600 country rows) in which shocks located in six reserved countries never appear in anything a model trains on.
+
+**Contact Chris: [chris@robomacro.com](mailto:chris@robomacro.com)**
+
+## Related work
+
+Chib, Tan and Zhang, *Learning the Macroeconomic Language* ([arXiv:2512.21031](https://arxiv.org/abs/2512.21031)), trained a transformer on DSGE-simulated US data and showed that theory-generated data helps a learner where real data is scarce. Our comparison of the two approaches: [Same Bet, Different Engine](https://robomacro.com/blog/why-ai-needs-synthetic-macro-data).
 
 ## License
 
